@@ -191,8 +191,55 @@
     } catch (e) { return getStreak(); }
   }
 
+  // ===================== shuffle =====================
+  // Tiles are shown in a shuffled order so the clues don't follow the order
+  // of the written explanation. The shuffle is seeded from the puzzle key, so
+  // it's stable across reloads and identical for everyone on a given day.
+  function hashSeed(str) {
+    var h = 2166136261, i;
+    for (i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return h >>> 0;
+  }
+  function mulberry32(a) {
+    return function () {
+      a |= 0; a = (a + 0x6D2B79F5) | 0;
+      var t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function shuffledOrder(n, seedStr) {
+    var rng = mulberry32(hashSeed(seedStr || ""));
+    var arr = [], i, j, tmp;
+    for (i = 0; i < n; i++) arr[i] = i;
+    for (j = n - 1; j > 0; j--) {
+      var k = Math.floor(rng() * (j + 1));
+      tmp = arr[j]; arr[j] = arr[k]; arr[k] = tmp;
+    }
+    return arr;
+  }
+
+  // Rewrite the explanation's (1)…(n) markers so each number matches the clue's
+  // new on-screen tile position after shuffling.
+  function remapExplanation(text) {
+    var perm = state.perm;
+    if (!perm || !text) return text || "";
+    var inv = [], p;
+    for (p = 0; p < perm.length; p++) inv[perm[p]] = p;   // inv[original] = display position
+    return text.replace(/\((\d{1,2})\)/g, function (m, d) {
+      var n = parseInt(d, 10);
+      return (n >= 1 && n <= perm.length) ? "(" + (inv[n - 1] + 1) + ")" : m;
+    });
+  }
+
   // ===================== rendering =====================
-  function tiles() { return state.question.tiles || []; }
+  // Clues returned in shuffled display order; state.perm[displayPos] = originalIndex.
+  function tiles() {
+    var t = state.question.tiles || [];
+    var perm = state.perm;
+    if (!perm) return t;
+    return perm.map(function (p) { return t[p]; });
+  }
 
   function renderBoard() {
     var t = tiles();
@@ -274,7 +321,7 @@
       ? "Solved with " + state.opened.length + " of " + TILE_COUNT + " tiles open" +
         (state.wrongGuesses ? " and " + state.wrongGuesses + (state.wrongGuesses === 1 ? " wrong guess" : " wrong guesses") : "") + "."
       : "You opened " + state.opened.length + " of " + TILE_COUNT + " tiles.";
-    els.funFact.textContent = state.question.explanation || "";
+    els.funFact.textContent = remapExplanation(state.question.explanation);
     els.funFact.style.display = state.question.explanation ? "" : "none";
   }
 
@@ -359,6 +406,7 @@
     state.key = isPractice ? picked.key : key;
     state.dateObj = today;
     state.question = picked.q;
+    state.perm = shuffledOrder((picked.q.tiles || []).length, state.key);
     state.opened = [];
     state.wrongGuesses = 0;
     state.solved = false; state.failed = false; state.finished = false;
