@@ -1,0 +1,14 @@
+# Files NOT to upload as Cloudflare static assets (.gitignore syntax).
+# Excluding node_modules is what fixes the "asset too large" (workerd 121 MiB) error.
+node_modules
+.git
+.github
+.gitignore
+.nojekyll
+*.md
+server.js
+package.json
+Dockerfile
+fly.toml
+wrangler.toml
+.assetsignore

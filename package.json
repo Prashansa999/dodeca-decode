@@ -1,0 +1,21 @@
+{
+  "name": "dodeca-decode",
+  "version": "1.0.0",
+  "description": "Dodeca Decode, a daily 'On This Day' history trivia game. Twelve tiles, one answer, the fewest reveals win.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "trivia",
+    "history",
+    "question-of-the-day",
+    "game",
+    "on-this-day"
+  ],
+  "license": "MIT"
+}

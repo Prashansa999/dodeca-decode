@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dodeca Decode, a daily 'On This Day' history puzzle. Twelve closed tiles, each a clue. Open as few as you can and name the answer." />
+  <meta name="theme-color" content="#0f1226" />
+  <title>Dodeca Decode · Puzzle of the Day</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%A9%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">🧩</span>
+      <span class="brand-name">Dodeca Decode</span>
+    </div>
+    <div class="topbar-stats">
+      <button class="stat-chip" id="streakChip" title="Your current daily streak">
+        <span class="stat-icon">🔥</span>
+        <span class="stat-value" id="streakValue">0</span>
+      </button>
+      <button class="icon-btn" id="howToBtn" title="How to play" aria-label="How to play">?</button>
+    </div>
+  </header>
+
+  <main class="stage">
+    <p class="quote" id="quoteLine">Twelve doors, one answer. Crack the code with the fewest tiles open.</p>
+
+    <section class="card" id="gameCard">
+      <div class="card-head">
+        <span class="date-badge" id="dateBadge">On This Day</span>
+        <span class="category-badge" id="categoryBadge">Mystery</span>
+      </div>
+
+      <p class="lede" id="lede">Twelve clues hide behind these tiles. Open as few as you can, then name what links them. Each tile you open costs points.</p>
+
+      <!-- 12-tile clue board -->
+      <div class="tile-grid" id="tileGrid" role="group" aria-label="Clue tiles"></div>
+
+      <!-- Guess input -->
+      <form class="guess-form" id="guessForm" autocomplete="off">
+        <input
+          type="text"
+          id="guessInput"
+          class="guess-input"
+          placeholder="Type your answer…"
+          aria-label="Your answer"
+          maxlength="80"
+        />
+        <button type="submit" class="guess-btn" id="guessBtn">Guess</button>
+      </form>
+
+      <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+
+      <div class="meta-row">
+        <div class="score-pill">
+          <span class="score-label">Score</span>
+          <span class="score-num" id="scoreNum">100</span>
+        </div>
+        <div class="tries-pill">
+          <span class="tries-text" id="triesText">0 / 12 tiles open</span>
+        </div>
+        <button class="ghost-btn" id="giveUpBtn">Give up</button>
+      </div>
+
+      <p class="quote-bottom">Trust the clues, decode the day.</p>
+    </section>
+
+    <!-- Result card -->
+    <section class="card result-card hidden" id="resultCard">
+      <div class="result-emoji" id="resultEmoji">🎉</div>
+      <h2 class="result-title" id="resultTitle">Solved!</h2>
+      <p class="result-answer">The answer was <strong id="resultAnswer">, </strong></p>
+      <div class="result-score">
+        <div class="big-score" id="bigScore">100</div>
+        <div class="stars-rating" id="starsRating">⭐️⭐️⭐️</div>
+      </div>
+      <p class="result-tiles" id="resultTiles"></p>
+      <p class="fun-fact" id="funFact"></p>
+      <div class="result-actions">
+        <button class="share-btn" id="shareBtn">
+          <span class="share-icon">🔗</span> Share result
+        </button>
+        <button class="ghost-btn" id="practiceBtn">Play a random past day</button>
+      </div>
+      <p class="comeback" id="comeback">Come back tomorrow for a new question!</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="countdown">Next puzzle in, </span>
+    <span class="dot">·</span>
+    <span>Made for the curious by PragMehtic</span>
+  </footer>
+
+  <!-- How-to-play modal -->
+  <div class="modal-overlay hidden" id="howToModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h2>How to play</h2>
+      <ol class="rules">
+        <li>Each day hides <strong>one answer</strong> tied to today's date, a person, an event, or a thing.</li>
+        <li>The board has <strong>12 tiles</strong>, all closed. Tap any tile to reveal a <strong>short clue</strong>.</li>
+        <li>You can guess <strong>at any time</strong>. Spelling is forgiving; just get the gist.</li>
+        <li>You start at <strong>100 points</strong>. Every tile you open costs <strong>-8</strong>, and each wrong guess costs <strong>-10</strong>.</li>
+        <li>Open as few tiles as you can, then <strong>share</strong> your score and keep your <strong>🔥 streak</strong> alive.</li>
+      </ol>
+      <div class="scoring-note">
+        <strong>Goal:</strong> name it with the fewest tiles open. The fewer you reveal, the higher your score.
+      </div>
+      <button class="share-btn full" id="gotItBtn">Got it</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="questions.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

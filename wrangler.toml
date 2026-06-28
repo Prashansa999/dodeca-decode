@@ -1,0 +1,18 @@
+# Cloudflare Workers config for serving the static site as assets only.
+#
+# The deploy command `npx wrangler deploy` reads this file. Without it,
+# wrangler treats the entire repo root (including the 121 MiB node_modules
+# it just installed) as assets and fails the 25 MiB per-file limit. Here we
+# point assets at the repo root but exclude node_modules and repo cruft via
+# .assetsignore, so only the four static files are uploaded.
+#
+# If your Worker has a different name in the dashboard, change `name` below
+# to match it (or rename the Worker to "dodeca-decode").
+
+name = "dodeca-decode"
+compatibility_date = "2024-09-23"
+
+[assets]
+directory = "./"
+# Single-page app: serve index.html for any unmatched path.
+not_found_handling = "single-page-application"
