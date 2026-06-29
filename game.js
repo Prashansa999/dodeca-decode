@@ -386,8 +386,15 @@
   function playRandom() {
     var keys = Object.keys(window.QUESTIONS || {});
     if (!keys.length) return;
+    // Only offer dates earlier in the calendar year than today, so a
+    // "past day" is never actually a future one. Keys are zero-padded
+    // "MM-DD", so a plain string compare is chronological within the year.
+    var todayKey = keyFromDate(nowIST());
+    var pool = keys.filter(function (k) { return k < todayKey; });
+    if (!pool.length) pool = keys.filter(function (k) { return k !== todayKey; });
+    if (!pool.length) pool = keys;
     var key;
-    do { key = keys[Math.floor(Math.random() * keys.length)]; } while (key === state.key && keys.length > 1);
+    do { key = pool[Math.floor(Math.random() * pool.length)]; } while (key === state.key && pool.length > 1);
     loadPuzzle(key, true);
   }
 
