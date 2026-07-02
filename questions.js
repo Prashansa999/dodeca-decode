@@ -101,7 +101,7 @@ window.QUESTIONS = {
     explanation: "William Shakespeare came from Stratford-upon-Avon (1) and is nicknamed 'the Bard' (2); tradition gives him 23 April for both his birth (1564) and his death (1616) (3). His plays were staged at the Globe (4); 'To be or not to be' (5) is from Hamlet, one of his roughly 38 plays (6). He married Anne Hathaway (7) and coined countless English words (8). The 'doomed Danish prince' is Hamlet (9) and the 'star-crossed lovers' are Romeo and Juliet (10). He also wrote 154 sonnets (11), and his hometown sits on the river Avon (12)."
   },
   "05-25": {
-    category: "Film",
+    category: "Entertainment",
     year: 1977,
     answers: ["Star Wars", "Star Wars A New Hope", "A New Hope"],
     tiles: [
@@ -112,7 +112,7 @@ window.QUESTIONS = {
     explanation: "Star Wars opened on 25 May 1977 (1), directed by George Lucas (2) and later subtitled 'A New Hope' (3). Its villain in black is Darth Vader (4); its glowing laser swords are lightsabers (5); its blessing is 'May the Force be with you' (6). It is set partly on the desert world Tatooine (7), home of hero Luke Skywalker (8). It opened in just 32 cinemas (9), had a score by John Williams (10), featured the droids R2-D2 and C-3PO (11), and begins 'A long time ago in a galaxy far, far away' (12)."
   },
   "06-20": {
-    category: "Film",
+    category: "Entertainment",
     year: 1975,
     answers: ["Jaws"],
     tiles: [
@@ -167,7 +167,7 @@ window.QUESTIONS = {
     explanation: "Princess Diana was born on 1 July 1961 (1) and wed into British royalty (2) when she married Prince Charles in 1981 (3). She was mother to William and Harry (4) and called herself the 'Queen of People's Hearts' (5). She campaigned against landmines (6), and Elton John reworked 'Candle in the Wind' as a tribute (7). She came from the Spencer family (8), gave a candid 1995 Panorama interview (9), divorced in 1996 (10), and died in a Paris car crash in 1997 (11). Her 1981 wedding was a global fairytale event (12)."
   },
   "07-02": {
-    category: "Film",
+    category: "Entertainment",
     year: 1990,
     answers: ["Margot Robbie", "Robbie"],
     tiles: [
@@ -178,7 +178,7 @@ window.QUESTIONS = {
     explanation: "Margot Robbie was born in Australia on 2 July 1990 (1). She played the title doll in 2023's 'Barbie' (2) and the villain Harley Quinn (3). She began on the Australian soap 'Neighbours' (4), broke through in 'The Wolf of Wall Street' (5), and played skater Tonya Harding in 'I, Tonya' (6). She founded the production company LuckyChap (7), and 'Barbie' became a billion-dollar hit in 2023 (8). Known for varied roles (9) and her blonde hair and blue eyes (10), she has been Oscar-nominated (11) and appeared in 'Once Upon a Time in Hollywood' (12)."
   },
   "07-03": {
-    category: "Film",
+    category: "Entertainment",
     year: 1962,
     answers: ["Tom Cruise", "Cruise"],
     tiles: [
@@ -200,7 +200,7 @@ window.QUESTIONS = {
     explanation: "The Declaration of Independence was adopted on 4 July 1776 (1) by thirteen colonies (2). Thomas Jefferson was its principal drafter (3), announcing a break from the king (4) and holding certain truths to be 'self-evident' (5). Americans mark it with fireworks each year (6); it was adopted in Philadelphia (7), where John Hancock added his famously bold signature (8). It promises 'life, liberty and the pursuit of happiness' (9) and rejected the rule of George III (10). Signers John Adams and Thomas Jefferson both died on its 50th anniversary, 4 July 1826 (11), and the day is celebrated as the nation's birthday (12)."
   },
   "07-05": {
-    category: "Indian Sport",
+    category: "Sport",
     year: 1995,
     answers: ["PV Sindhu", "Sindhu", "Pusarla Venkata Sindhu", "P V Sindhu"],
     tiles: [
@@ -222,7 +222,7 @@ window.QUESTIONS = {
     explanation: "Ranveer Singh was born on 6 July 1985 (1) and is one of Bollywood's most energetic stars (2). He is married to Deepika Padukone (3), debuted in 'Band Baaja Baaraat' (4), and played the menacing sultan Alauddin Khilji in 'Padmaavat' (5). His film 'Gully Boy' gave the anthem 'Apna Time Aayega' (6). He is known for bold, flamboyant fashion (7) and played cricketer Kapil Dev in '83' (8). He starred as the Peshwa in 'Bajirao Mastani' (9), brings huge energy to the screen (10), made the Khilji role unforgettable (11), and often headlines big dance numbers (12)."
   },
   "07-07": {
-    category: "Indian Sport",
+    category: "Sport",
     year: 1981,
     answers: ["MS Dhoni", "Dhoni", "Mahendra Singh Dhoni", "M S Dhoni"],
     tiles: [
@@ -233,7 +233,7 @@ window.QUESTIONS = {
     explanation: "M.S. Dhoni was born in Ranchi on 7 July 1981 (1), nicknamed 'Captain Cool' (2). A wicketkeeper-batsman (3), he led India to the 2007 T20 World Cup (4) and sealed the 2011 World Cup with a six (5). He invented the 'helicopter shot' (6) and captains Chennai Super Kings in the IPL (7). He sported long hair early in his career (8), was famed as a finisher under pressure (9), wore number 7 (10), once worked as a railway ticket collector (11), and is the subject of a 2016 biopic (12)."
   },
   "07-08": {
-    category: "Indian Sport",
+    category: "Sport",
     year: 1972,
     answers: ["Sourav Ganguly", "Ganguly", "Dada"],
     tiles: [
@@ -244,7 +244,7 @@ window.QUESTIONS = {
     explanation: "Sourav Ganguly was born in Kolkata on 8 July 1972 (1), affectionately called 'Dada' (2). He famously waved his shirt from the Lord's balcony (3) as an aggressive India captain (4) known as 'the Prince of Kolkata' (5). A stylish left-handed batsman (6), he was dubbed 'God of the off side' (7) and later became president of the BCCI (8). He often opened the batting (9), built a fearless Indian team (10), hails from Bengal (11), and his 2002 shirt-waving at Lord's is an iconic celebration (12)."
   },
   "07-09": {
-    category: "Film",
+    category: "Entertainment",
     year: 1956,
     answers: ["Tom Hanks", "Hanks"],
     tiles: [
@@ -288,7 +288,7 @@ window.QUESTIONS = {
     explanation: "Malala Yousafzai was born on 12 July 1997 (1) in Pakistan's Swat Valley (2). She was shot on a school bus (3) by the Taliban (4) for championing girls' education (5). She became the youngest Nobel Peace laureate in 2014 (6), having blogged secretly for the BBC (7), and she survived a head wound (8). Her memoir is 'I Am Malala' (9); she has spoken at the United Nations (10), studied at Oxford (11), and runs the global Malala Fund (12)."
   },
   "07-13": {
-    category: "Film",
+    category: "Entertainment",
     year: 1942,
     answers: ["Harrison Ford", "Ford"],
     tiles: [
@@ -376,7 +376,7 @@ window.QUESTIONS = {
     explanation: "The first Moon landing came on 20 July 1969 (1) with Neil Armstrong's 'one small step' (2) during the Apollo 11 mission (3). The lander touched down in the Sea of Tranquility (4) before an estimated 650 million TV viewers (5). The flag was held out by a wire because there is no wind (6). Armstrong and Aldrin walked on the surface (7) after radioing 'The Eagle has landed' (8); their footprints remain undisturbed (9) while Michael Collins orbited above (10). The crew launched atop a Saturn V rocket (11), and Armstrong called it 'a giant leap for mankind' (12)."
   },
   "07-21": {
-    category: "Film",
+    category: "Entertainment",
     year: 1951,
     answers: ["Robin Williams", "Robin Williams"],
     tiles: [
