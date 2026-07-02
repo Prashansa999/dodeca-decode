@@ -61,7 +61,10 @@
     giveUpModal: $("giveUpModal"),
     giveUpModalClose: $("giveUpModalClose"),
     giveUpCancelBtn: $("giveUpCancelBtn"),
-    giveUpConfirmBtn: $("giveUpConfirmBtn")
+    giveUpConfirmBtn: $("giveUpConfirmBtn"),
+    feedbackWidget: $("feedbackWidget"),
+    feedbackStars: $("feedbackStars"),
+    feedbackThanks: $("feedbackThanks")
   };
 
   var MONTHS = ["January","February","March","April","May","June","July",
@@ -199,6 +202,51 @@
       localStorage.setItem(LS_LASTPLAYED, todayKey);
       return streak;
     } catch (e) { return getStreak(); }
+  }
+
+  // ===================== feedback =====================
+  // A random anonymous ID, generated once per browser and reused from
+  // localStorage, keys the star rating server-side, one rating per session,
+  // no timestamp. It carries no personal information.
+  var LS_SESSION = "dodecadecode.sessionId";
+  var LS_RATED = "dodecadecode.rated";
+
+  function getSessionId() {
+    try {
+      var id = localStorage.getItem(LS_SESSION);
+      if (id) return id;
+      id = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() :
+        "s-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2);
+      localStorage.setItem(LS_SESSION, id);
+      return id;
+    } catch (e) { return "s-" + Math.random().toString(36).slice(2); }
+  }
+  function hasRated() {
+    try { return localStorage.getItem(LS_RATED) === "1"; } catch (e) { return false; }
+  }
+  function markRated() {
+    try { localStorage.setItem(LS_RATED, "1"); } catch (e) {}
+  }
+
+  function renderFeedbackWidget() {
+    if (hasRated()) {
+      els.feedbackWidget.classList.add("hidden");
+      els.feedbackThanks.classList.remove("hidden");
+    } else {
+      els.feedbackWidget.classList.remove("hidden");
+      els.feedbackThanks.classList.add("hidden");
+    }
+  }
+
+  function submitFeedback(rating) {
+    if (hasRated()) return;
+    markRated();   // don't nag again even if the request fails
+    renderFeedbackWidget();
+    fetch("/api/feedback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ sessionId: getSessionId(), rating: rating })
+    }).catch(function () {});
   }
 
   // ===================== shuffle =====================
@@ -358,6 +406,7 @@
       : "";
     els.funFact.style.display = explanation ? "" : "none";
     updatePracticeBtn();   // reflect how many random past days remain today
+    renderFeedbackWidget();
   }
 
   function winEmoji(s) { return s >= 85 ? "🏆" : s >= 65 ? "🎉" : s >= 45 ? "👏" : "🙂"; }
@@ -530,6 +579,17 @@
       if (!v) return;
       submitGuess(v);
       els.guessInput.value = "";
+    });
+
+    els.feedbackStars.addEventListener("click", function (e) {
+      var star = e.target.closest(".fb-star");
+      if (!star) return;
+      var rating = parseInt(star.getAttribute("data-value"), 10);
+      var stars = els.feedbackStars.querySelectorAll(".fb-star");
+      for (var i = 0; i < stars.length; i++) {
+        stars[i].classList.toggle("filled", parseInt(stars[i].getAttribute("data-value"), 10) <= rating);
+      }
+      submitFeedback(rating);
     });
 
     els.giveUpBtn.addEventListener("click", function () {
