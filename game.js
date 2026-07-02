@@ -49,6 +49,8 @@
     funFact: $("funFact"),
     shareBtn: $("shareBtn"),
     practiceBtn: $("practiceBtn"),
+    revealBoardBtn: $("revealBoardBtn"),
+    backToResultBtn: $("backToResultBtn"),
     streakValue: $("streakValue"),
     countdown: $("countdown"),
     toast: $("toast"),
@@ -302,33 +304,31 @@
     els.guessInput.select();
   }
 
-  var REVEAL_STEP = 2000;   // one hidden tile turns over every 2 seconds
-
   function finishGame(won) {
     state.solved = won;
     state.failed = !won;
     state.finished = true;
-    state.revealAll = false;
+    state.revealAll = true;      // board is ready to show every tile when opened
     state.revealedExtra = [];
     saveProgress();
     var streak = won ? bumpStreak(state.key + ":" + state.dateObj.getUTCFullYear()) : getStreak();
     els.streakValue.textContent = streak;
-    renderBoard();   // player-opened tiles stay open, the rest stay closed and locked
+    showResult(won);             // straight to the summary; tap the answer to flip the board
+  }
 
-    // Turn over each still-hidden tile one at a time, a slow 2s flip each.
-    var remaining = [];
-    for (var i = 0; i < tiles().length; i++) {
-      if (state.opened.indexOf(i) === -1) remaining.push(i);
-    }
-    remaining.forEach(function (idx, n) {
-      setTimeout(function () {
-        var el = els.tileGrid.querySelector('.tile[data-index="' + idx + '"]');
-        if (el) { el.classList.add("open"); el.classList.add("reveal"); }
-        state.revealedExtra.push(idx);
-      }, 300 + n * REVEAL_STEP);
-    });
-    var doneMs = remaining.length ? (300 + remaining.length * REVEAL_STEP + 300) : 300;
-    setTimeout(function () { state.revealAll = true; showResult(won); }, doneMs);
+  // Swap from the result summary to the full board with every tile flipped open.
+  function revealBoard() {
+    els.resultCard.classList.add("hidden");
+    els.gameCard.classList.remove("hidden");
+    els.gameCard.classList.add("revealed");
+    els.backToResultBtn.classList.remove("hidden");
+    renderBoard();               // all tiles open, quick flip
+  }
+  function backToResult() {
+    els.gameCard.classList.remove("revealed");
+    els.gameCard.classList.add("hidden");
+    els.backToResultBtn.classList.add("hidden");
+    els.resultCard.classList.remove("hidden");
   }
 
   function showResult(won) {
@@ -344,11 +344,14 @@
       ? "Solved with " + state.opened.length + " of " + TILE_COUNT + " tiles open" +
         (state.wrongGuesses ? " and " + state.wrongGuesses + (state.wrongGuesses === 1 ? " wrong guess" : " wrong guesses") : "") + "."
       : "You opened " + state.opened.length + " of " + TILE_COUNT + " tiles.";
-    // Each puzzle's explanation is hand-written to open with its own accurate
-    // "On this day..." line, since a generic templated prefix doesn't fit
-    // every puzzle (e.g. an event puzzle where the year isn't a birth year).
+    // Lead every solution with an "On this day in <year>" line, then the
+    // explanation that decodes all twelve clues.
     var explanation = remapExplanation(state.question.explanation);
-    els.funFact.textContent = explanation;
+    var year = state.question.year;
+    var head = year ? "On this day in " + year : "On this day";
+    els.funFact.innerHTML = explanation
+      ? '<strong class="ff-head">' + escapeHtml(head) + '</strong>\n\n' + escapeHtml(explanation)
+      : "";
     els.funFact.style.display = explanation ? "" : "none";
     updatePracticeBtn();   // reflect how many random past days remain today
   }
@@ -497,7 +500,8 @@
       ? "Practice round, a past day. Streak not affected. Open as few tiles as you can."
       : "Twelve clues hide behind these tiles. Open as few as you can, then name what links them. Each tile costs points.";
 
-    els.gameCard.classList.remove("hidden");
+    els.gameCard.classList.remove("hidden", "revealed");
+    els.backToResultBtn.classList.add("hidden");
     els.resultCard.classList.add("hidden");
     setFeedback("", "");
     els.guessInput.value = "";
@@ -532,6 +536,8 @@
 
     els.shareBtn.addEventListener("click", doShare);
     els.practiceBtn.addEventListener("click", playRandom);
+    els.revealBoardBtn.addEventListener("click", revealBoard);
+    els.backToResultBtn.addEventListener("click", backToResult);
 
     function openModal() { els.howToModal.classList.remove("hidden"); }
     function closeModal() { els.howToModal.classList.add("hidden"); }

@@ -70,13 +70,17 @@
       </div>
 
       <p class="quote-bottom">Run, guess, run. That's all I'll say about this.</p>
+      <button class="ghost-btn reveal-back hidden" id="backToResultBtn">← Back to summary</button>
     </section>
 
     <!-- Result card -->
     <section class="card result-card hidden" id="resultCard">
       <div class="result-emoji" id="resultEmoji">🎉</div>
       <h2 class="result-title" id="resultTitle">Solved!</h2>
-      <p class="result-answer">The answer was <strong id="resultAnswer">, </strong></p>
+      <button class="result-answer" id="revealBoardBtn">
+        <span>The answer was <strong id="resultAnswer">, </strong></span>
+        <span class="reveal-hint">🧩 Tap to flip open the board</span>
+      </button>
       <div class="result-score">
         <div class="big-score" id="bigScore">100</div>
         <div class="stars-rating" id="starsRating">⭐️⭐️⭐️</div>
