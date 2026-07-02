@@ -122,6 +122,19 @@
     </div>
   </div>
 
+  <!-- Give-up confirmation modal -->
+  <div class="modal-overlay hidden" id="giveUpModal">
+    <div class="modal modal-small">
+      <button class="modal-close" id="giveUpModalClose" aria-label="Close">×</button>
+      <h2>Give up?</h2>
+      <p class="give-up-text">This reveals today's answer and ends today's game. You can't undo this.</p>
+      <div class="give-up-actions">
+        <button class="ghost-btn" id="giveUpCancelBtn">Keep playing</button>
+        <button class="share-btn" id="giveUpConfirmBtn">Give up</button>
+      </div>
+    </div>
+  </div>
+
   <div class="toast" id="toast"></div>
 
   <script src="questions.js"></script>

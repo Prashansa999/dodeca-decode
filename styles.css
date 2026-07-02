@@ -343,6 +343,15 @@ body {
 }
 .scoring-note strong { color: var(--coral); }
 
+/* give-up confirmation */
+.modal-small { max-width: 360px; }
+.give-up-text { font-size: 14.5px; color: var(--ink-soft); font-weight: 700; line-height: 1.5; margin-bottom: 20px; }
+.give-up-actions { display: flex; gap: 10px; }
+.give-up-actions .ghost-btn { flex: 1; }
+.give-up-actions .share-btn { flex: 1; background: var(--red); box-shadow: 0 4px 0 #8f3d2e; }
+.give-up-actions .share-btn:hover { box-shadow: 0 6px 0 #8f3d2e; }
+.give-up-actions .share-btn:active { box-shadow: 0 2px 0 #8f3d2e; }
+
 .toast {
   position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(20px);
   background: var(--ink); border: 2px dashed var(--stitch); color: var(--cream);

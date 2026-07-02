@@ -57,7 +57,11 @@
     howToBtn: $("howToBtn"),
     howToModal: $("howToModal"),
     modalClose: $("modalClose"),
-    gotItBtn: $("gotItBtn")
+    gotItBtn: $("gotItBtn"),
+    giveUpModal: $("giveUpModal"),
+    giveUpModalClose: $("giveUpModalClose"),
+    giveUpCancelBtn: $("giveUpCancelBtn"),
+    giveUpConfirmBtn: $("giveUpConfirmBtn")
   };
 
   var MONTHS = ["January","February","March","April","May","June","July",
@@ -530,7 +534,14 @@
 
     els.giveUpBtn.addEventListener("click", function () {
       if (state.finished) return;
-      if (!confirm("Give up and reveal the answer? This ends today's game.")) return;
+      els.giveUpModal.classList.remove("hidden");
+    });
+    function closeGiveUpModal() { els.giveUpModal.classList.add("hidden"); }
+    els.giveUpCancelBtn.addEventListener("click", closeGiveUpModal);
+    els.giveUpModalClose.addEventListener("click", closeGiveUpModal);
+    els.giveUpModal.addEventListener("click", function (e) { if (e.target === els.giveUpModal) closeGiveUpModal(); });
+    els.giveUpConfirmBtn.addEventListener("click", function () {
+      closeGiveUpModal();
       finishGame(false);
     });
 
@@ -545,7 +556,11 @@
     els.modalClose.addEventListener("click", closeModal);
     els.gotItBtn.addEventListener("click", closeModal);
     els.howToModal.addEventListener("click", function (e) { if (e.target === els.howToModal) closeModal(); });
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeModal(); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "Escape") return;
+      closeModal();
+      closeGiveUpModal();
+    });
 
     $("streakChip").addEventListener("click", function () {
       var s = getStreak();
