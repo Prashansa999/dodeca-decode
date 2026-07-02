@@ -246,8 +246,10 @@
     var html = "";
     for (var i = 0; i < t.length; i++) {
       var isOpen = state.opened.indexOf(i) !== -1 || state.finished;
+      // At game end, stagger each tile's flip so the whole board cascades open.
+      var delayAttr = state.finished ? ' style="animation-delay:' + (i * 55) + 'ms"' : "";
       html += '<button class="tile' + (isOpen ? " open" : "") + (state.finished ? " disabled" : "") +
-              '" data-index="' + i + '"' + (isOpen || state.finished ? ' tabindex="-1"' : "") + '>' +
+              '" data-index="' + i + '"' + (isOpen || state.finished ? ' tabindex="-1"' : "") + delayAttr + '>' +
               '<span class="tile-num">' + (i + 1) + '</span>' +
               '<span class="tile-clue">' + escapeHtml(t[i]) + '</span>' +
               '</button>';
@@ -304,8 +306,10 @@
     saveProgress();
     var streak = won ? bumpStreak(state.key + ":" + state.dateObj.getUTCFullYear()) : getStreak();
     els.streakValue.textContent = streak;
-    renderBoard();   // reveal all tiles
-    showResult(won);
+    renderBoard();   // cascades a staggered flip across every tile
+    // Let the flip cascade finish playing before swapping to the result card.
+    var revealMs = tiles().length * 55 + 420;
+    setTimeout(function () { showResult(won); }, revealMs);
   }
 
   function showResult(won) {
@@ -321,8 +325,12 @@
       ? "Solved with " + state.opened.length + " of " + TILE_COUNT + " tiles open" +
         (state.wrongGuesses ? " and " + state.wrongGuesses + (state.wrongGuesses === 1 ? " wrong guess" : " wrong guesses") : "") + "."
       : "You opened " + state.opened.length + " of " + TILE_COUNT + " tiles.";
-    els.funFact.textContent = remapExplanation(state.question.explanation);
-    els.funFact.style.display = state.question.explanation ? "" : "none";
+    var explanation = remapExplanation(state.question.explanation);
+    var year = state.question.year;
+    els.funFact.textContent = explanation
+      ? "On this day" + (year ? " in " + year : "") + ", this happened:\n\n" + explanation
+      : "";
+    els.funFact.style.display = explanation ? "" : "none";
   }
 
   function winEmoji(s) { return s >= 85 ? "🏆" : s >= 65 ? "🎉" : s >= 45 ? "👏" : "🙂"; }
@@ -338,9 +346,11 @@
       grid += (state.opened.indexOf(i) !== -1) ? "🟦" : "⬛";
       if (i % 4 === 3) grid += "\n";
     }
+    var totalGuesses = state.wrongGuesses + (state.solved ? 1 : 0);
+    var guessesLabel = totalGuesses + (totalGuesses === 1 ? " guess" : " guesses");
     var summary = state.solved
-      ? "Solved with " + state.opened.length + "/" + TILE_COUNT + " tiles · " + score + " pts " + starsFor(score)
-      : "Stumped! 📚";
+      ? "Solved with " + state.opened.length + "/" + TILE_COUNT + " tiles · " + guessesLabel + " · " + score + " pts " + starsFor(score)
+      : "Stumped! 📚" + (totalGuesses ? " · " + guessesLabel : "");
     return line + "\n" + grid + summary + "\n" + location.origin + (location.pathname === "/" ? "" : location.pathname);
   }
 
