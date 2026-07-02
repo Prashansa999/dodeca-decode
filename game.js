@@ -325,11 +325,11 @@
       ? "Solved with " + state.opened.length + " of " + TILE_COUNT + " tiles open" +
         (state.wrongGuesses ? " and " + state.wrongGuesses + (state.wrongGuesses === 1 ? " wrong guess" : " wrong guesses") : "") + "."
       : "You opened " + state.opened.length + " of " + TILE_COUNT + " tiles.";
+    // Each puzzle's explanation is hand-written to open with its own accurate
+    // "On this day..." line, since a generic templated prefix doesn't fit
+    // every puzzle (e.g. an event puzzle where the year isn't a birth year).
     var explanation = remapExplanation(state.question.explanation);
-    var year = state.question.year;
-    els.funFact.textContent = explanation
-      ? "On this day" + (year ? " in " + year : "") + ", this happened:\n\n" + explanation
-      : "";
+    els.funFact.textContent = explanation;
     els.funFact.style.display = explanation ? "" : "none";
   }
 

@@ -178,15 +178,15 @@ window.QUESTIONS = {
     explanation: "Margot Robbie was born in Australia on 2 July 1990 (1). She played the title doll in 2023's 'Barbie' (2) and the villain Harley Quinn (3). She began on the Australian soap 'Neighbours' (4), broke through in 'The Wolf of Wall Street' (5), and played skater Tonya Harding in 'I, Tonya' (6). She founded the production company LuckyChap (7), and 'Barbie' became a billion-dollar hit in 2023 (8). Known for varied roles (9) and her blonde hair and blue eyes (10), she has been Oscar-nominated (11) and appeared in 'Once Upon a Time in Hollywood' (12)."
   },
   "07-03": {
-    category: "Entertainment",
-    year: 1962,
-    answers: ["Tom Cruise", "Cruise"],
+    category: "Athlete",
+    year: 2011,
+    answers: ["Novak Djokovic", "Djokovic", "Novak"],
     tiles: [
-      "Born in 1962", "Flew in 'Top Gun'", "Does his own stunts", "A Scientologist",
-      "Plays Ethan Hunt", "'Show me the money' co-star", "Jumped on Oprah's couch", "'Risky Business' dance",
-      "'You can't handle the truth!'", "Maverick returned in 2022", "A dazzling grin", "Hangs off planes and towers"
+      "Faced the defending champion", "Won 6-4, 6-1, 1-6, 6-3", "Ended a 20-match streak", "His first title on grass",
+      "Opened the year 41-0", "His third major title", "Already guaranteed No. 1", "Played at the All England Club",
+      "His first Wimbledon title", "Born in Belgrade, Serbia", "Nicknamed 'the Djoker'", "Later held a record 428 weeks at No. 1"
     ],
-    explanation: "Tom Cruise was born on 3 July 1962 (1). He flew as Maverick in 'Top Gun' (2), is famous for doing his own stunts (3), and is a prominent Scientologist (4). He plays Ethan Hunt in 'Mission: Impossible' (5), starred opposite the 'show me the money' line in 'Jerry Maguire' (6), jumped on Oprah's couch in 2005 (7), and danced in his shirt in 'Risky Business' (8). He faced the 'You can't handle the truth!' line in 'A Few Good Men' (9), brought Maverick back in 2022's 'Top Gun: Maverick' (10), flashes a dazzling grin (11), and hangs off planes and tall towers for real (12)."
+    explanation: "On this day in 2011, Novak Djokovic won his first Wimbledon title, beating defending champion Rafael Nadal in the final (1), 6-4, 6-1, 1-6, 6-3 (2), ending Nadal's 20-match Wimbledon winning streak (3). It was Djokovic's first title on grass (4), capping a season that had opened with a stunning 41-0 start (5) and now delivered his third major overall (6). He had already secured the world No. 1 ranking before the final even began, by winning his semifinal against Jo-Wilfried Tsonga (7), and the match was played at the All England Club (8), securing his first Wimbledon crown (9). Djokovic was born in Belgrade, Serbia (10), and is nicknamed 'the Djoker' (11). He would go on to hold the world No. 1 ranking for a record 428 weeks (12)."
   },
   "07-04": {
     category: "History",
