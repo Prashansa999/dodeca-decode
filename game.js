@@ -18,8 +18,12 @@
     solved: false,
     failed: false,
     finished: false,
-    practice: false
+    practice: false,
+    revealAll: false,    // show every tile at once (reload of a finished puzzle)
+    revealedExtra: []    // tiles turned over by the end-of-game reveal sequence
   };
+
+  var MAX_PRACTICE = 3;  // random past days a user may play per day
 
   var $ = function (id) { return document.getElementById(id); };
   var els = {
@@ -245,11 +249,10 @@
     var t = tiles();
     var html = "";
     for (var i = 0; i < t.length; i++) {
-      var isOpen = state.opened.indexOf(i) !== -1 || state.finished;
-      // At game end, stagger each tile's flip so the whole board cascades open.
-      var delayAttr = state.finished ? ' style="animation-delay:' + (i * 55) + 'ms"' : "";
+      var isOpen = state.opened.indexOf(i) !== -1 || state.revealAll ||
+                   state.revealedExtra.indexOf(i) !== -1;
       html += '<button class="tile' + (isOpen ? " open" : "") + (state.finished ? " disabled" : "") +
-              '" data-index="' + i + '"' + (isOpen || state.finished ? ' tabindex="-1"' : "") + delayAttr + '>' +
+              '" data-index="' + i + '"' + (isOpen || state.finished ? ' tabindex="-1"' : "") + '>' +
               '<span class="tile-num">' + (i + 1) + '</span>' +
               '<span class="tile-clue">' + escapeHtml(t[i]) + '</span>' +
               '</button>';
@@ -299,17 +302,33 @@
     els.guessInput.select();
   }
 
+  var REVEAL_STEP = 2000;   // one hidden tile turns over every 2 seconds
+
   function finishGame(won) {
     state.solved = won;
     state.failed = !won;
     state.finished = true;
+    state.revealAll = false;
+    state.revealedExtra = [];
     saveProgress();
     var streak = won ? bumpStreak(state.key + ":" + state.dateObj.getUTCFullYear()) : getStreak();
     els.streakValue.textContent = streak;
-    renderBoard();   // cascades a staggered flip across every tile
-    // Let the flip cascade finish playing before swapping to the result card.
-    var revealMs = tiles().length * 55 + 420;
-    setTimeout(function () { showResult(won); }, revealMs);
+    renderBoard();   // player-opened tiles stay open, the rest stay closed and locked
+
+    // Turn over each still-hidden tile one at a time, a slow 2s flip each.
+    var remaining = [];
+    for (var i = 0; i < tiles().length; i++) {
+      if (state.opened.indexOf(i) === -1) remaining.push(i);
+    }
+    remaining.forEach(function (idx, n) {
+      setTimeout(function () {
+        var el = els.tileGrid.querySelector('.tile[data-index="' + idx + '"]');
+        if (el) { el.classList.add("open"); el.classList.add("reveal"); }
+        state.revealedExtra.push(idx);
+      }, 300 + n * REVEAL_STEP);
+    });
+    var doneMs = remaining.length ? (300 + remaining.length * REVEAL_STEP + 300) : 300;
+    setTimeout(function () { state.revealAll = true; showResult(won); }, doneMs);
   }
 
   function showResult(won) {
@@ -331,6 +350,7 @@
     var explanation = remapExplanation(state.question.explanation);
     els.funFact.textContent = explanation;
     els.funFact.style.display = explanation ? "" : "none";
+    updatePracticeBtn();   // reflect how many random past days remain today
   }
 
   function winEmoji(s) { return s >= 85 ? "🏆" : s >= 65 ? "🎉" : s >= 45 ? "👏" : "🙂"; }
@@ -393,7 +413,35 @@
   }
 
   // ===================== practice =====================
+  // A user may play up to MAX_PRACTICE random past days per day; the count
+  // is keyed to today's date, so it resets at IST midnight with the puzzle.
+  function practiceLSKey() { return "dodecadecode.practice." + keyFromDate(nowIST()); }
+  function getPracticeCount() {
+    try { return parseInt(localStorage.getItem(practiceLSKey()), 10) || 0; } catch (e) { return 0; }
+  }
+  function bumpPracticeCount() {
+    var n = getPracticeCount() + 1;
+    try { localStorage.setItem(practiceLSKey(), String(n)); } catch (e) {}
+    return n;
+  }
+  function updatePracticeBtn() {
+    if (!els.practiceBtn) return;
+    var left = MAX_PRACTICE - getPracticeCount();
+    if (left <= 0) {
+      els.practiceBtn.disabled = true;
+      els.practiceBtn.textContent = "No more practice today";
+    } else {
+      els.practiceBtn.disabled = false;
+      els.practiceBtn.textContent = "Play a random past day (" + left + " left)";
+    }
+  }
+
   function playRandom() {
+    if (getPracticeCount() >= MAX_PRACTICE) {
+      toast("That's all " + MAX_PRACTICE + " practice rounds for today, come back tomorrow!");
+      updatePracticeBtn();
+      return;
+    }
     var keys = Object.keys(window.QUESTIONS || {});
     if (!keys.length) return;
     // Only offer dates earlier in the calendar year than today, so a
@@ -405,6 +453,8 @@
     if (!pool.length) pool = keys;
     var key;
     do { key = pool[Math.floor(Math.random() * pool.length)]; } while (key === state.key && pool.length > 1);
+    bumpPracticeCount();
+    updatePracticeBtn();
     loadPuzzle(key, true);
   }
 
@@ -427,6 +477,7 @@
     state.opened = [];
     state.wrongGuesses = 0;
     state.solved = false; state.failed = false; state.finished = false;
+    state.revealAll = false; state.revealedExtra = [];
     state.practice = !!isPractice;
 
     if (!isPractice) {
@@ -437,6 +488,8 @@
         state.solved = !!saved.solved; state.failed = !!saved.failed; state.finished = !!saved.finished;
       }
     }
+    // A puzzle restored as already finished shows every tile at once, no animation.
+    if (state.finished) state.revealAll = true;
 
     els.dateBadge.textContent = isPractice ? "Flashback · " + monthDayLabel(picked.key) : "On this day · " + prettyDate(today);
     els.categoryBadge.textContent = state.question.category || "Mystery";
