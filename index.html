@@ -140,16 +140,26 @@
   <div class="modal-overlay hidden" id="feedbackModal">
     <div class="modal modal-small">
       <button class="modal-close" id="feedbackModalClose" aria-label="Close">×</button>
-      <h2>Liked today's puzzle?</h2>
-      <p class="give-up-text">Give us your feedback so we can improve.</p>
-      <div class="feedback-stars" id="feedbackStars" role="group" aria-label="Rate your experience, 1 to 5 stars">
-        <button type="button" class="fb-star" data-value="1" aria-label="1 star">★</button>
-        <button type="button" class="fb-star" data-value="2" aria-label="2 stars">★</button>
-        <button type="button" class="fb-star" data-value="3" aria-label="3 stars">★</button>
-        <button type="button" class="fb-star" data-value="4" aria-label="4 stars">★</button>
-        <button type="button" class="fb-star" data-value="5" aria-label="5 stars">★</button>
+
+      <div id="feedbackAsk">
+        <h2>Liked today's puzzle?</h2>
+        <p class="give-up-text">Give us your feedback so we can improve.</p>
+        <div class="feedback-stars" id="feedbackStars" role="group" aria-label="Rate your experience, 1 to 5 stars">
+          <button type="button" class="fb-star" data-value="1" aria-label="1 star">★</button>
+          <button type="button" class="fb-star" data-value="2" aria-label="2 stars">★</button>
+          <button type="button" class="fb-star" data-value="3" aria-label="3 stars">★</button>
+          <button type="button" class="fb-star" data-value="4" aria-label="4 stars">★</button>
+          <button type="button" class="fb-star" data-value="5" aria-label="5 stars">★</button>
+        </div>
+        <button class="ghost-btn feedback-skip" id="feedbackSkipBtn">Maybe later</button>
       </div>
-      <button class="ghost-btn feedback-skip" id="feedbackSkipBtn">Maybe later</button>
+
+      <!-- Shown instead of the thanks toast when the rating is 3 stars or below -->
+      <div class="feedback-critic hidden" id="feedbackCritic">
+        <p class="critic-quote">&ldquo;In the grand scheme of things, the harshest critic can still love what he criticizes.&rdquo;</p>
+        <p class="critic-attribution">&mdash; Anton Ego, <em>Ratatouille</em></p>
+        <button class="share-btn full" id="feedbackCriticOk">Fair enough</button>
+      </div>
     </div>
   </div>
 

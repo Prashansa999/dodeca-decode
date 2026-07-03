@@ -64,8 +64,11 @@
     giveUpConfirmBtn: $("giveUpConfirmBtn"),
     feedbackModal: $("feedbackModal"),
     feedbackModalClose: $("feedbackModalClose"),
+    feedbackAsk: $("feedbackAsk"),
     feedbackStars: $("feedbackStars"),
-    feedbackSkipBtn: $("feedbackSkipBtn")
+    feedbackSkipBtn: $("feedbackSkipBtn"),
+    feedbackCritic: $("feedbackCritic"),
+    feedbackCriticOk: $("feedbackCriticOk")
   };
 
   var MONTHS = ["January","February","March","April","May","June","July",
@@ -243,18 +246,28 @@
   function closeFeedbackModal() {
     clearTimeout(feedbackPromptTimer);
     els.feedbackModal.classList.add("hidden");
+    els.feedbackAsk.classList.remove("hidden");
+    els.feedbackCritic.classList.add("hidden");
   }
 
   function submitFeedback(rating) {
     if (hasRated()) return;
     markRated();   // don't nag again even if the request fails
-    closeFeedbackModal();
-    toast("Thanks for the feedback! 🎉");
     fetch("/api/feedback", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ sessionId: getSessionId(), rating: rating })
     }).catch(function () {});
+
+    if (rating <= 3) {
+      // A harsher rating gets Anton Ego's line instead of the quick thanks,
+      // and stays open until acknowledged rather than auto-closing.
+      els.feedbackAsk.classList.add("hidden");
+      els.feedbackCritic.classList.remove("hidden");
+    } else {
+      closeFeedbackModal();
+      toast("Thanks for the feedback! 🎉");
+    }
   }
 
   // ===================== shuffle =====================
@@ -616,6 +629,7 @@
 
     els.feedbackModalClose.addEventListener("click", closeFeedbackModal);
     els.feedbackSkipBtn.addEventListener("click", closeFeedbackModal);
+    els.feedbackCriticOk.addEventListener("click", closeFeedbackModal);
     els.feedbackModal.addEventListener("click", function (e) { if (e.target === els.feedbackModal) closeFeedbackModal(); });
 
     els.shareBtn.addEventListener("click", doShare);

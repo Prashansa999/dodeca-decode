@@ -321,6 +321,15 @@ body {
 .fb-star:hover { transform: scale(1.15); }
 .feedback-skip { width: 100%; }
 
+/* Anton Ego critic quote, shown for a rating of 3 stars or below */
+.feedback-critic { text-align: center; }
+.critic-quote {
+  font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 17px;
+  color: var(--ink); line-height: 1.45; margin-bottom: 12px;
+}
+.critic-attribution { font-size: 13px; font-weight: 700; color: var(--muted); margin-bottom: 20px; }
+.critic-attribution em { font-style: italic; }
+
 .comeback { color: var(--muted); font-size: 13px; font-weight: 700; }
 
 .footer { text-align: center; padding: 18px; color: var(--muted); font-size: 13px; font-weight: 700; display: flex; gap: 10px; justify-content: center; align-items: center; }
