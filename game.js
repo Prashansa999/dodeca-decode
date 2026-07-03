@@ -234,14 +234,17 @@
 
   // Pops up a short while after a game ends, once per session at most.
   // "Maybe later" just closes it without marking as rated, so it can
-  // still ask again after a future puzzle in the same session.
+  // still ask again after a future puzzle in the same session. Fires the
+  // same way whether the puzzle just solved is today's or a practice
+  // round on a past day, since showResult() calls this either way.
+  var FEEDBACK_DELAY = 4000;
   var feedbackPromptTimer = null;
   function scheduleFeedbackPrompt() {
     clearTimeout(feedbackPromptTimer);
     if (hasRated()) return;
     feedbackPromptTimer = setTimeout(function () {
       if (!hasRated()) els.feedbackModal.classList.remove("hidden");
-    }, 1200);
+    }, FEEDBACK_DELAY);
   }
   function closeFeedbackModal() {
     clearTimeout(feedbackPromptTimer);
