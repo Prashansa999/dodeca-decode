@@ -72,29 +72,6 @@ export async function onRequestGet({ request, env }) {
     return jsonResponse({ error: "Forbidden" }, 403);
   }
 
-  // One-time correction for ratings stored while the star widget had its
-  // left/right values swapped (fixed in the same deploy as this endpoint).
-  // Every affected value is its own inversion's inversion, so 6-n maps
-  // each old (wrong) value to what the player actually intended, and
-  // running this twice by accident just flips values back rather than
-  // compounding further. Requires an explicit confirm=yes on top of the
-  // admin key so it can't fire from a plain stats-page visit.
-  if (url.searchParams.get("fix") === "invert" && url.searchParams.get("confirm") === "yes") {
-    var list0 = await env.FEEDBACK.list({ limit: 1000 });
-    var changes = [];
-    for (var j = 0; j < list0.keys.length; j++) {
-      var name = list0.keys[j].name;
-      var oldRaw = await env.FEEDBACK.get(name);
-      var oldVal = parseFloat(oldRaw);
-      if (Number.isInteger(oldVal) && oldVal >= 1 && oldVal <= 5) {
-        var newVal = 6 - oldVal;
-        await env.FEEDBACK.put(name, String(newVal));
-        changes.push({ sessionId: name, old: oldVal, corrected: newVal });
-      }
-    }
-    return jsonResponse({ ok: true, corrected: changes.length, changes: changes });
-  }
-
   var steps = [5, 4.5, 4, 3.5, 3, 2.5, 2, 1.5, 1];
   var tally = {};
   steps.forEach(function (s) { tally[s] = 0; });
