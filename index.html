@@ -94,19 +94,6 @@
         <button class="ghost-btn" id="practiceBtn">Play a random past day</button>
       </div>
 
-      <!-- Post-game feedback: one anonymous star rating per session -->
-      <div class="feedback-widget hidden" id="feedbackWidget">
-        <p class="feedback-prompt">Please share your experience</p>
-        <div class="feedback-stars" id="feedbackStars" role="group" aria-label="Rate your experience, 1 to 5 stars">
-          <button type="button" class="fb-star" data-value="1" aria-label="1 star">★</button>
-          <button type="button" class="fb-star" data-value="2" aria-label="2 stars">★</button>
-          <button type="button" class="fb-star" data-value="3" aria-label="3 stars">★</button>
-          <button type="button" class="fb-star" data-value="4" aria-label="4 stars">★</button>
-          <button type="button" class="fb-star" data-value="5" aria-label="5 stars">★</button>
-        </div>
-      </div>
-      <p class="feedback-thanks hidden" id="feedbackThanks">Thanks for the feedback! 🎉</p>
-
       <p class="comeback" id="comeback">Come back tomorrow for a new question!</p>
     </section>
   </main>
@@ -146,6 +133,23 @@
         <button class="ghost-btn" id="giveUpCancelBtn">Keep playing</button>
         <button class="share-btn" id="giveUpConfirmBtn">Give up</button>
       </div>
+    </div>
+  </div>
+
+  <!-- Post-game feedback modal: one anonymous star rating per session -->
+  <div class="modal-overlay hidden" id="feedbackModal">
+    <div class="modal modal-small">
+      <button class="modal-close" id="feedbackModalClose" aria-label="Close">×</button>
+      <h2>Liked today's puzzle?</h2>
+      <p class="give-up-text">Give us your feedback so we can improve.</p>
+      <div class="feedback-stars" id="feedbackStars" role="group" aria-label="Rate your experience, 1 to 5 stars">
+        <button type="button" class="fb-star" data-value="1" aria-label="1 star">★</button>
+        <button type="button" class="fb-star" data-value="2" aria-label="2 stars">★</button>
+        <button type="button" class="fb-star" data-value="3" aria-label="3 stars">★</button>
+        <button type="button" class="fb-star" data-value="4" aria-label="4 stars">★</button>
+        <button type="button" class="fb-star" data-value="5" aria-label="5 stars">★</button>
+      </div>
+      <button class="ghost-btn feedback-skip" id="feedbackSkipBtn">Maybe later</button>
     </div>
   </div>
 

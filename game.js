@@ -62,9 +62,10 @@
     giveUpModalClose: $("giveUpModalClose"),
     giveUpCancelBtn: $("giveUpCancelBtn"),
     giveUpConfirmBtn: $("giveUpConfirmBtn"),
-    feedbackWidget: $("feedbackWidget"),
+    feedbackModal: $("feedbackModal"),
+    feedbackModalClose: $("feedbackModalClose"),
     feedbackStars: $("feedbackStars"),
-    feedbackThanks: $("feedbackThanks")
+    feedbackSkipBtn: $("feedbackSkipBtn")
   };
 
   var MONTHS = ["January","February","March","April","May","June","July",
@@ -228,20 +229,27 @@
     try { localStorage.setItem(LS_RATED, "1"); } catch (e) {}
   }
 
-  function renderFeedbackWidget() {
-    if (hasRated()) {
-      els.feedbackWidget.classList.add("hidden");
-      els.feedbackThanks.classList.remove("hidden");
-    } else {
-      els.feedbackWidget.classList.remove("hidden");
-      els.feedbackThanks.classList.add("hidden");
-    }
+  // Pops up a short while after a game ends, once per session at most.
+  // "Maybe later" just closes it without marking as rated, so it can
+  // still ask again after a future puzzle in the same session.
+  var feedbackPromptTimer = null;
+  function scheduleFeedbackPrompt() {
+    clearTimeout(feedbackPromptTimer);
+    if (hasRated()) return;
+    feedbackPromptTimer = setTimeout(function () {
+      if (!hasRated()) els.feedbackModal.classList.remove("hidden");
+    }, 1200);
+  }
+  function closeFeedbackModal() {
+    clearTimeout(feedbackPromptTimer);
+    els.feedbackModal.classList.add("hidden");
   }
 
   function submitFeedback(rating) {
     if (hasRated()) return;
     markRated();   // don't nag again even if the request fails
-    renderFeedbackWidget();
+    closeFeedbackModal();
+    toast("Thanks for the feedback! 🎉");
     fetch("/api/feedback", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -406,7 +414,7 @@
       : "";
     els.funFact.style.display = explanation ? "" : "none";
     updatePracticeBtn();   // reflect how many random past days remain today
-    renderFeedbackWidget();
+    scheduleFeedbackPrompt();
   }
 
   function winEmoji(s) { return s >= 85 ? "🏆" : s >= 65 ? "🎉" : s >= 45 ? "👏" : "🙂"; }
@@ -556,6 +564,7 @@
     els.gameCard.classList.remove("hidden", "revealed");
     els.backToResultBtn.classList.add("hidden");
     els.resultCard.classList.add("hidden");
+    closeFeedbackModal();
     setFeedback("", "");
     els.guessInput.value = "";
     els.streakValue.textContent = getStreak();
@@ -605,6 +614,10 @@
       finishGame(false);
     });
 
+    els.feedbackModalClose.addEventListener("click", closeFeedbackModal);
+    els.feedbackSkipBtn.addEventListener("click", closeFeedbackModal);
+    els.feedbackModal.addEventListener("click", function (e) { if (e.target === els.feedbackModal) closeFeedbackModal(); });
+
     els.shareBtn.addEventListener("click", doShare);
     els.practiceBtn.addEventListener("click", playRandom);
     els.revealBoardBtn.addEventListener("click", revealBoard);
@@ -620,6 +633,7 @@
       if (e.key !== "Escape") return;
       closeModal();
       closeGiveUpModal();
+      closeFeedbackModal();
     });
 
     $("streakChip").addEventListener("click", function () {

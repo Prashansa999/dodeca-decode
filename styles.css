@@ -306,17 +306,11 @@ body {
 .share-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--green-deep); }
 .share-btn.full { width: 100%; margin-top: 8px; }
 
-/* post-game star feedback */
-.feedback-widget {
-  display: flex; flex-direction: column; align-items: center; gap: 10px;
-  padding: 16px; margin-bottom: 14px;
-  background: var(--cream); border: 2px dashed var(--board-border); border-radius: 14px;
-}
-.feedback-prompt { font-size: 14px; font-weight: 700; color: var(--ink-soft); }
-.feedback-stars { display: flex; flex-direction: row-reverse; gap: 4px; }
+/* post-game star feedback (shown in feedbackModal) */
+.feedback-stars { display: flex; flex-direction: row-reverse; justify-content: center; gap: 6px; margin: 4px 0 20px; }
 .fb-star {
   background: none; border: none; cursor: pointer; padding: 2px;
-  font-size: 30px; line-height: 1; color: var(--board-border);
+  font-size: 34px; line-height: 1; color: var(--board-border);
   transition: transform 0.1s ease, color 0.12s ease;
 }
 .fb-star:hover,
@@ -325,7 +319,7 @@ body {
   color: var(--gold);
 }
 .fb-star:hover { transform: scale(1.15); }
-.feedback-thanks { text-align: center; font-size: 14px; font-weight: 700; color: var(--green-deep); margin-bottom: 14px; }
+.feedback-skip { width: 100%; }
 
 .comeback { color: var(--muted); font-size: 13px; font-weight: 700; }
 
