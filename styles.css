@@ -330,6 +330,19 @@ body {
 .critic-attribution { font-size: 13px; font-weight: 700; color: var(--muted); margin-bottom: 20px; }
 .critic-attribution em { font-style: italic; }
 
+/* Inline feedback widget, used for past-day/practice puzzles instead of the popup */
+.feedback-inline {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 16px; margin-bottom: 14px; text-align: center;
+  background: var(--cream); border: 2px dashed var(--board-border); border-radius: 14px;
+}
+.feedback-prompt { font-size: 14px; font-weight: 700; color: var(--ink-soft); }
+.feedback-inline .feedback-stars { margin-bottom: 4px; }
+.feedback-inline .feedback-critic { margin-top: 4px; }
+.feedback-inline .critic-quote { font-size: 15px; }
+.feedback-inline .critic-attribution { margin-bottom: 0; }
+.feedback-inline-thanks { font-size: 14px; font-weight: 700; color: var(--green-deep); }
+
 .comeback { color: var(--muted); font-size: 13px; font-weight: 700; }
 
 .footer { text-align: center; padding: 18px; color: var(--muted); font-size: 13px; font-weight: 700; display: flex; gap: 10px; justify-content: center; align-items: center; }

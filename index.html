@@ -94,6 +94,26 @@
         <button class="ghost-btn" id="practiceBtn">Play a random past day</button>
       </div>
 
+      <!-- Practice/past-day puzzles ask for feedback inline, right on the
+           result screen, instead of the popup used for today's puzzle. -->
+      <div class="feedback-inline hidden" id="feedbackInline">
+        <div id="feedbackInlineAsk">
+          <p class="feedback-prompt">Liked this puzzle? Rate it so we can improve.</p>
+          <div class="feedback-stars" id="feedbackInlineStars" role="group" aria-label="Rate your experience, 1 to 5 stars">
+            <button type="button" class="fb-star" data-value="1" aria-label="1 star">★</button>
+            <button type="button" class="fb-star" data-value="2" aria-label="2 stars">★</button>
+            <button type="button" class="fb-star" data-value="3" aria-label="3 stars">★</button>
+            <button type="button" class="fb-star" data-value="4" aria-label="4 stars">★</button>
+            <button type="button" class="fb-star" data-value="5" aria-label="5 stars">★</button>
+          </div>
+        </div>
+        <div class="feedback-critic hidden" id="feedbackInlineCritic">
+          <p class="critic-quote">&ldquo;In the grand scheme of things, the harshest critic can still love what he criticizes.&rdquo;</p>
+          <p class="critic-attribution">&mdash; Anton Ego, <em>Ratatouille</em></p>
+        </div>
+        <p class="feedback-inline-thanks hidden" id="feedbackInlineThanks">Thanks for the feedback! 🎉</p>
+      </div>
+
       <p class="comeback" id="comeback">Come back tomorrow for a new question!</p>
     </section>
   </main>

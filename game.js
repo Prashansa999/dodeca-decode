@@ -68,7 +68,12 @@
     feedbackStars: $("feedbackStars"),
     feedbackSkipBtn: $("feedbackSkipBtn"),
     feedbackCritic: $("feedbackCritic"),
-    feedbackCriticOk: $("feedbackCriticOk")
+    feedbackCriticOk: $("feedbackCriticOk"),
+    feedbackInline: $("feedbackInline"),
+    feedbackInlineAsk: $("feedbackInlineAsk"),
+    feedbackInlineStars: $("feedbackInlineStars"),
+    feedbackInlineCritic: $("feedbackInlineCritic"),
+    feedbackInlineThanks: $("feedbackInlineThanks")
   };
 
   var MONTHS = ["January","February","March","April","May","June","July",
@@ -210,10 +215,14 @@
 
   // ===================== feedback =====================
   // A random anonymous ID, generated once per browser and reused from
-  // localStorage, keys the star rating server-side, one rating per session,
-  // no timestamp. It carries no personal information.
+  // localStorage, keys the star rating server-side. The server keeps just
+  // one rating per session (resubmitting overwrites it, simple by design,
+  // no timestamp, no per-puzzle linkage). "Ask again per puzzle" is purely
+  // a client-side concern: each puzzle key gets its own localStorage flag
+  // so the prompt can fire once per puzzle even though the backend only
+  // ever remembers the latest rating.
   var LS_SESSION = "dodecadecode.sessionId";
-  var LS_RATED = "dodecadecode.rated";
+  var LS_RATED_PREFIX = "dodecadecode.rated.";
 
   function getSessionId() {
     try {
@@ -225,25 +234,32 @@
       return id;
     } catch (e) { return "s-" + Math.random().toString(36).slice(2); }
   }
-  function hasRated() {
-    try { return localStorage.getItem(LS_RATED) === "1"; } catch (e) { return false; }
+  function hasRatedPuzzle(puzzleKey) {
+    try { return localStorage.getItem(LS_RATED_PREFIX + puzzleKey) === "1"; } catch (e) { return false; }
   }
-  function markRated() {
-    try { localStorage.setItem(LS_RATED, "1"); } catch (e) {}
+  function markRatedPuzzle(puzzleKey) {
+    try { localStorage.setItem(LS_RATED_PREFIX + puzzleKey, "1"); } catch (e) {}
   }
 
-  // Pops up a short while after a game ends, once per session at most.
-  // "Maybe later" just closes it without marking as rated, so it can
-  // still ask again after a future puzzle in the same session. Fires the
-  // same way whether the puzzle just solved is today's or a practice
-  // round on a past day, since showResult() calls this either way.
+  function postFeedback(rating) {
+    fetch("/api/feedback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ sessionId: getSessionId(), rating: rating })
+    }).catch(function () {});
+  }
+
+  // ---- Today's puzzle: popup, ~4s after the result appears ----
+  // "Maybe later" closes it without marking as rated, so it can still ask
+  // again after a future puzzle. Only used for the daily (non-practice)
+  // puzzle; past-day puzzles use the inline widget below instead.
   var FEEDBACK_DELAY = 4000;
   var feedbackPromptTimer = null;
-  function scheduleFeedbackPrompt() {
+  function scheduleFeedbackPrompt(puzzleKey) {
     clearTimeout(feedbackPromptTimer);
-    if (hasRated()) return;
+    if (hasRatedPuzzle(puzzleKey)) return;
     feedbackPromptTimer = setTimeout(function () {
-      if (!hasRated()) els.feedbackModal.classList.remove("hidden");
+      if (!hasRatedPuzzle(puzzleKey)) els.feedbackModal.classList.remove("hidden");
     }, FEEDBACK_DELAY);
   }
   function closeFeedbackModal() {
@@ -253,14 +269,11 @@
     els.feedbackCritic.classList.add("hidden");
   }
 
-  function submitFeedback(rating) {
-    if (hasRated()) return;
-    markRated();   // don't nag again even if the request fails
-    fetch("/api/feedback", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ sessionId: getSessionId(), rating: rating })
-    }).catch(function () {});
+  function submitModalFeedback(rating) {
+    var puzzleKey = state.key;
+    if (hasRatedPuzzle(puzzleKey)) return;
+    markRatedPuzzle(puzzleKey);   // don't nag again for this puzzle, even if the request fails
+    postFeedback(rating);
 
     if (rating <= 3) {
       // A harsher rating gets Anton Ego's line instead of the quick thanks,
@@ -270,6 +283,30 @@
     } else {
       closeFeedbackModal();
       toast("Thanks for the feedback! 🎉");
+    }
+  }
+
+  // ---- Past-day/practice puzzles: inline on the result screen, no popup ----
+  function renderInlineFeedback(puzzleKey) {
+    var rated = hasRatedPuzzle(puzzleKey);
+    els.feedbackInline.classList.toggle("hidden", rated);
+    if (rated) return;
+    els.feedbackInlineAsk.classList.remove("hidden");
+    els.feedbackInlineCritic.classList.add("hidden");
+    els.feedbackInlineThanks.classList.add("hidden");
+  }
+
+  function submitInlineFeedback(rating) {
+    var puzzleKey = state.key;
+    if (hasRatedPuzzle(puzzleKey)) return;
+    markRatedPuzzle(puzzleKey);
+    postFeedback(rating);
+
+    els.feedbackInlineAsk.classList.add("hidden");
+    if (rating <= 3) {
+      els.feedbackInlineCritic.classList.remove("hidden");
+    } else {
+      els.feedbackInlineThanks.classList.remove("hidden");
     }
   }
 
@@ -430,7 +467,17 @@
       : "";
     els.funFact.style.display = explanation ? "" : "none";
     updatePracticeBtn();   // reflect how many random past days remain today
-    scheduleFeedbackPrompt();
+
+    // Today's puzzle asks via the popup; past-day/practice puzzles ask
+    // inline on the result screen instead, no popup.
+    if (state.practice) {
+      clearTimeout(feedbackPromptTimer);
+      els.feedbackModal.classList.add("hidden");
+      renderInlineFeedback(state.key);
+    } else {
+      els.feedbackInline.classList.add("hidden");
+      scheduleFeedbackPrompt(state.key);
+    }
   }
 
   function winEmoji(s) { return s >= 85 ? "🏆" : s >= 65 ? "🎉" : s >= 45 ? "👏" : "🙂"; }
@@ -581,6 +628,7 @@
     els.backToResultBtn.classList.add("hidden");
     els.resultCard.classList.add("hidden");
     closeFeedbackModal();
+    els.feedbackInline.classList.add("hidden");
     setFeedback("", "");
     els.guessInput.value = "";
     els.streakValue.textContent = getStreak();
@@ -606,16 +654,20 @@
       els.guessInput.value = "";
     });
 
-    els.feedbackStars.addEventListener("click", function (e) {
-      var star = e.target.closest(".fb-star");
-      if (!star) return;
-      var rating = parseInt(star.getAttribute("data-value"), 10);
-      var stars = els.feedbackStars.querySelectorAll(".fb-star");
-      for (var i = 0; i < stars.length; i++) {
-        stars[i].classList.toggle("filled", parseInt(stars[i].getAttribute("data-value"), 10) <= rating);
-      }
-      submitFeedback(rating);
-    });
+    function wireStarRow(container, onRate) {
+      container.addEventListener("click", function (e) {
+        var star = e.target.closest(".fb-star");
+        if (!star) return;
+        var rating = parseInt(star.getAttribute("data-value"), 10);
+        var stars = container.querySelectorAll(".fb-star");
+        for (var i = 0; i < stars.length; i++) {
+          stars[i].classList.toggle("filled", parseInt(stars[i].getAttribute("data-value"), 10) <= rating);
+        }
+        onRate(rating);
+      });
+    }
+    wireStarRow(els.feedbackStars, submitModalFeedback);
+    wireStarRow(els.feedbackInlineStars, submitInlineFeedback);
 
     els.giveUpBtn.addEventListener("click", function () {
       if (state.finished) return;
