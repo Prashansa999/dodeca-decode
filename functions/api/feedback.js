@@ -1,9 +1,11 @@
 /*
  * Cloudflare Pages Function: /api/feedback
  *
- * POST stores one anonymous star rating per session, keyed by an anonymous
- * client-generated session ID, no timestamp. Resubmitting the same
- * session ID overwrites its rating rather than creating a duplicate.
+ * POST stores one anonymous star rating per (session, puzzle) pair, keyed
+ * as "sessionId::puzzleKey", no timestamp. Rating the same puzzle again
+ * overwrites that entry; rating a different puzzle creates a separate
+ * one, so each puzzle's rating counts toward the aggregate rather than
+ * one session's ratings overwriting each other.
  *
  * GET ?key=<FEEDBACK_ADMIN_KEY> returns a private HTML summary: the
  * average rating and a breakdown by star count. Requires an environment
@@ -41,17 +43,21 @@ export async function onRequestPost({ request, env }) {
   }
 
   var sessionId = typeof body.sessionId === "string" ? body.sessionId.trim() : "";
+  var puzzleKey = typeof body.puzzleKey === "string" ? body.puzzleKey.trim() : "";
   var rating = Number(body.rating);
   var isHalfStep = isFinite(rating) && Math.round(rating * 2) === rating * 2;
 
   if (!sessionId || sessionId.length > 128) {
     return jsonResponse({ error: "Missing or invalid sessionId" }, 400);
   }
+  if (!puzzleKey || puzzleKey.length > 32) {
+    return jsonResponse({ error: "Missing or invalid puzzleKey" }, 400);
+  }
   if (!isHalfStep || rating < 1 || rating > 5) {
     return jsonResponse({ error: "Rating must be in 0.5 increments from 1 to 5" }, 400);
   }
 
-  await env.FEEDBACK.put(sessionId, String(rating));
+  await env.FEEDBACK.put(sessionId + "::" + puzzleKey, String(rating));
   return jsonResponse({ ok: true });
 }
 

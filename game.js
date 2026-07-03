@@ -215,12 +215,12 @@
 
   // ===================== feedback =====================
   // A random anonymous ID, generated once per browser and reused from
-  // localStorage, keys the star rating server-side. The server keeps just
-  // one rating per session (resubmitting overwrites it, simple by design,
-  // no timestamp, no per-puzzle linkage). "Ask again per puzzle" is purely
-  // a client-side concern: each puzzle key gets its own localStorage flag
-  // so the prompt can fire once per puzzle even though the backend only
-  // ever remembers the latest rating.
+  // localStorage, keys the star rating server-side together with the
+  // puzzle key ("sessionId::puzzleKey"), no timestamp. Rating the same
+  // puzzle again overwrites that entry; rating a different puzzle creates
+  // a separate one, so each puzzle's rating counts toward the aggregate
+  // instead of one session's ratings stomping each other. "Ask again per
+  // puzzle" mirrors this client-side via one localStorage flag per puzzle.
   var LS_SESSION = "dodecadecode.sessionId";
   var LS_RATED_PREFIX = "dodecadecode.rated.";
 
@@ -241,11 +241,11 @@
     try { localStorage.setItem(LS_RATED_PREFIX + puzzleKey, "1"); } catch (e) {}
   }
 
-  function postFeedback(rating) {
+  function postFeedback(puzzleKey, rating) {
     fetch("/api/feedback", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ sessionId: getSessionId(), rating: rating })
+      body: JSON.stringify({ sessionId: getSessionId(), puzzleKey: puzzleKey, rating: rating })
     }).catch(function () {});
   }
 
@@ -273,7 +273,7 @@
     var puzzleKey = state.key;
     if (hasRatedPuzzle(puzzleKey)) return;
     markRatedPuzzle(puzzleKey);   // don't nag again for this puzzle, even if the request fails
-    postFeedback(rating);
+    postFeedback(puzzleKey, rating);
 
     if (rating <= 3) {
       // A harsher rating gets Anton Ego's line instead of the quick thanks,
@@ -300,7 +300,7 @@
     var puzzleKey = state.key;
     if (hasRatedPuzzle(puzzleKey)) return;
     markRatedPuzzle(puzzleKey);
-    postFeedback(rating);
+    postFeedback(puzzleKey, rating);
 
     els.feedbackInlineAsk.classList.add("hidden");
     if (rating <= 3) {
