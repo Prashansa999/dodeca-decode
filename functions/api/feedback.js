@@ -42,12 +42,13 @@ export async function onRequestPost({ request, env }) {
 
   var sessionId = typeof body.sessionId === "string" ? body.sessionId.trim() : "";
   var rating = Number(body.rating);
+  var isHalfStep = isFinite(rating) && Math.round(rating * 2) === rating * 2;
 
   if (!sessionId || sessionId.length > 128) {
     return jsonResponse({ error: "Missing or invalid sessionId" }, 400);
   }
-  if (!Number.isInteger(rating) || rating < 1 || rating > 5) {
-    return jsonResponse({ error: "Rating must be an integer from 1 to 5" }, 400);
+  if (!isHalfStep || rating < 1 || rating > 5) {
+    return jsonResponse({ error: "Rating must be in 0.5 increments from 1 to 5" }, 400);
   }
 
   await env.FEEDBACK.put(sessionId, String(rating));
@@ -65,19 +66,28 @@ export async function onRequestGet({ request, env }) {
     return jsonResponse({ error: "Forbidden" }, 403);
   }
 
-  var tally = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+  var steps = [5, 4.5, 4, 3.5, 3, 2.5, 2, 1.5, 1];
+  var tally = {};
+  steps.forEach(function (s) { tally[s] = 0; });
   var sum = 0, count = 0;
   var list = await env.FEEDBACK.list({ limit: 1000 });
   for (var i = 0; i < list.keys.length; i++) {
     var raw = await env.FEEDBACK.get(list.keys[i].name);
-    var n = parseInt(raw, 10);
-    if (n >= 1 && n <= 5) { tally[n]++; sum += n; count++; }
+    var n = parseFloat(raw);
+    if (n >= 1 && n <= 5 && Math.round(n * 2) === n * 2) {
+      tally[n] = (tally[n] || 0) + 1;
+      sum += n;
+      count++;
+    }
   }
   var average = count ? sum / count : 0;
 
-  var rows = [5, 4, 3, 2, 1].map(function (n) {
+  function formatStars(n) {
+    return (Number.isInteger(n) ? n : n.toFixed(1)) + "/5";
+  }
+  var rows = steps.map(function (n) {
     var pct = count ? Math.round((tally[n] / count) * 100) : 0;
-    return "<tr><td>" + n + "/5</td><td>" + tally[n] + "</td><td>" + pct + "%</td></tr>";
+    return "<tr><td>" + formatStars(n) + "</td><td>" + tally[n] + "</td><td>" + pct + "%</td></tr>";
   }).join("");
 
   var html = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\">" +

@@ -306,19 +306,24 @@ body {
 .share-btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--green-deep); }
 .share-btn.full { width: 100%; margin-top: 8px; }
 
-/* post-game star feedback (shown in feedbackModal) */
-.feedback-stars { display: flex; flex-direction: row-reverse; justify-content: center; gap: 6px; margin: 4px 0 20px; }
+/* post-game star feedback (shown in feedbackModal), half-star increments.
+   Fill is entirely JS-driven (see wireStarRow in game.js): each star's
+   --fill custom property is set to 0%/50%/100% and rendered as a gradient
+   clipped to the glyph, rather than relying on CSS-only hover tricks that
+   are fragile to DOM order and can't represent half increments. */
+.feedback-stars { display: flex; justify-content: center; gap: 6px; margin: 4px 0 20px; }
 .fb-star {
   background: none; border: none; cursor: pointer; padding: 2px;
-  font-size: 34px; line-height: 1; color: var(--board-border);
-  transition: transform 0.1s ease, color 0.12s ease;
-}
-.fb-star:hover,
-.fb-star:hover ~ .fb-star,
-.fb-star.filled {
-  color: var(--gold);
+  font-size: 34px; line-height: 1;
+  transition: transform 0.1s ease;
 }
 .fb-star:hover { transform: scale(1.15); }
+.fb-star-fill {
+  --fill: 0%;
+  display: inline-block;
+  background-image: linear-gradient(90deg, var(--gold) var(--fill), var(--board-border) var(--fill));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
 .feedback-skip { width: 100%; }
 
 /* Anton Ego critic quote, shown for a rating of 3 stars or below */

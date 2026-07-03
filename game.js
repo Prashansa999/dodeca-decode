@@ -654,16 +654,48 @@
       els.guessInput.value = "";
     });
 
-    function wireStarRow(container, onRate) {
-      container.addEventListener("click", function (e) {
-        var star = e.target.closest(".fb-star");
-        if (!star) return;
-        var rating = parseInt(star.getAttribute("data-value"), 10);
-        var stars = container.querySelectorAll(".fb-star");
-        for (var i = 0; i < stars.length; i++) {
-          stars[i].classList.toggle("filled", parseInt(stars[i].getAttribute("data-value"), 10) <= rating);
+    // Stars run left-to-right, data-value 1..5, in plain DOM order (no CSS
+    // sibling-hover tricks, which need reverse DOM order and can silently
+    // invert which star maps to which value). Half-star precision comes
+    // from which half of a given star the pointer is over.
+    function starValueAt(container, clientX) {
+      var stars = container.querySelectorAll(".fb-star");
+      for (var i = 0; i < stars.length; i++) {
+        var rect = stars[i].getBoundingClientRect();
+        if (clientX >= rect.left && clientX <= rect.right) {
+          var whole = parseInt(stars[i].getAttribute("data-value"), 10);
+          var frac = (clientX - rect.left) / rect.width;
+          return frac < 0.5 ? whole - 0.5 : whole;
         }
-        onRate(rating);
+      }
+      var firstRect = stars[0].getBoundingClientRect();
+      var lastRect = stars[stars.length - 1].getBoundingClientRect();
+      if (clientX < firstRect.left) return 0.5;
+      if (clientX > lastRect.right) return parseInt(stars[stars.length - 1].getAttribute("data-value"), 10);
+      return null;
+    }
+    function renderStarFill(container, rating) {
+      var stars = container.querySelectorAll(".fb-star");
+      for (var i = 0; i < stars.length; i++) {
+        var whole = parseInt(stars[i].getAttribute("data-value"), 10);
+        var pct = rating >= whole ? 100 : (rating >= whole - 0.5 ? 50 : 0);
+        stars[i].querySelector(".fb-star-fill").style.setProperty("--fill", pct + "%");
+      }
+    }
+    function wireStarRow(container, onRate) {
+      container.addEventListener("mousemove", function (e) {
+        var v = starValueAt(container, e.clientX);
+        if (v != null) renderStarFill(container, v);
+      });
+      container.addEventListener("mouseleave", function () {
+        renderStarFill(container, 0);
+      });
+      container.addEventListener("click", function (e) {
+        if (!e.target.closest(".fb-star")) return;
+        var v = starValueAt(container, e.clientX);
+        if (v == null) return;
+        renderStarFill(container, v);
+        onRate(v);
       });
     }
     wireStarRow(els.feedbackStars, submitModalFeedback);
