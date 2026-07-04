@@ -15,6 +15,7 @@ window.QUESTIONS = {
   "01-08": {
     category: "Musician",
     year: 1935,
+    summary: "the musician Elvis Presley was born",
     answers: ["Elvis Presley", "Elvis", "Elvis Aaron Presley"],
     tiles: [
       "Born in Tupelo, 1935", "Discovered at Sun Records", "Home called Graceland", "'Hound Dog'",
@@ -26,6 +27,7 @@ window.QUESTIONS = {
   "01-17": {
     category: "Athlete",
     year: 1942,
+    summary: "the boxer Muhammad Ali was born",
     answers: ["Muhammad Ali", "Ali", "Cassius Clay"],
     tiles: [
       "Born in Louisville, 1942", "Olympic gold, Rome 1960", "Born Cassius Clay", "'Float like a butterfly'",
@@ -37,6 +39,7 @@ window.QUESTIONS = {
   "02-12": {
     category: "Scientist",
     year: 1809,
+    summary: "the naturalist Charles Darwin was born",
     answers: ["Charles Darwin", "Darwin"],
     tiles: [
       "Born in 1809", "A ship named for a dog", "Galapagos finches", "A five-year voyage",
@@ -48,6 +51,7 @@ window.QUESTIONS = {
   "02-17": {
     category: "Athlete",
     year: 1963,
+    summary: "the basketball legend Michael Jordan was born",
     answers: ["Michael Jordan", "Jordan", "MJ"],
     tiles: [
       "Born in 1963", "Wore number 23", "Six NBA titles", "Nicknamed 'Air'",
@@ -59,6 +63,7 @@ window.QUESTIONS = {
   "03-14": {
     category: "Scientist",
     year: 1879,
+    summary: "the physicist Albert Einstein was born",
     answers: ["Albert Einstein", "Einstein"],
     tiles: [
       "Born on Pi Day", "A patent clerk", "Miracle year, 1905", "Nobel Prize, 1921",
@@ -70,6 +75,7 @@ window.QUESTIONS = {
   "03-30": {
     category: "Artist",
     year: 1853,
+    summary: "the painter Vincent van Gogh was born",
     answers: ["Vincent van Gogh", "Van Gogh", "Vincent Van Gogh"],
     tiles: [
       "Argued with Gauguin", "Hard to pronounce", "Lost part of his left", "Popular after death",
@@ -81,6 +87,7 @@ window.QUESTIONS = {
   "04-15": {
     category: "Artist",
     year: 1452,
+    summary: "the artist and inventor Leonardo da Vinci was born",
     answers: ["Leonardo da Vinci", "Leonardo", "Da Vinci", "Leonardo Da Vinci"],
     tiles: [
       "Born near a Tuscan town, 1452", "Painted the 'Mona Lisa'", "'The Last Supper'", "Drew a man in a circle",
@@ -92,6 +99,7 @@ window.QUESTIONS = {
   "04-23": {
     category: "Author",
     year: 1564,
+    summary: "the playwright William Shakespeare was born, by tradition",
     answers: ["William Shakespeare", "Shakespeare"],
     tiles: [
       "Stratford-upon-Avon", "Nicknamed 'the Bard'", "Born and died this day", "The Globe theatre",
@@ -103,6 +111,7 @@ window.QUESTIONS = {
   "05-25": {
     category: "Entertainment",
     year: 1977,
+    summary: "Star Wars first opened in cinemas",
     answers: ["Star Wars", "Star Wars A New Hope", "A New Hope"],
     tiles: [
       "Released in 1977", "Directed by George Lucas", "Subtitled 'A New Hope'", "A villain in black",
@@ -114,6 +123,7 @@ window.QUESTIONS = {
   "06-20": {
     category: "Entertainment",
     year: 1975,
+    summary: "Steven Spielberg's Jaws hit cinemas",
     answers: ["Jaws"],
     tiles: [
       "Released in 1975", "Directed by Spielberg", "A great white", "'A bigger boat'",
@@ -125,6 +135,7 @@ window.QUESTIONS = {
   "06-28": {
     category: "Entrepreneur",
     year: 1971,
+    summary: "the entrepreneur Elon Musk was born",
     answers: ["Elon Musk", "Musk"],
     tiles: [
       "Born in Pretoria, 1971", "Co-founded PayPal", "Electric cars", "Rockets that land themselves",
@@ -136,6 +147,7 @@ window.QUESTIONS = {
   "06-29": {
     category: "Book",
     year: 1900,
+    summary: "the author of The Little Prince was born",
     answers: ["The Little Prince", "Little Prince", "Le Petit Prince", "Antoine de Saint-Exupery", "Saint-Exupery"],
     tiles: [
       "Its author born in 1900", "Written by a French pilot", "A boy from asteroid B-612", "Tames a fox",
@@ -147,6 +159,7 @@ window.QUESTIONS = {
   "06-30": {
     category: "Athlete",
     year: 1966,
+    summary: "the boxer Mike Tyson was born",
     answers: ["Mike Tyson", "Tyson", "Iron Mike"],
     tiles: [
       "Born in Brooklyn, 1966", "Youngest heavyweight champion", "Nicknamed 'Iron'", "Bit off part of an ear",
@@ -158,6 +171,7 @@ window.QUESTIONS = {
   "07-01": {
     category: "Royal",
     year: 1961,
+    summary: "Princess Diana was born",
     answers: ["Princess Diana", "Diana", "Lady Diana", "Diana Spencer"],
     tiles: [
       "Born in 1961", "Wed into British royalty", "Married Charles in 1981", "Mother of William and Harry",
@@ -169,6 +183,7 @@ window.QUESTIONS = {
   "07-02": {
     category: "Entertainment",
     year: 1990,
+    summary: "the actor Margot Robbie was born",
     answers: ["Margot Robbie", "Robbie"],
     tiles: [
       "Born in Australia, 1990", "Played a pink doll on screen", "Harley Quinn", "From the soap 'Neighbours'",
@@ -180,6 +195,7 @@ window.QUESTIONS = {
   "07-03": {
     category: "Athlete",
     year: 2011,
+    summary: "Novak Djokovic won his first Wimbledon title",
     answers: ["Novak Djokovic", "Djokovic", "Novak"],
     tiles: [
       "Faced the defending champion", "Won 6-4, 6-1, 1-6, 6-3", "Ended a 20-match streak", "His first title on grass",
@@ -191,6 +207,7 @@ window.QUESTIONS = {
   "07-04": {
     category: "History",
     year: 1776,
+    summary: "the American Declaration of Independence was adopted",
     answers: ["Declaration of Independence", "US Declaration of Independence", "American Declaration of Independence"],
     tiles: [
       "4 July 1776", "Thirteen colonies", "Drafted by Jefferson", "Breaking from a king",
@@ -202,6 +219,7 @@ window.QUESTIONS = {
   "07-05": {
     category: "Author",
     year: 1958,
+    summary: "the cartoonist Bill Watterson was born",
     answers: ["Bill Watterson", "Watterson", "William Watterson"],
     tiles: [
       "At its peak, ran in over 2,000 newspapers", "Signed off forever with 'Let's go exploring'", "Studied political science", "Named for two philosophers",
@@ -213,6 +231,7 @@ window.QUESTIONS = {
   "07-06": {
     category: "Bollywood",
     year: 1985,
+    summary: "the Bollywood actor Ranveer Singh was born",
     answers: ["Ranveer Singh", "Ranveer"],
     tiles: [
       "Born in 1985", "A Bollywood live-wire", "Married Deepika Padukone", "Debuted in 'Band Baaja Baaraat'",
@@ -224,6 +243,7 @@ window.QUESTIONS = {
   "07-07": {
     category: "Sport",
     year: 1981,
+    summary: "the cricketer MS Dhoni was born",
     answers: ["MS Dhoni", "Dhoni", "Mahendra Singh Dhoni", "M S Dhoni"],
     tiles: [
       "Born in Ranchi, 1981", "Nicknamed 'Captain Cool'", "A wicketkeeper-batsman", "Won the 2007 T20 World Cup",
@@ -235,6 +255,7 @@ window.QUESTIONS = {
   "07-08": {
     category: "Sport",
     year: 1972,
+    summary: "the cricketer Sourav Ganguly was born",
     answers: ["Sourav Ganguly", "Ganguly", "Dada"],
     tiles: [
       "Born in Kolkata, 1972", "Nicknamed 'Dada'", "Waved his shirt at Lord's", "An aggressive India captain",
@@ -246,6 +267,7 @@ window.QUESTIONS = {
   "07-09": {
     category: "Entertainment",
     year: 1956,
+    summary: "the actor Tom Hanks was born",
     answers: ["Tom Hanks", "Hanks"],
     tiles: [
       "Born in 1956", "Ran across America on screen", "Voiced a cowboy doll", "Stranded with a volleyball",
@@ -257,6 +279,7 @@ window.QUESTIONS = {
   "07-10": {
     category: "Scientist",
     year: 1856,
+    summary: "the inventor Nikola Tesla was born",
     answers: ["Nikola Tesla", "Tesla"],
     tiles: [
       "Born in 1856", "Champion of alternating current", "A high-voltage coil bears his name", "Rivalry with Edison",
@@ -268,6 +291,7 @@ window.QUESTIONS = {
   "07-11": {
     category: "Book",
     year: 1899,
+    summary: "the author of Charlotte's Web was born",
     answers: ["Charlotte's Web", "Charlottes Web", "E B White", "EB White", "E.B. White"],
     tiles: [
       "Its author born in 1899", "A pig named Wilbur", "A clever spider", "Words spun in a web",
@@ -279,6 +303,7 @@ window.QUESTIONS = {
   "07-12": {
     category: "Activist",
     year: 1997,
+    summary: "the activist Malala Yousafzai was born",
     answers: ["Malala Yousafzai", "Malala"],
     tiles: [
       "Born in 1997", "From Pakistan's Swat Valley", "Shot on a school bus", "Targeted by the Taliban",
@@ -290,6 +315,7 @@ window.QUESTIONS = {
   "07-13": {
     category: "Entertainment",
     year: 1942,
+    summary: "the actor Harrison Ford was born",
     answers: ["Harrison Ford", "Ford"],
     tiles: [
       "Born in 1942", "Flew the Millennium Falcon", "A whip and a fedora", "Was once a carpenter",
@@ -301,6 +327,7 @@ window.QUESTIONS = {
   "07-14": {
     category: "History",
     year: 1789,
+    summary: "a Paris mob stormed the Bastille",
     answers: ["Bastille Day", "Storming of the Bastille", "Bastille"],
     tiles: [
       "14 July 1789", "A Paris fortress-prison", "Stormed by a mob", "Hunting for gunpowder",
@@ -312,6 +339,7 @@ window.QUESTIONS = {
   "07-15": {
     category: "Artist",
     year: 1606,
+    summary: "the Dutch master Rembrandt was born",
     answers: ["Rembrandt", "Rembrandt van Rijn"],
     tiles: [
       "Born in 1606", "A Dutch master", "'The Night Watch'", "Dozens of self-portraits",
@@ -323,6 +351,7 @@ window.QUESTIONS = {
   "07-16": {
     category: "Bollywood",
     year: 1983,
+    summary: "the Bollywood actor Katrina Kaif was born",
     answers: ["Katrina Kaif", "Katrina"],
     tiles: [
       "Born in 1983", "British-Indian actress", "'Sheila Ki Jawani'", "Married Vicky Kaushal",
@@ -334,6 +363,7 @@ window.QUESTIONS = {
   "07-17": {
     category: "Pop Culture",
     year: 1955,
+    summary: "Disneyland opened in California",
     answers: ["Disneyland", "Disneyland Park"],
     tiles: [
       "Opened in 1955", "In Anaheim, California", "Built by Walt Disney", "'The happiest place on earth'",
@@ -345,6 +375,7 @@ window.QUESTIONS = {
   "07-18": {
     category: "Bollywood",
     year: 1982,
+    summary: "the actor Priyanka Chopra was born",
     answers: ["Priyanka Chopra", "Priyanka", "Priyanka Chopra Jonas"],
     tiles: [
       "Born in 1982", "Crowned Miss World 2000", "Married Nick Jonas", "Starred in US show 'Quantico'",
@@ -356,6 +387,7 @@ window.QUESTIONS = {
   "07-19": {
     category: "Indian History",
     year: 1827,
+    summary: "the Indian rebel Mangal Pandey was born",
     answers: ["Mangal Pandey", "Pandey"],
     tiles: [
       "Born in 1827", "A sepoy in the Company army", "Stationed at Barrackpore", "Angered by greased cartridges",
@@ -367,6 +399,7 @@ window.QUESTIONS = {
   "07-20": {
     category: "History",
     year: 1969,
+    summary: "Apollo 11 made the first Moon landing",
     answers: ["Moon Landing", "First Moon Landing", "Apollo 11 Moon Landing", "Moon landing by Apollo 11"],
     tiles: [
       "20 July 1969", "'One small step'", "Mission Apollo 11", "The Sea of Tranquility",
@@ -378,6 +411,7 @@ window.QUESTIONS = {
   "07-21": {
     category: "Entertainment",
     year: 1951,
+    summary: "the comedian Robin Williams was born",
     answers: ["Robin Williams", "Robin Williams"],
     tiles: [
       "Born in 1951", "A whirlwind stand-up", "Dressed as a nanny", "Voiced a big blue genie",
@@ -389,6 +423,7 @@ window.QUESTIONS = {
   "07-22": {
     category: "Indian History",
     year: 1947,
+    summary: "India adopted its national flag",
     answers: ["Indian National Flag", "Tiranga", "Tricolour", "Tricolor", "Indian Flag", "National Flag of India"],
     tiles: [
       "Adopted on 22 July 1947", "Saffron, white and green", "A navy-blue wheel at its centre", "That wheel has 24 spokes",
@@ -400,6 +435,7 @@ window.QUESTIONS = {
   "07-23": {
     category: "Indian History",
     year: 1906,
+    summary: "the revolutionary Chandrashekhar Azad was born",
     answers: ["Chandrashekhar Azad", "Chandra Shekhar Azad", "Azad"],
     tiles: [
       "Born in 1906", "An Indian revolutionary", "Vowed never to be captured", "Died in a 1931 shootout",
@@ -411,6 +447,7 @@ window.QUESTIONS = {
   "07-24": {
     category: "Aviation",
     year: 1897,
+    summary: "the aviator Amelia Earhart was born",
     answers: ["Amelia Earhart", "Earhart"],
     tiles: [
       "Born in 1897", "First woman to fly the Atlantic solo", "Vanished over the Pacific in 1937", "Flew a Lockheed Electra",
@@ -422,6 +459,7 @@ window.QUESTIONS = {
   "07-25": {
     category: "Indian",
     year: 1875,
+    summary: "the hunter-naturalist Jim Corbett was born",
     answers: ["Jim Corbett", "Corbett", "Edward James Corbett"],
     tiles: [
       "Born in Nainital, 1875", "Hunted man-eating tigers", "The Champawat tigress", "In the Kumaon hills",
@@ -433,6 +471,7 @@ window.QUESTIONS = {
   "07-26": {
     category: "Indian History",
     year: 1999,
+    summary: "India won the Kargil War",
     answers: ["Kargil War", "Kargil", "Kargil Vijay Diwas", "Kargil conflict"],
     tiles: [
       "A 1999 conflict", "Fought against Pakistan", "High in Ladakh's peaks", "Codenamed Operation Vijay",
@@ -444,6 +483,7 @@ window.QUESTIONS = {
   "07-27": {
     category: "Indian Politics",
     year: 2015,
+    summary: "former president APJ Abdul Kalam passed away",
     answers: ["APJ Abdul Kalam", "Abdul Kalam", "Kalam", "A P J Abdul Kalam"],
     tiles: [
       "Died on 27 July 2015", "India's 'Missile Man'", "The 11th President of India", "Worked at ISRO and DRDO",
@@ -455,6 +495,7 @@ window.QUESTIONS = {
   "07-28": {
     category: "Author",
     year: 1866,
+    summary: "the author Beatrix Potter was born",
     answers: ["Beatrix Potter", "Potter"],
     tiles: [
       "Born in 1866", "Created a mischievous rabbit", "Mr McGregor's garden", "Set in England's Lake District",
@@ -466,6 +507,7 @@ window.QUESTIONS = {
   "07-31": {
     category: "Author",
     year: 1965,
+    summary: "the author JK Rowling was born",
     answers: ["JK Rowling", "J K Rowling", "Joanne Rowling", "Rowling"],
     tiles: [
       "Born in 1965", "Created a boy wizard", "Idea on a delayed train", "Rejected by 12 publishers",
@@ -477,6 +519,7 @@ window.QUESTIONS = {
   "08-16": {
     category: "Musician",
     year: 1958,
+    summary: "the pop icon Madonna was born",
     answers: ["Madonna", "Madonna Ciccone"],
     tiles: [
       "Born in 1958", "Crowned 'Queen of Pop'", "'Like a Virgin'", "'Vogue'",
@@ -488,6 +531,7 @@ window.QUESTIONS = {
   "08-29": {
     category: "Musician",
     year: 1958,
+    summary: "the musician Michael Jackson was born",
     answers: ["Michael Jackson", "MJ", "Michael Joseph Jackson"],
     tiles: [
       "Born in Gary, Indiana", "Led a family group of five", "'Thriller'", "The moonwalk",
@@ -499,6 +543,7 @@ window.QUESTIONS = {
   "09-05": {
     category: "Musician",
     year: 1946,
+    summary: "the Queen frontman Freddie Mercury was born",
     answers: ["Freddie Mercury", "Mercury", "Farrokh Bulsara"],
     tiles: [
       "Born in Zanzibar, 1946", "Fronted a band named Queen", "'Bohemian Rhapsody'", "A four-octave voice",
@@ -510,6 +555,7 @@ window.QUESTIONS = {
   "09-15": {
     category: "Author",
     year: 1890,
+    summary: "the crime writer Agatha Christie was born",
     answers: ["Agatha Christie", "Christie"],
     tiles: [
       "Born in 1890", "A fastidious Belgian detective", "A spinster sleuth", "'Murder on the Orient Express'",
@@ -521,6 +567,7 @@ window.QUESTIONS = {
   "10-23": {
     category: "Athlete",
     year: 1940,
+    summary: "the footballer Pele was born",
     answers: ["Pele", "Pelé", "Edson Arantes do Nascimento"],
     tiles: [
       "Born in Brazil, 1940", "Three World Cup wins", "'The beautiful game'", "Claimed over 1,000 goals",
@@ -532,6 +579,7 @@ window.QUESTIONS = {
   "11-09": {
     category: "History",
     year: 1989,
+    summary: "the Berlin Wall was opened",
     answers: ["Berlin Wall", "The Berlin Wall", "Fall of the Berlin Wall"],
     tiles: [
       "9 November 1989", "Hammers and chisels", "Stood for 28 years", "Divided East and West",
@@ -543,6 +591,7 @@ window.QUESTIONS = {
   "11-30": {
     category: "Author",
     year: 1835,
+    summary: "the author Mark Twain was born",
     answers: ["Mark Twain", "Twain", "Samuel Clemens", "Samuel Langhorne Clemens"],
     tiles: [
       "Born in 1835", "Wrote of Huckleberry Finn", "Wrote of Tom Sawyer", "Life on the Mississippi",
@@ -554,6 +603,7 @@ window.QUESTIONS = {
   "12-25": {
     category: "Scientist",
     year: 1642,
+    summary: "the scientist Isaac Newton was born",
     answers: ["Isaac Newton", "Newton", "Sir Isaac Newton"],
     tiles: [
       "Born on Christmas", "A falling apple", "Three laws of motion", "Defined gravity",

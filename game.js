@@ -457,11 +457,13 @@
       ? "Solved with " + state.opened.length + " of " + TILE_COUNT + " tiles open" +
         (state.wrongGuesses ? " and " + state.wrongGuesses + (state.wrongGuesses === 1 ? " wrong guess" : " wrong guesses") : "") + "."
       : "You opened " + state.opened.length + " of " + TILE_COUNT + " tiles.";
-    // Lead every solution with an "On this day in <year>" line, then the
-    // explanation that decodes all twelve clues.
+    // Lead every solution with a one-line "On this day in <year>, <summary>."
+    // sentence, then the explanation that decodes all twelve clues.
     var explanation = remapExplanation(state.question.explanation);
     var year = state.question.year;
-    var head = year ? "On this day in " + year : "On this day";
+    var summary = state.question.summary;
+    var head = "On this day" + (year ? " in " + year : "");
+    if (summary) head += ", " + summary + ".";
     els.funFact.innerHTML = explanation
       ? '<strong class="ff-head">' + escapeHtml(head) + '</strong>\n\n' + escapeHtml(explanation)
       : "";
