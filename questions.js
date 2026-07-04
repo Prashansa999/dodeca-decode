@@ -200,15 +200,15 @@ window.QUESTIONS = {
     explanation: "The Declaration of Independence was adopted on 4 July 1776 (1) by thirteen colonies (2). Thomas Jefferson was its principal drafter (3), announcing a break from the king (4) and holding certain truths to be 'self-evident' (5). Americans mark it with fireworks each year (6); it was adopted in Philadelphia (7), where John Hancock added his famously bold signature (8). It promises 'life, liberty and the pursuit of happiness' (9) and rejected the rule of George III (10). Signers John Adams and Thomas Jefferson both died on its 50th anniversary, 4 July 1826 (11), and the day is celebrated as the nation's birthday (12)."
   },
   "07-05": {
-    category: "Sport",
-    year: 1995,
-    answers: ["PV Sindhu", "Sindhu", "Pusarla Venkata Sindhu", "P V Sindhu"],
+    category: "Author",
+    year: 1958,
+    answers: ["Bill Watterson", "Watterson", "William Watterson"],
     tiles: [
-      "Born in Hyderabad, 1995", "A badminton star", "Olympic silver in 2016", "Olympic bronze in 2020",
-      "World Champion in 2019", "Coached by Gopichand", "Wields a racquet", "Padma Bhushan honour",
-      "Daughter of volleyball players", "Two Olympic medals", "Plays for India", "Tall left-court smasher"
+      "At its peak, ran in over 2,000 newspapers", "Signed off forever with 'Let's go exploring'", "Studied political science", "Named for two philosophers",
+      "Fired from his first job", "Four years in advertising", "Debuted in newspapers, 1985", "Refused all merchandising",
+      "Won a top cartooning prize three times", "Fought for bigger Sunday panels", "Famously avoids interviews", "A boy and his stuffed tiger"
     ],
-    explanation: "P.V. Sindhu was born in Hyderabad on 5 July 1995 (1) and is a badminton star (2). She won Olympic silver at Rio 2016 (3) and bronze at Tokyo 2020 (4), and became World Champion in 2019 (5). She trained under Pullela Gopichand (6), competes with a racquet on the shuttle court (7), and received the Padma Bhushan (8). She is the daughter of two volleyball players (9), holds two Olympic medals (10), represents India (11), and is known for her tall reach and powerful smashes (12)."
+    explanation: "Bill Watterson's comic strip Calvin and Hobbes ran in over 2,000 newspapers at its peak (1) and signed off forever on 31 December 1995 with the line 'Let's go exploring' (2). Watterson, born on 5 July 1958, studied political science at Kenyon College (3), naming his two most famous characters after the philosophers John Calvin and Thomas Hobbes (4). He was fired from his first job as an editorial cartoonist at the Cincinnati Post (5) and spent four years in advertising (6) before the strip debuted in 1985 (7). He famously refused all merchandising (8), won cartooning's top honour, the Reuben Award, three times (9), fought his syndicate for the right to run larger Sunday panels (10), and is famously reclusive, avoiding interviews (11). At its heart, it was the story of a boy and his stuffed tiger (12)."
   },
   "07-06": {
     category: "Bollywood",
