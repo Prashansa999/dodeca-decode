@@ -229,16 +229,16 @@ window.QUESTIONS = {
     explanation: "Bill Watterson's comic strip Calvin and Hobbes ran in over 2,000 newspapers at its peak (1) and signed off forever on 31 December 1995 with the line 'Let's go exploring' (2). Watterson, born on 5 July 1958, studied political science at Kenyon College (3), naming his two most famous characters after the philosophers John Calvin and Thomas Hobbes (4). He was fired from his first job as an editorial cartoonist at the Cincinnati Post (5) and spent four years in advertising (6) before the strip debuted in 1985 (7). He famously refused all merchandising (8), won cartooning's top honour, the Reuben Award, three times (9), fought his syndicate for the right to run larger Sunday panels (10), and is famously reclusive, avoiding interviews (11). At its heart, it was the story of a boy and his stuffed tiger (12)."
   },
   "07-06": {
-    category: "Bollywood",
-    year: 1985,
-    summary: "the Bollywood actor Ranveer Singh was born",
-    answers: ["Ranveer Singh", "Ranveer"],
+    category: "Musician",
+    year: 1957,
+    summary: "John Lennon met Paul McCartney",
+    answers: ["The Beatles", "Beatles"],
     tiles: [
-      "Born in 1985", "A Bollywood live-wire", "Married Deepika Padukone", "Debuted in 'Band Baaja Baaraat'",
-      "Played a fierce sultan", "'Apna Time Aayega'", "Bold, flamboyant fashion", "Played cricketer Kapil Dev",
-      "'Bajirao Mastani'", "High-energy on screen", "A Peshawari Khilji role", "Often paired with big dance numbers"
+      "A church garden fete, 1957", "Introduced by a mutual friend", "Forgot the words mid-song", "Fronted a skiffle group",
+      "Played 'Come Go With Me'", "Nailed 'Twenty Flight Rock'", "Also covered Gene Vincent", "Sealed the deal in a scout hut",
+      "Invited to join two weeks later", "Liverpool schoolboys", "John's new songwriting partner", "Became the best-selling band ever"
     ],
-    explanation: "Ranveer Singh was born on 6 July 1985 (1) and is one of Bollywood's most energetic stars (2). He is married to Deepika Padukone (3), debuted in 'Band Baaja Baaraat' (4), and played the menacing sultan Alauddin Khilji in 'Padmaavat' (5). His film 'Gully Boy' gave the anthem 'Apna Time Aayega' (6). He is known for bold, flamboyant fashion (7) and played cricketer Kapil Dev in '83' (8). He starred as the Peshwa in 'Bajirao Mastani' (9), brings huge energy to the screen (10), made the Khilji role unforgettable (11), and often headlines big dance numbers (12)."
+    explanation: "On 6 July 1957, John Lennon's skiffle group played a church garden fete at St Peter's, Woolton, Liverpool (1). A mutual friend, Ivan Vaughan, introduced Lennon to a schoolmate named Paul McCartney (2). Lennon had forgotten the words partway through a song and was making them up (3). His band, the Quarrymen, was a skiffle outfit (4), performing the Del-Vikings' 'Come Go With Me' (5) when McCartney arrived. McCartney then won Lennon over by nailing Eddie Cochran's 'Twenty Flight Rock' (6) and also covering Gene Vincent (7). The two met properly backstage in a scout hut (8), and two weeks later Lennon sent word inviting McCartney to join (9). Both were still Liverpool schoolboys at the time (10), and Lennon had found his songwriting partner (11). The band they went on to build, The Beatles, became the best-selling group in history (12)."
   },
   "07-07": {
     category: "Sport",
