@@ -277,28 +277,28 @@ window.QUESTIONS = {
     explanation: "Tom Hanks was born on 9 July 1956 (1). He ran across America as Forrest Gump (2), voiced the cowboy Woody in 'Toy Story' (3), and was stranded with a volleyball named Wilson in 'Cast Away' (4). He led the squad in 'Saving Private Ryan' (5), won back-to-back Best Actor Oscars for 'Philadelphia' and 'Forrest Gump' (6), and commanded the crew in 'Apollo 13' (7). He danced on a giant floor piano in 'Big' (8), is often called 'America's Dad' (9), delivered the 'box of chocolates' line (10), collects vintage typewriters (11), and starred in the courtroom drama 'Philadelphia' (12)."
   },
   "07-10": {
-    category: "Scientist",
-    year: 1856,
-    summary: "the inventor Nikola Tesla was born",
-    answers: ["Nikola Tesla", "Tesla"],
+    category: "Science",
+    year: 1962,
+    summary: "the Telstar satellite was launched into orbit",
+    answers: ["Telstar", "Telstar 1"],
     tiles: [
-      "Born in 1856", "Champion of alternating current", "A high-voltage coil bears his name", "Rivalry with Edison",
-      "The unfinished Wardenclyffe Tower", "A unit of magnetic flux", "Loved pigeons", "Helped harness Niagara Falls",
-      "Invented the induction motor", "Died poor in 1943", "Dreamed of wireless power", "Serbian-American genius"
+      "Launched by NASA, 10 July 1962", "First of its kind in orbit", "Relayed the first satellite phone call", "Later inspired a chart-topping instrumental",
+      "That song hit number one in the US", "First British group to top the US charts", "Beamed images of the Eiffel Tower", "And the Statue of Liberty",
+      "Watched by Cronkite and Huntley", "Disabled by a nuclear test's radiation", "Active for only seven months", "Opened the era of live global TV"
     ],
-    explanation: "Nikola Tesla was born on 10 July 1856 (1). He championed alternating current (2); the high-voltage 'Tesla coil' bears his name (3). He waged the 'War of Currents' rivalry with Thomas Edison (4), built the unfinished Wardenclyffe Tower (5), and is honoured by the unit of magnetic flux density (6). He famously loved pigeons (7), helped harness Niagara Falls for power (8), invented the AC induction motor (9), died poor in 1943 (10), dreamed of wireless power (11), and is remembered as a Serbian-American genius (12)."
+    explanation: "Telstar was launched by NASA on 10 July 1962 (1), the first active communications satellite of its kind (2). That same day it went on to relay the first satellite telephone call (3). The satellite later inspired 'Telstar', a chart-topping instrumental written in its honour (4), which hit number one in the US (5) and made the Tornados the first British group to top the American charts (6). Weeks later, Telstar's first public broadcast beamed live pictures of the Eiffel Tower (7) and the Statue of Liberty (8) across the Atlantic, watched by anchors Walter Cronkite and Chet Huntley (9). The satellite was disabled within months by radiation from a high-altitude nuclear test (10), remaining active for only seven months in total (11). It had opened the era of live global television (12)."
   },
   "07-11": {
     category: "Book",
-    year: 1899,
-    summary: "the author of Charlotte's Web was born",
-    answers: ["Charlotte's Web", "Charlottes Web", "E B White", "EB White", "E.B. White"],
+    year: 1960,
+    summary: "Harper Lee's To Kill a Mockingbird was published",
+    answers: ["To Kill a Mockingbird"],
     tiles: [
-      "Its author born in 1899", "A pig named Wilbur", "A clever spider", "Words spun in a web",
-      "'Some Pig'", "A girl named Fern", "Set on a farm", "A rat named Templeton",
-      "By a 'New Yorker' writer", "A beloved children's classic", "Saving a runt from slaughter", "Also wrote a style guide"
+      "Published on 11 July 1960", "Set in fictional Maycomb, Alabama", "Narrated by a young girl named Scout", "Her father is a principled lawyer",
+      "He defends a wrongly accused Black man", "Won the Pulitzer Prize for Fiction", "Sold over 40 million copies", "Its author grew up with Truman Capote",
+      "Adapted into an Oscar-winning film, 1962", "Gregory Peck won Best Actor for the father role", "The author published almost nothing else for decades", "A rare, disputed sequel appeared in 2015"
     ],
-    explanation: "Charlotte's Web was written by E.B. White, born on 11 July 1899 (1). It centres on a pig named Wilbur (2) and a clever spider (3) who spins words into her web (4), starting with 'Some Pig' (5). A girl named Fern saves Wilbur (6) on a farm (7), aided by a rat named Templeton (8). White was a 'New Yorker' writer (9); the book is a beloved children's classic (10) about saving a runt from slaughter (11), and he also co-wrote the style guide 'The Elements of Style' (12)."
+    explanation: "To Kill a Mockingbird was published on 11 July 1960 (1), set in the fictional town of Maycomb, Alabama (2). It is narrated by a young girl named Scout (3), whose father Atticus Finch is a principled small-town lawyer (4) who defends a Black man wrongly accused of rape (5). The novel won the Pulitzer Prize for Fiction in 1961 (6) and has sold more than 40 million copies worldwide (7). Its author, Harper Lee, grew up alongside her childhood friend Truman Capote (8). It was adapted into an Oscar-winning film in 1962 (9), with Gregory Peck winning Best Actor for his role as Atticus (10). Lee published almost nothing else for over fifty years (11), until a disputed early draft, 'Go Set a Watchman', appeared in 2015 (12)."
   },
   "07-12": {
     category: "Activist",
@@ -313,16 +313,16 @@ window.QUESTIONS = {
     explanation: "Malala Yousafzai was born on 12 July 1997 (1) in Pakistan's Swat Valley (2). She was shot on a school bus (3) by the Taliban (4) for championing girls' education (5). She became the youngest Nobel Peace laureate in 2014 (6), having blogged secretly for the BBC (7), and she survived a head wound (8). Her memoir is 'I Am Malala' (9); she has spoken at the United Nations (10), studied at Oxford (11), and runs the global Malala Fund (12)."
   },
   "07-13": {
-    category: "Entertainment",
-    year: 1942,
-    summary: "the actor Harrison Ford was born",
-    answers: ["Harrison Ford", "Ford"],
+    category: "Music",
+    year: 1985,
+    summary: "Live Aid was held at Wembley Stadium and JFK Stadium",
+    answers: ["Live Aid"],
     tiles: [
-      "Born in 1942", "Flew the Millennium Falcon", "A whip and a fedora", "Was once a carpenter",
-      "Played a replicant hunter", "A fear of snakes on screen", "The Fugitive on the run", "Piloted Air Force One",
-      "A scar on his chin", "An archaeologist hero", "Still doing action in his 80s", "Smuggler with a Wookiee friend"
+      "Held on 13 July 1985", "Two stadiums, one global broadcast", "London and Philadelphia", "Organised by an Irish rock star",
+      "Raised over $100 million", "For Ethiopian famine relief", "Watched by 1.9 billion people", "Queen stole the show",
+      "A 21-minute set for the ages", "One performer played both venues in a day", "He crossed the Atlantic by Concorde", "Followed an earlier charity single"
     ],
-    explanation: "Harrison Ford was born on 13 July 1942 (1). He flew the Millennium Falcon as Han Solo (2) and wielded a whip and fedora as Indiana Jones (3). Before fame he worked as a carpenter (4); he hunted replicants as Deckard in 'Blade Runner' (5), and his Indiana Jones famously fears snakes (6). He went on the run in 'The Fugitive' (7), piloted 'Air Force One' (8), bears a scar on his chin (9), played the archaeologist hero (10), still does action films in his 80s (11), and his smuggler Han Solo befriends the Wookiee Chewbacca (12)."
+    explanation: "Live Aid was held on 13 July 1985 (1), a single global broadcast from two stadiums at once (2): Wembley in London and JFK Stadium in Philadelphia (3). It was organised by Irish rocker Bob Geldof, along with Midge Ure (4), and raised more than $100 million (5) for famine relief in Ethiopia (6). An estimated 1.9 billion people watched worldwide (7). Queen stole the show that day (8) with a 21-minute set now regarded as one of the greatest live performances in rock history (9). Phil Collins famously played both venues in a single day (10), crossing the Atlantic by Concorde to do it (11). The concert followed Geldof's earlier charity single, 'Do They Know It's Christmas?' (12)."
   },
   "07-14": {
     category: "History",
@@ -337,16 +337,16 @@ window.QUESTIONS = {
     explanation: "Bastille Day marks 14 July 1789 (1), when a Paris fortress-prison (2) was stormed by a mob (3) hunting for gunpowder (4). The act sparked the French Revolution (5) and is now France's national day (6). Only seven prisoners were inside (7); the revolution's motto became 'Liberty, Equality, Fraternity' (8). It is celebrated with a military parade on the Champs-Elysees (9), the uprising was against King Louis XVI (10), it became a symbol of toppled tyranny (11), and fireworks light up Paris each year (12)."
   },
   "07-15": {
-    category: "Artist",
-    year: 1606,
-    summary: "the Dutch master Rembrandt was born",
-    answers: ["Rembrandt", "Rembrandt van Rijn"],
+    category: "Pop Culture",
+    year: 2006,
+    summary: "Twitter publicly launched",
+    answers: ["Twitter"],
     tiles: [
-      "Born in 1606", "A Dutch master", "'The Night Watch'", "Dozens of self-portraits",
-      "Dramatic light and shadow", "The Dutch Golden Age", "Worked in Amsterdam", "A skilled etcher",
-      "Went bankrupt late in life", "Painted an anatomy lesson", "Known by one name", "Rich browns and golds"
+      "Publicly launched on 15 July 2006", "Originally spelled without vowels", "Started with a 140-character limit", "Its first post came months earlier",
+      "That post joked about setting itself up", "Co-founded by Jack Dorsey", "Grew to over 300 million users", "A small blue bird became its icon",
+      "The character cap later doubled to 280", "Bought by a rocket and car magnate", "Renamed to a single letter in 2023", "Redefined how the world shares news"
     ],
-    explanation: "Rembrandt was born on 15 July 1606 (1), a Dutch master (2) famous for 'The Night Watch' (3) and dozens of self-portraits (4). He worked with dramatic light and shadow, chiaroscuro (5), at the height of the Dutch Golden Age (6), based in Amsterdam (7). He was also a skilled etcher (8), went bankrupt late in life (9), painted 'The Anatomy Lesson of Dr Tulp' (10), is known by a single name like a master (11), and favoured rich browns and golds (12)."
+    explanation: "It publicly launched on 15 July 2006 (1), originally spelled 'twttr', without vowels (2), launching with a 140-character limit on every post (3). Its very first post had actually gone out months earlier, in March 2006 (4), joking about setting up the service itself (5). It was co-founded by Jack Dorsey, along with Evan Williams and Biz Stone (6). The platform grew to over 300 million users within a decade (7), recognised everywhere by its small blue bird logo (8). The character limit was later doubled to 280 (9). It was bought in 2022 by Elon Musk, the entrepreneur behind Tesla and SpaceX (10), and renamed X in 2023 (11). Along the way, it redefined how the world shares breaking news in real time (12)."
   },
   "07-16": {
     category: "Bollywood",
@@ -373,16 +373,16 @@ window.QUESTIONS = {
     explanation: "Disneyland opened on 17 July 1955 (1) in Anaheim, California (2), built by Walt Disney (3) and billed as 'the happiest place on earth' (4). Its centrepiece is Sleeping Beauty Castle (5); its chaotic opening day was nicknamed 'Black Sunday' (6). Visitors enter down Main Street, U.S.A. (7), greeted by the mouse mascot Mickey (8). It features a snow-capped Matterhorn ride (9), an early monorail (10), lands like Tomorrowland and Fantasyland (11), and it was the first theme park of its kind (12)."
   },
   "07-18": {
-    category: "Bollywood",
-    year: 1982,
-    summary: "the actor Priyanka Chopra was born",
-    answers: ["Priyanka Chopra", "Priyanka", "Priyanka Chopra Jonas"],
+    category: "Sport",
+    year: 1976,
+    summary: "Nadia Comaneci scored the first perfect 10 in Olympic history",
+    answers: ["Nadia Comaneci", "Nadia Comăneci", "Comaneci"],
     tiles: [
-      "Born in 1982", "Crowned Miss World 2000", "Married Nick Jonas", "Starred in US show 'Quantico'",
-      "Played a boxer in 'Mary Kom'?", "'Desi Girl'", "Of 'Bajirao Mastani'", "A UNICEF ambassador",
-      "Bollywood to Hollywood", "A film producer too", "Sang English-language singles", "From Jamshedpur"
+      "Montreal Olympics, 18 July 1976", "Just 14 years old", "A Romanian gymnast", "Scored a flawless routine",
+      "On the uneven bars", "The judges had never needed this score before", "The scoreboard could only show three digits", "It flashed '1.00' by mistake",
+      "She earned six more that same Games", "Won three golds at Montreal", "Became gymnastics' youngest all-around champion", "Redefined what 'perfect' meant in sport"
     ],
-    explanation: "Priyanka Chopra was born on 18 July 1982 (1) and was crowned Miss World in 2000 (2). She married singer Nick Jonas (3) and starred in the US series 'Quantico' (4). A versatile actress (5), she featured in the song 'Desi Girl' (6) and played Kashibai in 'Bajirao Mastani' (7). She is a UNICEF Goodwill Ambassador (8), crossed from Bollywood to Hollywood (9), became a film producer (10), released English-language singles (11), and hails from Jamshedpur (12)."
+    explanation: "At the Montreal Olympics on 18 July 1976 (1), a 14-year-old (2) Romanian gymnast (3) delivered a flawless routine (4) on the uneven bars (5). The judges had never needed to award this score before (6): the scoreboard could only display three digits (7), so it flashed '1.00' instead of a perfect 10 (8). She went on to score six more perfect 10s at the same Games (9), winning three gold medals in Montreal (10) and becoming the youngest all-around Olympic gymnastics champion in history (11). Nadia Comaneci had redefined what 'perfect' meant in sport (12)."
   },
   "07-19": {
     category: "Indian History",
