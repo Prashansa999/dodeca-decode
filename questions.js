@@ -409,16 +409,16 @@ window.QUESTIONS = {
     explanation: "The first Moon landing came on 20 July 1969 (1) with Neil Armstrong's 'one small step' (2) during the Apollo 11 mission (3). The lander touched down in the Sea of Tranquility (4) before an estimated 650 million TV viewers (5). The flag was held out by a wire because there is no wind (6). Armstrong and Aldrin walked on the surface (7) after radioing 'The Eagle has landed' (8); their footprints remain undisturbed (9) while Michael Collins orbited above (10). The crew launched atop a Saturn V rocket (11), and Armstrong called it 'a giant leap for mankind' (12)."
   },
   "07-21": {
-    category: "Entertainment",
-    year: 1951,
-    summary: "the comedian Robin Williams was born",
-    answers: ["Robin Williams", "Robin Williams"],
+    category: "Book",
+    year: 2007,
+    summary: "Harry Potter and the Deathly Hallows was released",
+    answers: ["Harry Potter and the Deathly Hallows", "Deathly Hallows"],
     tiles: [
-      "Born in 1951", "A whirlwind stand-up", "Dressed as a nanny", "Voiced a big blue genie",
-      "'O Captain! My Captain!'", "Won an Oscar for 'Good Will Hunting'", "Alien 'Mork' on TV", "Trapped in 'Jumanji'",
-      "A doctor with a red nose", "Lightning-fast improv", "Beloved funnyman", "Died in 2014"
+      "Released on 21 July 2007", "The seventh and final book", "Midnight release parties worldwide", "12 million copies printed in the US alone",
+      "A cloak, a stone, and a wand", "Its title objects granted power over death", "An epilogue set 19 years later", "Written by a British author",
+      "Finale of a boy wizard's story", "His nemesis: a Dark Lord", "Set at a magical school", "Became one of the fastest-selling books ever"
     ],
-    explanation: "Robin Williams was born on 21 July 1951 (1), a whirlwind stand-up comedian (2). He dressed as a nanny in 'Mrs. Doubtfire' (3) and voiced the big blue Genie in 'Aladdin' (4). In 'Dead Poets Society' his students hailed 'O Captain! My Captain!' (5); he won an Oscar for 'Good Will Hunting' (6). He first found fame as the alien Mork on television (7), got trapped in the jungle of 'Jumanji' (8), and played the red-nosed doctor in 'Patch Adams' (9). Famous for lightning-fast improv (10), he was a beloved funnyman (11) who died in 2014 (12)."
+    explanation: "Harry Potter and the Deathly Hallows was released on 21 July 2007 (1), the seventh and final book in its series (2). Fans lined up at midnight release parties around the world (3), where 12 million copies were printed for the US market alone (4). Its title refers to a cloak, a stone, and a wand (5), three objects said to grant mastery over death (6). The book closes with an epilogue set nineteen years later (7). It was written by British author J.K. Rowling (8), bringing to a close the story of a boy wizard (9) locked in conflict with a Dark Lord (10), all set around a school of magic (11). It became one of the fastest-selling books in history (12)."
   },
   "07-22": {
     category: "Indian History",
@@ -433,40 +433,40 @@ window.QUESTIONS = {
     explanation: "The Indian national flag was adopted on 22 July 1947 (1). It has three bands of saffron, white and green (2) with a navy-blue wheel at its centre (3) that bears 24 spokes (4). It was based on a design by Pingali Venkayya (5) and replaced the earlier spinning-wheel emblem (6). By rule it is made only of khadi cloth (7), in a width-to-length ratio of 2 to 3 (8), and is hoisted at the Red Fort each Independence Day (9). The central wheel is the Ashoka Chakra (10); the design was approved by the Constituent Assembly (11) and consists of three horizontal bands (12)."
   },
   "07-23": {
-    category: "Indian History",
-    year: 1906,
-    summary: "the revolutionary Chandrashekhar Azad was born",
-    answers: ["Chandrashekhar Azad", "Chandra Shekhar Azad", "Azad"],
+    category: "Sport",
+    year: 1996,
+    summary: "Kerri Strug vaulted on an injured ankle to seal Olympic team gold",
+    answers: ["Kerri Strug", "Strug"],
     tiles: [
-      "Born in 1906", "An Indian revolutionary", "Vowed never to be captured", "Died in a 1931 shootout",
-      "At Alfred Park, Allahabad", "An associate of Bhagat Singh", "Led the H.S.R.A.", "A handlebar moustache",
-      "Took a surname meaning 'free'", "Linked to the Kakori raid", "Shot himself with his last bullet", "A martyr at 24"
+      "Atlanta Olympics, 23 July 1996", "Part of the 'Magnificent Seven'", "Her first vault ended in a fall", "She badly injured her ankle",
+      "Her coach urged her to go again", "She landed on one foot", "Then collapsed in pain", "Carried to the podium by her coach",
+      "Diagnosed with a torn ligament", "Scored 9.712 on that vault", "Her team won America's first gymnastics gold", "Later shown the vault wasn't even needed"
     ],
-    explanation: "Chandrashekhar Azad was born on 23 July 1906 (1), an Indian revolutionary (2) who vowed never to be captured alive (3). He died in a 1931 shootout (4) at Alfred Park in Allahabad (5), an associate of Bhagat Singh (6) and leader of the Hindustan Socialist Republican Association (7). He is remembered for his handlebar moustache (8) and for adopting a surname meaning 'free' (9). He was linked to the Kakori train raid (10), and, true to his vow, he shot himself with his last bullet (11), becoming a martyr at just 24 (12)."
+    explanation: "At the Atlanta Olympics on 23 July 1996 (1), a member of the American team nicknamed the 'Magnificent Seven' (2) fell on her first vault attempt (3), badly injuring her ankle (4). Her coach, Bela Karolyi, urged her to vault again (5). She landed her second attempt on one foot (6), saluted the judges, then collapsed in pain (7). Karolyi carried her to the medal podium (8); she was later diagnosed with a torn ligament (9). That vault scored 9.712 (10), sealing the United States' first-ever Olympic team gold in women's gymnastics (11). It later emerged the vault hadn't even been necessary for the gold (12)."
   },
   "07-24": {
-    category: "Aviation",
-    year: 1897,
-    summary: "the aviator Amelia Earhart was born",
-    answers: ["Amelia Earhart", "Earhart"],
+    category: "History",
+    year: 1911,
+    summary: "Hiram Bingham brought Machu Picchu to international attention",
+    answers: ["Machu Picchu"],
     tiles: [
-      "Born in 1897", "First woman to fly the Atlantic solo", "Vanished over the Pacific in 1937", "Flew a Lockheed Electra",
-      "Navigator Fred Noonan", "Bound for Howland Island", "From Kansas", "Nicknamed 'Lady Lindy'",
-      "A leather flying jacket", "A record-setting aviator", "A mystery never solved", "A pioneer for women in the sky"
+      "Reached on 24 July 1911", "Found by a Yale historian", "He was searching for a 'lost city'", "Guided there by a local farmer",
+      "A tough climb in cold, drizzly weather", "Local families already lived nearby", "An ancient Inca citadel", "Perched high in the Andes",
+      "Above a river valley in Peru", "Later dubbed one of the New Seven Wonders", "A UNESCO World Heritage Site", "Its finder inspired a fictional adventurer"
     ],
-    explanation: "Amelia Earhart was born on 24 July 1897 (1). She was the first woman to fly solo across the Atlantic (2) and vanished over the Pacific in 1937 (3) while flying a Lockheed Electra (4) with navigator Fred Noonan (5), bound for tiny Howland Island (6). She was from Kansas (7), nicknamed 'Lady Lindy' (8), and known for her leather flying jacket (9). A record-setting aviator (10), her disappearance is a mystery never solved (11), and she remains a pioneer for women in the sky (12)."
+    explanation: "On 24 July 1911 (1), American Yale historian Hiram Bingham (2), searching for the legendary 'lost city' of the Incas (3), was guided to the site by a local farmer (4). After a tough climb in cold, drizzly weather (5), he was shown the ruins by local families who already lived nearby (6). What he found was an ancient Inca citadel (7), perched high in the Andes (8) above Peru's Urubamba Valley (9). Machu Picchu was later named one of the New Seven Wonders of the World (10) and is a UNESCO World Heritage Site (11). Bingham's exploits are often said to have inspired the fictional adventurer Indiana Jones (12)."
   },
   "07-25": {
-    category: "Indian",
-    year: 1875,
-    summary: "the hunter-naturalist Jim Corbett was born",
-    answers: ["Jim Corbett", "Corbett", "Edward James Corbett"],
+    category: "Science",
+    year: 1978,
+    summary: "Louise Brown, the world's first IVF baby, was born",
+    answers: ["Louise Brown", "Louise Joy Brown"],
     tiles: [
-      "Born in Nainital, 1875", "Hunted man-eating tigers", "The Champawat tigress", "In the Kumaon hills",
-      "A national park bears his name", "Wrote 'Man-Eaters of Kumaon'", "Later a fierce conservationist", "A British-Indian hunter",
-      "The leopard of Rudraprayag", "Took up wildlife photography", "Park lies in Uttarakhand", "Turned protector of big cats"
+      "Born on 25 July 1978", "Delivered by caesarean section", "Weighed just under six pounds", "Her parents had tried for nine years",
+      "Her mother had blocked fallopian tubes", "Conceived in a laboratory dish", "Pioneered by three British scientists", "One later won a Nobel Prize",
+      "Media gave her a nickname involving glass", "Her conception took place in late 1977", "Considered one of the 20th century's great medical breakthroughs", "Millions of babies have since been born the same way"
     ],
-    explanation: "Jim Corbett was born in Nainital in 1875, on 25 July (1). He hunted man-eating tigers (2), most famously the Champawat tigress (3), in the Kumaon hills (4). India's oldest national park bears his name (5); he wrote 'Man-Eaters of Kumaon' (6) and later became a fierce conservationist (7). A British-Indian hunter (8), he also tracked the leopard of Rudraprayag (9), took up wildlife photography (10), and the park named after him lies in Uttarakhand (11). In time he turned from hunter into a protector of big cats (12)."
+    explanation: "Louise Brown was born on 25 July 1978 (1), delivered by caesarean section (2), weighing just under six pounds (3). Her parents had tried to conceive for nine years (4), unable to because of her mother's blocked fallopian tubes (5). She had been conceived in a laboratory dish (6), through a technique pioneered by three British scientists, Patrick Steptoe, Robert Edwards and Jean Purdy (7). Edwards later won a Nobel Prize for the breakthrough (8). The media nicknamed her a 'test-tube baby' (9); her conception had taken place in late 1977 (10). Her birth is remembered as one of the 20th century's great medical breakthroughs (11), and millions of babies have since been born through the same technique, in vitro fertilisation (12)."
   },
   "07-26": {
     category: "Indian History",
@@ -481,40 +481,88 @@ window.QUESTIONS = {
     explanation: "The Kargil War was a 1999 conflict (1) fought between India and Pakistan (2) high in the peaks of Ladakh (3). India's response was codenamed Operation Vijay (4); Tiger Hill was recaptured (5), and Captain Vikram Batra became a hero for his valour (6). Intruders had crossed the Line of Control (7), and victory was declared on 26 July, now Kargil Vijay Diwas (8). Fierce fighting raged in the Drass sector (9), Bofors artillery guns were used to great effect (10), and the brutal high-altitude war (11) is remembered alongside Batra's war cry 'Yeh Dil Maange More' (12)."
   },
   "07-27": {
-    category: "Indian Politics",
-    year: 2015,
-    summary: "former president APJ Abdul Kalam passed away",
-    answers: ["APJ Abdul Kalam", "Abdul Kalam", "Kalam", "A P J Abdul Kalam"],
+    category: "Pop Culture",
+    year: 1940,
+    summary: "Bugs Bunny made his official debut in 'A Wild Hare'",
+    answers: ["Bugs Bunny"],
     tiles: [
-      "Died on 27 July 2015", "India's 'Missile Man'", "The 11th President of India", "Worked at ISRO and DRDO",
-      "Born in Rameswaram", "Led work on Agni and Prithvi", "Awarded the Bharat Ratna", "Wrote 'Wings of Fire'",
-      "Called the 'People's President'", "Linked to Pokhran-II", "Collapsed while lecturing", "Loved teaching students"
+      "Debuted on 27 July 1940", "In a short titled 'A Wild Hare'", "Directed by Tex Avery", "Released by Warner Bros.",
+      "Part of the Merrie Melodies series", "First time he truly looked like himself", "First time he truly sounded like himself", "Shared the screen with a bumbling hunter",
+      "That hunter struggles with his Rs", "First said his signature greeting here", "Famous for snacking on a carrot, unbothered", "Became one of animation's most iconic characters"
     ],
-    explanation: "A.P.J. Abdul Kalam died on 27 July 2015 (1). Known as India's 'Missile Man' (2), he served as the 11th President of India (3) after a career at ISRO and DRDO (4). He was born in Rameswaram (5), led work on the Agni and Prithvi missiles (6), and was awarded the Bharat Ratna (7). He wrote the autobiography 'Wings of Fire' (8), was called the 'People's President' (9), and was a key figure behind the 1998 Pokhran-II nuclear tests (10). He collapsed while delivering a lecture in Shillong (11) and was devoted to teaching students (12)."
+    explanation: "He debuted on 27 July 1940 (1) in a short titled 'A Wild Hare' (2), directed by Tex Avery (3) and released by Warner Bros. (4) as part of the Merrie Melodies series (5). It was the first time he truly looked like himself (6) and the first time he truly sounded like himself (7), sharing the screen with a bumbling hunter (8) who famously struggles to pronounce his Rs (9). This was the first short in which he uttered his signature greeting (10), delivered with a carrot in hand and total nonchalance (11). Bugs Bunny had become one of animation's most iconic characters (12)."
   },
   "07-28": {
-    category: "Author",
-    year: 1866,
-    summary: "the author Beatrix Potter was born",
-    answers: ["Beatrix Potter", "Potter"],
+    category: "History",
+    year: 1914,
+    summary: "Austria-Hungary declared war on Serbia, starting World War I",
+    answers: ["World War I", "First World War", "WWI", "World War 1"],
     tiles: [
-      "Born in 1866", "Created a mischievous rabbit", "Mr McGregor's garden", "Set in England's Lake District",
-      "Also studied fungi", "Self-published her first tale", "Jemima Puddle-Duck", "Small books for small hands",
-      "Both author and illustrator", "Flopsy, Mopsy and Cottontail", "Left land to the National Trust", "A blue-jacketed bunny"
+      "Declared on 28 July 1914", "One month after an assassination", "A Habsburg heir was the victim", "Shot in Sarajevo by a young nationalist",
+      "An ultimatum was issued five days earlier", "Nearly every demand was accepted", "Except for one sticking point", "Austria-Hungary struck first",
+      "Russia mobilized in response", "Germany then declared war on Russia", "France and Germany followed days later", "A regional dispute became a world war"
     ],
-    explanation: "Beatrix Potter was born on 28 July 1866 (1). She created the mischievous Peter Rabbit (2), who raids Mr McGregor's garden (3), in stories set near England's Lake District (4). She was also a keen student of fungi (5) and self-published her first tale (6). Her characters include Jemima Puddle-Duck (7); she made small books sized for small hands (8) and was both author and illustrator (9). Peter's siblings are Flopsy, Mopsy and Cottontail (10); she left much of her land to the National Trust (11), and her most famous creation is a bunny in a little blue jacket (12)."
+    explanation: "It was declared on 28 July 1914 (1), one month after an assassination (2). The victim was the heir to the Austro-Hungarian throne (3), shot in Sarajevo by a young Bosnian Serb nationalist (4). Austria-Hungary had issued Serbia an ultimatum five days earlier (5); Serbia accepted nearly every demand (6) except for one sticking point (7), and Austria-Hungary declared war regardless (8). Russia mobilized its army in response (9), prompting Germany to declare war on Russia (10), with France and Germany following each other into war days later (11). A regional dispute in the Balkans had become the First World War (12)."
+  },
+  "07-29": {
+    category: "Science",
+    year: 1958,
+    summary: "NASA was created when Eisenhower signed the Space Act",
+    answers: ["NASA", "National Aeronautics and Space Administration"],
+    tiles: [
+      "Created on 29 July 1958", "Signed into law by a US president", "A response to a Soviet satellite", "That satellite launched the previous October",
+      "Replaced an earlier aeronautics committee", "Opened for business two months later", "Would go on to run three famous space programs", "One landed humans on the Moon",
+      "Headquartered in Washington, D.C.", "Now involved in Mars rover missions", "Operates the International Space Station program", "Now developing a Moon-return program named Artemis"
+    ],
+    explanation: "It was created on 29 July 1958 (1), signed into law by President Eisenhower (2), largely in response to a Soviet satellite (3) launched the previous October, Sputnik (4). The new agency replaced an earlier aeronautics committee (5) and opened for business two months later, that October (6). It would go on to run three famous programs, Mercury, Gemini and Apollo (7), the last of which landed humans on the Moon (8). Headquartered in Washington, D.C. (9), it is now involved in Mars rover missions (10) and operates America's side of the International Space Station programme (11), and is now developing Artemis, a programme to return astronauts to the Moon (12)."
+  },
+  "07-30": {
+    category: "Sport",
+    year: 1966,
+    summary: "England won the World Cup, beating West Germany at Wembley",
+    answers: ["1966 World Cup", "1966 FIFA World Cup", "England 1966 World Cup"],
+    tiles: [
+      "Played on 30 July 1966", "At Wembley Stadium", "England's opponents wore white", "The game went to extra time",
+      "One striker scored a hat-trick", "His second goal is still disputed", "Commentators debated if it crossed the line", "A famous commentary line marked the finish",
+      "That quote mentioned people running onto the pitch", "Final score: 4-2", "Lifted the Jules Rimet Trophy", "Remains the host nation's only title"
+    ],
+    explanation: "It was played on 30 July 1966 (1) at Wembley Stadium (2), England against West Germany, who wore white that day (3). The match went to extra time (4), where England's Geoff Hurst scored a hat-trick (5), his second goal still disputed to this day (6) over whether the ball had crossed the line (7). As the game ended, commentator Kenneth Wolstenholme delivered a famous line (8), noting that some fans thought it was all over and were already running onto the pitch (9). England won 4-2 (10), lifting the Jules Rimet Trophy (11). It remains the only World Cup England has ever won (12)."
   },
   "07-31": {
-    category: "Author",
-    year: 1965,
-    summary: "the author JK Rowling was born",
-    answers: ["JK Rowling", "J K Rowling", "Joanne Rowling", "Rowling"],
+    category: "Science",
+    year: 1971,
+    summary: "astronauts first drove the Lunar Roving Vehicle on the Moon",
+    answers: ["Lunar Roving Vehicle", "Lunar Rover", "Moon Buggy"],
     tiles: [
-      "Born in 1965", "Created a boy wizard", "Idea on a delayed train", "Rejected by 12 publishers",
-      "Wrote in Edinburgh cafés", "A school called Hogwarts", "Pen name Robert Galbraith", "Shares her hero's birthday",
-      "First book in 1997", "A lightning-bolt scar", "Published by Bloomsbury", "Once a billionaire author"
+      "First driven on 31 July 1971", "Part of the Apollo 15 mission", "Battery-powered, four wheels", "Folded flat for the journey there",
+      "Driven by two astronauts", "Extended how far crews could explore", "Top speed of about 8 miles per hour", "Nicknamed a 'buggy'",
+      "Built by an aerospace and a car company", "Two more were used on later missions", "All three left behind on the surface", "The first car ever driven on another world"
     ],
-    explanation: "J.K. Rowling was born on 31 July 1965 (1) and created a boy wizard (2). The idea came to her on a delayed train from Manchester to London (3); the manuscript was rejected by about a dozen publishers (4) and much of it was written in Edinburgh cafés (5). Her wizarding school is Hogwarts (6); she writes crime novels under the pen name Robert Galbraith (7). Her hero Harry Potter shares her 31 July birthday (8). The first book appeared in 1997 (9); the hero bears a lightning-bolt scar (10). Bloomsbury published her (11), and her success briefly made her a billionaire author (12)."
+    explanation: "It was first driven on 31 July 1971 (1), during the Apollo 15 mission (2). Battery-powered and four-wheeled (3), it had to be folded flat for the journey there (4). Astronauts David Scott and James Irwin drove it (5), vastly extending how far a crew could explore beyond their landing site (6). It had a top speed of about 8 miles per hour (7) and was nicknamed a 'moon buggy' (8), built jointly by an aerospace company and a carmaker (9). Two more were used on the Apollo 16 and 17 missions (10), and all three were left behind on the lunar surface (11). It remains the first car ever driven on another world (12)."
+  },
+  "08-01": {
+    category: "Pop Culture",
+    year: 1981,
+    summary: "MTV launched with the video for 'Video Killed the Radio Star'",
+    answers: ["MTV", "Music Television"],
+    tiles: [
+      "Launched at 12:01 a.m., 1 August 1981", "Its opening words declared 'rock and roll'", "First video featured a British duo", "That song's title predicted its own takeover",
+      "The song had barely charted in the US before", "Yet topped the charts in the UK and Australia", "Its debut logo showed an astronaut", "Planting a flag on the Moon",
+      "Changed how artists promoted new music", "Made stars of its on-air hosts", "Its name is short for a TV network format", "Became shorthand for an entire pop-culture era"
+    ],
+    explanation: "It launched at 12:01 a.m. on 1 August 1981 (1), its opening words declaring 'Ladies and gentlemen, rock and roll' (2). The first video played featured a British duo, the Buggles (3), whose song's title predicted its own medium's takeover: 'Video Killed the Radio Star' (4). That song had barely charted in the US before (5), though it had topped the charts in the UK and Australia (6). The channel's debut logo showed an astronaut (7) planting a flag on the Moon (8). It changed how artists promoted new music forever (9), making stars of its own on-air hosts (10). Its name is short for a television network built around music (11), and it became shorthand for an entire era of pop culture (12)."
+  },
+  "08-02": {
+    category: "Science",
+    year: 1939,
+    summary: "Einstein signed a letter warning Roosevelt about atomic weapons",
+    answers: ["Einstein-Szilard Letter", "The Einstein-Szilard Letter"],
+    tiles: [
+      "Signed on 2 August 1939", "Addressed to a sitting US president", "Wrote mostly by a Hungarian physicist", "That physicist consulted two colleagues",
+      "Signed by the world's most famous scientist", "Warned of a rival nation's secret weapons program", "That nation had just invaded Poland weeks later", "Urged the government to stockpile a key mineral",
+      "Took over two months to reach its recipient", "Delivered in person by an economist", "Directly led to a top-secret weapons project", "Its signer later expressed deep regret"
+    ],
+    explanation: "It was signed on 2 August 1939 (1), addressed to a sitting US president, Franklin D. Roosevelt (2). It was written mostly by the Hungarian physicist Leo Szilard (3), who had consulted two fellow physicists, Edward Teller and Eugene Wigner (4), before it was signed by the world's most famous scientist, Albert Einstein (5). The letter warned that Nazi Germany might be secretly developing atomic weapons (6), a nation that would invade Poland within weeks (7), and urged the US government to stockpile uranium (8). It took over two months to actually reach the President (9), finally delivered in person by economist Alexander Sachs (10). It directly led to the top-secret Manhattan Project (11), and Einstein later expressed deep regret over signing it (12)."
   },
   "08-16": {
     category: "Musician",
