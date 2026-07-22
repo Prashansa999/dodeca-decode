@@ -564,6 +564,102 @@ window.QUESTIONS = {
     ],
     explanation: "It was signed on 2 August 1939 (1), addressed to a sitting US president, Franklin D. Roosevelt (2). It was written mostly by the Hungarian physicist Leo Szilard (3), who had consulted two fellow physicists, Edward Teller and Eugene Wigner (4), before it was signed by the world's most famous scientist, Albert Einstein (5). The letter warned that Nazi Germany might be secretly developing atomic weapons (6), a nation that would invade Poland within weeks (7), and urged the US government to stockpile uranium (8). It took over two months to actually reach the President (9), finally delivered in person by economist Alexander Sachs (10). It directly led to the top-secret Manhattan Project (11), and Einstein later expressed deep regret over signing it (12)."
   },
+  "08-03": {
+    category: "History",
+    year: 1492,
+    summary: "Christopher Columbus set sail on his first voyage west",
+    answers: ["Christopher Columbus", "Columbus"],
+    tiles: [
+      "Set sail on 3 August 1492", "Departed the port of Palos, Spain", "Commanded three small ships", "Named the Nina, the Pinta, and the Santa Maria",
+      "About 90 sailors aboard", "Financed by the Spanish crown", "Aiming to reach Asia by sailing west", "First stopped at the Canary Islands",
+      "Picked up the trade winds there", "Land sighted on 12 October", "Believed he'd reached the East Indies", "Never knew he'd found a New World"
+    ],
+    explanation: "He set sail on 3 August 1492 (1), departing the Spanish port of Palos (2). He commanded three small ships (3), the Nina, the Pinta and the Santa Maria (4), carrying about ninety sailors (5), financed by the Spanish crown (6). His goal was to reach Asia by sailing west (7). The fleet first stopped at the Canary Islands (8) to pick up the trade winds (9). Land was sighted on 12 October (10); he believed he had reached the East Indies (11), never realizing in his lifetime that he had found a New World (12)."
+  },
+  "08-04": {
+    category: "Science",
+    year: 2007,
+    summary: "NASA's Phoenix Mars Lander launched toward the Red Planet",
+    answers: ["Phoenix Mars Lander", "Phoenix Lander"],
+    tiles: [
+      "Launched on 4 August 2007", "Lifted off from Cape Canaveral", "Carried atop a Delta II rocket", "Bound for Mars's arctic plains",
+      "A NASA robotic mission", "Took about ten months to arrive", "Landed the following May", "Used a parachute and thrusters, not airbags",
+      "Dug into Martian soil with a robotic arm", "Confirmed water ice just below the surface", "Named after a mythical bird reborn from ashes", "Its mission ended after Martian winter set in"
+    ],
+    explanation: "It launched on 4 August 2007 (1), lifting off from Cape Canaveral (2) atop a Delta II rocket (3), bound for Mars's arctic plains (4). It was a NASA robotic mission (5) that took about ten months to arrive (6), landing the following May (7). Unlike earlier rovers, it touched down using a parachute and thrusters rather than airbags (8), then dug into the Martian soil with a robotic arm (9), confirming water ice just below the surface (10). It was named after the mythical bird reborn from its own ashes (11), and its mission ended after the harsh Martian winter set in (12)."
+  },
+  "08-05": {
+    category: "Science",
+    year: 1858,
+    summary: "the first transatlantic telegraph cable was completed",
+    answers: ["Transatlantic Telegraph Cable", "First Transatlantic Telegraph Cable"],
+    tiles: [
+      "Completed on 5 August 1858", "Stretched nearly 2,000 miles", "Laid across the ocean floor", "Championed by an American merchant",
+      "Followed four earlier failed attempts", "Connected Ireland and Newfoundland", "Ran often two miles deep", "Formally opened later that month",
+      "Carried a royal greeting to a US president", "Signal weakened within weeks", "Overpowered voltage destroyed it", "Had worked for only about three weeks"
+    ],
+    explanation: "It was completed on 5 August 1858 (1), stretching nearly 2,000 miles (2), laid across the ocean floor (3). It was championed by American merchant Cyrus West Field (4), after four earlier failed attempts (5), and connected Ireland to Newfoundland (6), running at depths often over two miles (7). It was formally opened later that month (8), when Queen Victoria sent a greeting to the US president (9). But its signal weakened within weeks (10); overpowered voltage ultimately destroyed the cable (11), which had worked for only about three weeks in total (12)."
+  },
+  "08-06": {
+    category: "Science",
+    year: 1991,
+    summary: "the World Wide Web became publicly available",
+    answers: ["World Wide Web", "The Web", "WWW"],
+    tiles: [
+      "Made public on 6 August 1991", "Announced through an internet newsgroup post", "Its creator worked at a Swiss physics lab", "He was British",
+      "Built using hypertext, a concept already known", "Used addresses starting with a now-familiar prefix", "Also relied on a request-and-response protocol", "First proposed in a 1989 document",
+      "Ran on the world's very first server", "Its inventor was later knighted", "Reshaped how people used the internet", "Now reaches billions of people every day"
+    ],
+    explanation: "It was made public on 6 August 1991 (1), announced through a post to an internet newsgroup (2). Its creator, Tim Berners-Lee, worked at CERN, a physics lab in Switzerland (3); he was British (4). It was built using hypertext, a concept already known before him (5), and introduced addresses starting with a now-familiar prefix (6), relying on a request-and-response protocol he also devised (7). He had first proposed the idea in a 1989 document (8), and it ran on the world's very first server (9). Its inventor was later knighted for the work (10), reshaping how people used the internet (11); it now reaches billions of people every single day (12)."
+  },
+  "08-07": {
+    category: "History",
+    year: 1974,
+    summary: "Philippe Petit walked a tightrope between the Twin Towers",
+    answers: ["Philippe Petit", "Petit"],
+    tiles: [
+      "Performed on 7 August 1974", "A French high-wire artist", "Strung a cable between two towers", "The towers stood 1,350 feet tall",
+      "Rigged the wire secretly overnight", "Walked without a safety net", "Made eight passes along the wire", "Performance lasted about 45 minutes",
+      "Police waited on both rooftops", "Arrested the moment he stepped off", "Charges were later dropped", "Later performed a free show for children"
+    ],
+    explanation: "He performed on 7 August 1974 (1), a French high-wire artist (2) who strung a cable between two towers (3) standing 1,350 feet above the ground (4). He and his team rigged the wire secretly overnight (5), and he walked without a safety net (6), making eight passes along the wire (7) in a performance lasting about 45 minutes (8). Police waited for him on both rooftops (9) and arrested him the moment he stepped off (10). The charges were later dropped (11), and he agreed to perform a free high-wire show for children in Central Park (12)."
+  },
+  "08-08": {
+    category: "History",
+    year: 1974,
+    summary: "Richard Nixon announced he would resign the presidency",
+    answers: ["Richard Nixon", "Nixon"],
+    tiles: [
+      "Addressed the nation on 8 August 1974", "Spoke from the Oval Office", "A president facing impeachment", "His resignation tied to a break-in cover-up",
+      "That break-in occurred at a hotel-office complex", "Said resigning felt 'abhorrent' to him", "Announced he'd step down the next day", "Effective at noon on 9 August",
+      "His vice president would take over", "First US president to resign", "Speech lasted about sixteen minutes", "Left the White House by helicopter the next day"
+    ],
+    explanation: "He addressed the nation on 8 August 1974 (1), speaking from the Oval Office (2). He was a president facing impeachment (3), his fate tied to the cover-up of a break-in (4) at the Watergate hotel-office complex (5). He said leaving office before his term was up felt 'abhorrent' to him (6), yet announced he would step down the very next day (7), effective at noon on 9 August (8), when his vice president would be sworn in (9). He became the first US president ever to resign (10); the speech lasted about sixteen minutes (11), and he left the White House by helicopter the following day (12)."
+  },
+  "08-09": {
+    category: "History",
+    year: 1173,
+    summary: "construction began on the Leaning Tower of Pisa",
+    answers: ["Leaning Tower of Pisa", "Tower of Pisa"],
+    tiles: [
+      "Foundations laid on 9 August 1173", "Meant as a cathedral's bell tower", "Built in a city in Tuscany, Italy", "Sits in the 'Field of Miracles'",
+      "Soil beneath it was soft and unstable", "Began tilting during construction itself", "Work paused for nearly a century", "That pause may have saved it from collapse",
+      "Took about 200 years to finish", "Stands almost eight stories tall", "Famous for a supposed gravity experiment", "Straightened slightly by 20th-century engineers"
+    ],
+    explanation: "Its foundations were laid on 9 August 1173 (1), meant to serve as a cathedral's bell tower (2), built in Pisa, a city in Tuscany, Italy (3), within a square known as the Field of Miracles (4). The soil beneath it was soft and unstable (5), and it began tilting even during construction (6). Work paused for nearly a century amid regional wars (7), a pause some historians think let the soil settle and saved it from collapse (8). It took about 200 years to finish altogether (9) and stands almost eight stories tall (10). It's famous for a supposed gravity experiment attributed to Galileo (11), and was straightened slightly by engineers in the late 20th century (12)."
+  },
+  "08-10": {
+    category: "History",
+    year: 1519,
+    summary: "Ferdinand Magellan's fleet departed Seville to begin circling the globe",
+    answers: ["Ferdinand Magellan", "Magellan"],
+    tiles: [
+      "Departed Seville on 10 August 1519", "A Portuguese explorer, sailing for Spain", "Commanded a fleet of five ships", "Around 270 men set out",
+      "Sailed down a river to the coast first", "True ocean voyage began weeks later", "Aimed to reach the Spice Islands westward", "Discovered a stormy strait near South America's tip",
+      "Was killed partway through, in the Philippines", "Only one ship completed the journey", "That ship returned three years later", "First fleet to circle the entire globe"
+    ],
+    explanation: "The fleet departed Seville on 10 August 1519 (1), led by a Portuguese explorer sailing for the Spanish crown (2), commanding five ships (3) with around 270 men aboard (4). They first sailed down the Guadalquivir River to the coast (5); the true ocean voyage began weeks later that September (6). The goal was to reach the Spice Islands by sailing west (7), and along the way the expedition found a stormy strait near the tip of South America (8). Its commander was killed partway through, in the Philippines (9), and only one of the five ships completed the journey (10), returning three years after setting out (11) as the first fleet ever to circle the entire globe (12)."
+  },
   "08-16": {
     category: "Musician",
     year: 1958,
