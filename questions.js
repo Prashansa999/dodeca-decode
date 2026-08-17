@@ -660,41 +660,365 @@ window.QUESTIONS = {
     ],
     explanation: "The fleet departed Seville on 10 August 1519 (1), led by a Portuguese explorer sailing for the Spanish crown (2), commanding five ships (3) with around 270 men aboard (4). They first sailed down the Guadalquivir River to the coast (5); the true ocean voyage began weeks later that September (6). The goal was to reach the Spice Islands by sailing west (7), and along the way the expedition found a stormy strait near the tip of South America (8). Its commander was killed partway through, in the Philippines (9), and only one of the five ships completed the journey (10), returning three years after setting out (11) as the first fleet ever to circle the entire globe (12)."
   },
-  "08-16": {
-    category: "Musician",
-    year: 1958,
-    summary: "the pop icon Madonna was born",
-    answers: ["Madonna", "Madonna Ciccone"],
+  "08-11": {
+    category: "Science",
+    year: 1999,
+    summary: "a total solar eclipse crossed Europe, the last of the millennium",
+    answers: ["Total Solar Eclipse", "1999 Total Solar Eclipse"],
     tiles: [
-      "Born in 1958", "Crowned 'Queen of Pop'", "'Like a Virgin'", "'Vogue'",
-      "A famous cone bra", "From Michigan", "Reinvention after reinvention", "'Material Girl'",
-      "Wed Sean Penn, then Guy Ritchie", "A 1989 'Prayer' controversy", "Named after her mother", "Best-selling female artist"
+      "Occurred on 11 August 1999", "The Moon's shadow swept across Europe", "Passed over Cornwall, England first", "Then crossed France and Central Europe",
+      "Continued through the Middle East", "Ended over the Bay of Bengal at sunset", "Daytime skies briefly turned dark", "Crowds gathered wearing protective glasses",
+      "Traffic jams clogged roads along its path", "Birds fell silent as temperatures dropped", "The last one visible from Europe that century", "Wouldn't be matched again there for decades"
     ],
-    explanation: "Madonna was born on 16 August 1958 (1) and is crowned the 'Queen of Pop' (2). Her hits include 'Like a Virgin' (3) and 'Vogue' (4); Jean Paul Gaultier gave her the famous cone bra (5). She grew up in Michigan (6) and is known for constant reinvention (7). She is the 'Material Girl' (8), was married to Sean Penn and later Guy Ritchie (9), and stirred controversy with 1989's 'Like a Prayer' (10). She was named after her mother (11) and is the best-selling female recording artist of all time (12)."
+    explanation: "It occurred on 11 August 1999 (1), as the Moon's shadow swept across Europe (2), passing first over Cornwall, England (3), then crossing France and Central Europe (4), continuing through the Middle East (5) before ending over the Bay of Bengal at sunset (6). Daytime skies briefly turned dark along its path (7), and crowds gathered wearing protective glasses to watch (8), causing traffic jams on roads beneath its route (9). Birds reportedly fell silent as temperatures dropped (10). It was the last one visible from Europe in the 20th century (11), and Europe wouldn't see one to match it again for decades (12)."
+  },
+  "08-12": {
+    category: "Science",
+    year: 1981,
+    summary: "IBM launched its first personal computer",
+    answers: ["IBM PC", "IBM Personal Computer", "IBM 5150"],
+    tiles: [
+      "Unveiled on 12 August 1981", "Revealed at a New York hotel", "Built by a computer giant already known for mainframes", "Powered by a 4.77 MHz Intel processor",
+      "Started with just 16 kilobytes of memory", "Priced from around $1,565", "Included a spreadsheet program in the box", "Developed by a small team in about a year",
+      "Used an operating system from a young Seattle company", "Its floppy disk drive was a selling point", "Helped standardize desktop computing for decades", "Its architecture is still echoed in machines today"
+    ],
+    explanation: "It was unveiled on 12 August 1981 (1), revealed at a hotel in New York (2). It was built by a computer giant already known for mainframes (3), powered by a 4.77 MHz Intel processor (4), and started with just 16 kilobytes of memory (5), priced from around $1,565 (6). It shipped with a spreadsheet program included (7), developed by a small team in about a year (8), running an operating system licensed from a young company in Seattle (9). Its floppy disk drive was a notable selling point (10), and it helped standardize desktop computing for decades to come (11); its basic architecture is still echoed in machines today (12)."
+  },
+  "08-13": {
+    category: "Sport",
+    year: 2004,
+    summary: "the opening ceremony of the Athens Olympics dazzled the world",
+    answers: ["2004 Athens Olympics", "Athens Olympics", "2004 Summer Olympics"],
+    tiles: [
+      "Held on 13 August 2004", "Staged in the country that invented the Games", "Held at a stadium in Maroussi", "About 10,000 athletes marched in",
+      "Representing 202 nations", "Watched by roughly 70,000 spectators live", "Fireworks lit the night sky", "A giant water-covered floor centered the show",
+      "Traced Greek history from myth to modern times", "A cauldron was lit to begin the Games", "Games returned to their birthplace after over a century", "Marked the first Games held there since 1896"
+    ],
+    explanation: "It was held on 13 August 2004 (1), staged in the country that invented the ancient Games (2), at a stadium in Maroussi (3). About 10,000 athletes marched in (4), representing 202 nations (5), watched by roughly 70,000 spectators live (6) as fireworks lit the night sky (7). A giant water-covered floor centered much of the show (8), tracing Greek history from myth to modern times (9), before a cauldron was lit to officially begin the Games (10). It marked the modern Games' return to their birthplace after more than a century (11), the first time they had been held there since 1896 (12)."
+  },
+  "08-14": {
+    category: "History",
+    year: 1947,
+    summary: "Pakistan became an independent nation",
+    answers: ["Pakistan's Independence", "Pakistan Independence Day", "Independence of Pakistan"],
+    tiles: [
+      "Became independent on 14 August 1947", "Carved from British-ruled India", "Formed through a subcontinent's partition", "Its first Governor-General took office",
+      "Emerged as a new dominion within the Commonwealth", "Announced from London just before midnight", "Its neighbor gained independence hours later", "Border lines were drawn by a British lawyer",
+      "Sparked one of history's largest migrations", "Split into two wings, separated by a rival nation", "Later split further in 1971", "Celebrated annually with a national holiday"
+    ],
+    explanation: "It became independent on 14 August 1947 (1), carved out of British-ruled India (2) through the subcontinent's partition (3). Its first Governor-General took office that day (4), as it emerged as a new dominion within the Commonwealth (5), its independence announced from London just before midnight (6). Its neighbor gained independence hours later (7); the new border lines had been drawn by a British lawyer who had never visited the region (8), a division that sparked one of history's largest migrations (9). The country was initially split into two wings, separated by a rival nation between them (10), before splitting further in 1971 (11). It is celebrated annually with a national holiday on this date (12)."
+  },
+  "08-15": {
+    category: "Indian History",
+    year: 1947,
+    summary: "India became an independent nation",
+    answers: ["India's Independence", "Indian Independence Day", "Independence of India"],
+    tiles: [
+      "Became independent on 15 August 1947", "Freed from nearly two centuries of British rule", "Its first Prime Minister took the oath that day", "He delivered a 'Tryst with Destiny' speech",
+      "Independence arrived at the stroke of midnight", "Came hand-in-hand with a painful partition", "A new flag was raised over the Red Fort", "Its neighbor had gained independence hours earlier",
+      "Nehru addressed the new nation's Constituent Assembly", "Millions were displaced across new borders", "Became the world's largest democracy", "Celebrated every year as a national holiday"
+    ],
+    explanation: "It became independent on 15 August 1947 (1), freed from nearly two centuries of British rule (2). Its first Prime Minister, Jawaharlal Nehru, took the oath of office that day (3), delivering his famous 'Tryst with Destiny' speech (4) as independence arrived at the stroke of midnight (5). It came hand-in-hand with a painful partition (6), and a new flag was raised over the Red Fort (7). Its neighbor, Pakistan, had gained independence hours earlier (8); Nehru addressed the new nation's Constituent Assembly (9) as millions were displaced across new borders (10). It went on to become the world's largest democracy (11), and the day is celebrated every year as a national holiday (12)."
+  },
+  "08-16": {
+    category: "Music",
+    year: 1977,
+    summary: "the King of Rock and Roll, Elvis Presley, died at his Memphis mansion",
+    answers: ["Elvis Presley", "Elvis", "The King of Rock and Roll"],
+    tiles: [
+      "Died on 16 August 1977", "Found unresponsive in his Memphis home", "His mansion is now a museum", "Was just 42 years old",
+      "Cause listed as a heart-related condition", "Long linked to prescription drug use", "Known as a king of a music genre", "Famous for his swiveling hips",
+      "Starred in over 30 films", "His breakout hit was 'Heartbreak Hotel'", "Thousands gathered outside his gates in grief", "Fans still mark the date every year"
+    ],
+    explanation: "He died on 16 August 1977 (1), found unresponsive in his Memphis home (2), a mansion that is now a museum (3). He was just 42 years old (4); the cause was listed as a heart-related condition (5), long linked to his use of prescription drugs (6). Known as the King of Rock and Roll (7), he was famous for his swiveling hips on stage (8) and starred in more than 30 films (9). His breakout hit was 'Heartbreak Hotel' (10). Thousands gathered outside his gates in grief (11), and fans still mark the date every year at his mansion (12)."
+  },
+  "08-17": {
+    category: "Science",
+    year: 1978,
+    summary: "the Double Eagle II completed the first transatlantic balloon crossing",
+    answers: ["Double Eagle II", "First Transatlantic Balloon Crossing"],
+    tiles: [
+      "Landed on 17 August 1978", "Touched down in a French wheat field", "Its journey took just under six days", "Lifted off from Presque Isle, Maine",
+      "Carried three men from New Mexico", "Stood 112 feet tall, helium-filled", "Covered roughly 3,100 miles", "First aircraft of its kind to cross an ocean successfully",
+      "Earlier attempts had ended in failure or tragedy", "Crew battled ice and freezing temperatures", "Landed about 60 miles from Paris", "Its gondola now sits in a Washington museum"
+    ],
+    explanation: "It landed on 17 August 1978 (1), touching down in a French wheat field (2) after a journey of just under six days (3). It had lifted off from Presque Isle, Maine (4), carrying three men from New Mexico (5), inside a helium-filled balloon standing 112 feet tall (6). It covered roughly 3,100 miles (7), the first balloon to cross the Atlantic Ocean successfully (8), after earlier attempts had ended in failure or tragedy (9). The crew battled ice and freezing temperatures along the way (10), landing about 60 miles from Paris (11); its gondola now sits in a Washington museum (12)."
+  },
+  "08-18": {
+    category: "History",
+    year: 1920,
+    summary: "the 19th Amendment was ratified, guaranteeing American women the right to vote",
+    answers: ["19th Amendment", "Nineteenth Amendment"],
+    tiles: [
+      "Ratified on 18 August 1920", "Needed one more state to succeed", "That state was Tennessee", "A 24-year-old lawmaker cast the deciding vote",
+      "He switched his vote after a letter from his mother", "Ended decades of organized protest", "Followed nearly a century of campaigning", "Granted a constitutional right regardless of sex",
+      "Passed by Congress the year before", "Certified into law days later", "Didn't guarantee the vote for all women equally", "A landmark for the women's suffrage movement"
+    ],
+    explanation: "It was ratified on 18 August 1920 (1), needing just one more state to succeed (2); that state was Tennessee (3). A 24-year-old state lawmaker cast the deciding vote (4), switching his vote after receiving a letter from his mother (5). It ended decades of organized protest (6), following nearly a century of campaigning (7), granting a constitutional right regardless of sex (8). It had been passed by Congress the year before (9) and was certified into law days later (10). It didn't guarantee the vote for all women equally, as many women of color still faced barriers (11), but remains a landmark for the women's suffrage movement (12)."
+  },
+  "08-19": {
+    category: "History",
+    year: 1991,
+    summary: "hardline Communist officials launched a coup attempt against Gorbachev",
+    answers: ["1991 Soviet Coup Attempt", "August Coup", "Soviet Coup Attempt"],
+    tiles: [
+      "Began on 19 August 1991", "Eight hardline officials seized power", "Claimed the leader was too ill to govern", "He was actually held at his Crimean holiday home",
+      "Tanks rolled into the capital's streets", "A rival politician climbed atop one and rallied crowds", "That defiance made him a national hero", "Lasted barely three days",
+      "Collapsed as troops refused to fire on citizens", "The leader returned to power, visibly shaken", "Accelerated the union's dissolution", "That union collapsed entirely by year's end"
+    ],
+    explanation: "It began on 19 August 1991 (1), when eight hardline Communist officials seized power (2), claiming Soviet leader Mikhail Gorbachev was too ill to govern (3); he was actually being held at his holiday home in Crimea (4). Tanks rolled into the streets of Moscow (5), and Russian President Boris Yeltsin climbed atop one to rally the crowds (6), a moment of defiance that made him a national hero (7). It lasted barely three days (8), collapsing as troops refused to fire on citizens (9). Gorbachev returned to power, visibly shaken (10); the episode accelerated the Soviet Union's dissolution (11), which collapsed entirely by the end of that year (12)."
+  },
+  "08-20": {
+    category: "Science",
+    year: 1977,
+    summary: "NASA's Voyager 2 probe launched toward the outer planets",
+    answers: ["Voyager 2"],
+    tiles: [
+      "Launched on 20 August 1977", "Lifted off from Cape Canaveral", "Rode a Titan/Centaur rocket into space", "Launched sixteen days before its twin",
+      "Despite that, carries the higher number", "Took advantage of a rare planetary alignment", "Flew past Jupiter and Saturn", "Then swung by Uranus and Neptune too",
+      "The only craft ever to visit those last two", "Carries a golden record of Earth sounds", "Still sending data from interstellar space", "Now humanity's second-most distant object"
+    ],
+    explanation: "It launched on 20 August 1977 (1), lifting off from Cape Canaveral (2) atop a Titan/Centaur rocket (3). It launched sixteen days before its twin probe (4), yet despite that carries the higher number (5), part of a mission timed to a rare alignment of the outer planets (6). It flew past Jupiter and Saturn (7), then went on to swing by Uranus and Neptune too (8), the only spacecraft ever to visit those last two planets (9). It carries a golden record of sounds from Earth (10) and is still sending back data from interstellar space (11), now humanity's second-most distant human-made object (12)."
+  },
+  "08-21": {
+    category: "History",
+    year: 1911,
+    summary: "the Mona Lisa was stolen from the Louvre",
+    answers: ["Mona Lisa", "The Mona Lisa", "Theft of the Mona Lisa"],
+    tiles: [
+      "Vanished from a Paris museum on 21 August 1911", "Taken by a former employee of that museum", "He hid it under his work smock", "Walked out wearing an old staff uniform",
+      "Nobody noticed for over a day", "A famous artist was briefly a suspect", "So was a well-known writer", "The thief believed it belonged in Italy",
+      "Blamed a French emperor for taking it there", "Kept it hidden in his apartment for two years", "Was caught trying to sell it in Florence", "The painting's fame only grew from the theft"
+    ],
+    explanation: "It vanished from a Paris museum on 21 August 1911 (1), taken by a former employee of that museum (2) who hid it under his work smock (3) and simply walked out wearing an old staff uniform (4). Nobody noticed it was missing for over a day (5). Pablo Picasso was briefly a suspect (6), as was the writer Guillaume Apollinaire (7). The thief, Vincenzo Peruggia, believed the painting belonged in Italy (8), blaming Napoleon for having taken it to France (9); he kept it hidden in his Paris apartment for two years (10) before being caught trying to sell it in Florence (11). The painting's fame only grew from the theft (12)."
+  },
+  "08-22": {
+    category: "History",
+    year: 1485,
+    summary: "the Battle of Bosworth Field ended the Wars of the Roses",
+    answers: ["Battle of Bosworth Field", "Bosworth Field", "Battle of Bosworth"],
+    tiles: [
+      "Fought on 22 August 1485", "Decided a decades-long dynastic conflict", "Pitted a reigning king against a rival claimant", "That king was famously killed on the field",
+      "Unhorsed in a desperate final charge", "His remains lost for over 500 years", "Later found under a parking lot", "His crown reportedly found in a hawthorn bush",
+      "The victor became a new king that day", "Founded a dynasty that ruled for over a century", "Shakespeare later dramatized the fallen king's end", "Marked in his famous cry for a horse"
+    ],
+    explanation: "It was fought on 22 August 1485 (1), deciding a dynastic conflict that had dragged on for decades (2), pitting the reigning king, Richard III, against a rival claimant, Henry Tudor (3). Richard was famously killed on the field (4), unhorsed in a desperate final charge (5); his remains were lost for over 500 years (6), later found beneath a parking lot in Leicester (7), and his crown was reportedly recovered from a hawthorn bush (8). The victor, Henry, became king that same day (9), founding a dynasty that would rule for over a century (10). Shakespeare later dramatized the fallen king's end (11), immortalized in his famous cry for a horse (12)."
+  },
+  "08-23": {
+    category: "History",
+    year: 1989,
+    summary: "two million people formed a human chain across the Baltic states",
+    answers: ["The Baltic Way", "Baltic Way", "Baltic Chain"],
+    tiles: [
+      "Formed on 23 August 1989", "Stretched roughly 420 miles", "Linked three Soviet republics' capitals", "About two million people joined hands",
+      "Held the pose for fifteen minutes", "Marked a Cold War-era pact's 50th anniversary", "That pact had secretly divided the region", "Organized peacefully, without a single clash",
+      "Started at a castle in one capital", "Ended at a tower in another", "One of those republics broke away just months later", "Became the first Soviet republic to do so"
+    ],
+    explanation: "It formed on 23 August 1989 (1), stretching roughly 420 miles (2), linking the capitals of three Soviet republics: Estonia, Latvia, and Lithuania (3). About two million people joined hands (4), holding the pose for fifteen minutes (5). It marked the 50th anniversary of a pact that had secretly divided the region (6), one signed between Nazi Germany and the Soviet Union (7). It was organized entirely peacefully, without a single clash (8), starting at a castle in Tallinn (9) and ending at a tower in Vilnius (10). One of those republics broke away from the Soviet Union just months later (11), becoming the first Soviet republic to do so (12)."
+  },
+  "08-24": {
+    category: "Science",
+    year: 2006,
+    summary: "Pluto was reclassified as a dwarf planet",
+    answers: ["Pluto", "Pluto's Reclassification", "Pluto Demoted"],
+    tiles: [
+      "Reclassified on 24 August 2006", "Voted on by astronomers meeting in Prague", "Demoted from full planet status", "Discovered by an American astronomer in 1930",
+      "Named by an 11-year-old English schoolgirl", "Orbits far beyond Neptune", "Failed one of three new planetary criteria", "Hadn't cleared its orbital neighborhood of debris",
+      "Similar-sized objects orbit nearby it", "One of those objects is named Eris", "Left the solar system with eight official planets", "Still visited by a NASA spacecraft in 2015"
+    ],
+    explanation: "It was reclassified on 24 August 2006 (1), voted on by astronomers meeting in Prague (2), demoted from full planet status (3). It had been discovered by American astronomer Clyde Tombaugh in 1930 (4), and named by an 11-year-old English schoolgirl, Venetia Burney (5). It orbits far beyond Neptune (6), and failed one of three new criteria for planethood (7): it hadn't cleared its orbital neighborhood of similar-sized debris (8), since comparably sized objects orbit nearby (9), including one named Eris (10). The vote left the solar system with eight official planets (11). It was still visited by a NASA spacecraft, New Horizons, in 2015 (12)."
+  },
+  "08-25": {
+    category: "History",
+    year: 1944,
+    summary: "Paris was liberated after four years of Nazi occupation",
+    answers: ["Liberation of Paris"],
+    tiles: [
+      "Freed on 25 August 1944", "Occupied for more than four years before this", "A French armored division led the advance", "Aided by an American infantry division",
+      "The German commander defied a scorched-earth order", "He'd been told to burn the city to the ground", "He surrendered instead that afternoon", "A famous general led a march down its avenue",
+      "Crowds cheered from balconies and rooftops", "That march was held the very next day", "Its landmarks survived the war largely intact", "A symbolic turning point in the war's final year"
+    ],
+    explanation: "It was freed on 25 August 1944 (1), after more than four years of occupation (2). A French armored division led the advance (3), aided by an American infantry division (4). The German commander in charge defied a scorched-earth order (5), having been told to burn the city to the ground (6); he surrendered instead that afternoon (7). General Charles de Gaulle then led a march down its grand avenue (8), as crowds cheered from balconies and rooftops (9), a march held the very next day (10). Its landmarks survived the war largely intact (11), making it a symbolic turning point in the war's final year (12)."
+  },
+  "08-26": {
+    category: "History",
+    year: 1789,
+    summary: "France's National Assembly adopted the Declaration of the Rights of Man",
+    answers: ["Declaration of the Rights of Man", "Declaration of the Rights of Man and of the Citizen"],
+    tiles: [
+      "Adopted on 26 August 1789", "Passed by a revolutionary national assembly", "Written amid a country's collapsing monarchy", "Contained seventeen articles",
+      "Proclaimed liberty, property, and security", "Declared all citizens equal before the law", "Influenced by American revolutionary ideas", "Its drafting involved Thomas Jefferson's input",
+      "Became a preamble to a later constitution", "Did not extend its promises to women", "Or to enslaved people in French colonies", "Still cited in French law today"
+    ],
+    explanation: "It was adopted on 26 August 1789 (1), passed by France's revolutionary National Assembly (2), written amid the collapse of the country's monarchy (3). It contained seventeen articles (4), proclaiming liberty, property, and security as natural rights (5), and declaring all citizens equal before the law (6). It was influenced by American revolutionary ideas (7), with its drafting reportedly shaped by input from Thomas Jefferson, then serving as US minister to France (8). It became the preamble to France's 1791 constitution (9). Its promises did not extend to women (10), nor to enslaved people in France's colonies (11). It is still cited in French law today (12)."
+  },
+  "08-27": {
+    category: "Science",
+    year: 1883,
+    summary: "Krakatoa erupted in one of history's most violent explosions",
+    answers: ["Krakatoa", "Eruption of Krakatoa"],
+    tiles: [
+      "Erupted on 27 August 1883", "A volcanic island in a narrow Indonesian strait", "Produced four huge explosions in under five hours", "The loudest was heard 2,200 miles away",
+      "Remains the loudest sound ever recorded", "Blew ash 50 miles into the sky", "Triggered massive, deadly tsunamis", "Killed more than 36,000 people",
+      "Darkened skies for days afterward", "Caused vivid red sunsets worldwide for months", "Much of the island collapsed into the sea", "Ranks among history's deadliest volcanic events"
+    ],
+    explanation: "It erupted on 27 August 1883 (1), a volcanic island sitting in a narrow Indonesian strait (2). It produced four huge explosions in under five hours (3), the loudest of which was heard 2,200 miles away (4), remaining the loudest sound ever recorded (5). It blew ash 50 miles into the sky (6), triggering massive, deadly tsunamis (7) that killed more than 36,000 people (8). Skies darkened for days afterward (9), and the ash caused vivid red sunsets worldwide for months (10). Much of the island itself collapsed into the sea (11), and the eruption ranks among history's deadliest volcanic events (12)."
+  },
+  "08-28": {
+    category: "History",
+    year: 1963,
+    summary: "Martin Luther King Jr. delivered his 'I Have a Dream' speech",
+    answers: ["I Have a Dream", "I Have a Dream Speech", "March on Washington"],
+    tiles: [
+      "Delivered on 28 August 1963", "Given from the steps of a Washington memorial", "Addressed to roughly 250,000 people", "Closing remarks of a massive civil rights rally",
+      "Partly departed from his prepared text", "A singer beside him urged him to 'tell them'", "Invoked promises from a founding document", "Repeated a phrase for its emotional power",
+      "Painted a vision of racial harmony", "Referenced his own children's future", "Became a defining moment of a movement", "Now etched into a stone marker at that spot"
+    ],
+    explanation: "It was delivered on 28 August 1963 (1), given from the steps of the Lincoln Memorial in Washington (2), addressed to roughly 250,000 people (3), as the closing remarks of a massive civil rights rally (4). He partly departed from his prepared text that day (5), after the singer Mahalia Jackson, beside him, urged him to 'tell them about the dream' (6). He invoked promises from the Declaration of Independence (7), repeating a phrase for its emotional power (8), painting a vision of racial harmony (9) and referencing his own children's future (10). It became a defining moment of the civil rights movement (11), and the spot where he stood is now etched into a stone marker (12)."
   },
   "08-29": {
-    category: "Musician",
-    year: 1958,
-    summary: "the musician Michael Jackson was born",
-    answers: ["Michael Jackson", "MJ", "Michael Joseph Jackson"],
+    category: "Science",
+    year: 1831,
+    summary: "Michael Faraday discovered electromagnetic induction",
+    answers: ["Michael Faraday", "Faraday's Law", "Electromagnetic Induction"],
     tiles: [
-      "Born in Gary, Indiana", "Led a family group of five", "'Thriller'", "The moonwalk",
-      "Crowned 'King of Pop'", "A single sequined glove", "A ranch called Neverland", "Motown beginnings",
-      "'Billie Jean'", "Produced by Quincy Jones", "'Bad' and 'Off the Wall'", "Died in 2009"
+      "Discovered on 29 August 1831", "Made by a largely self-taught British scientist", "He'd started out as a bookbinder's apprentice", "Wrapped two coils around an iron ring",
+      "Connected one coil to a battery", "Watched a needle twitch on a nearby meter", "Realized a changing current could induce another", "Laid the groundwork for the electric generator",
+      "Also underpins the transformer", "Coined terms like 'anode' and 'cathode'", "A unit of capacitance now bears his name", "Called the father of electrical engineering by some"
     ],
-    explanation: "Michael Jackson was born in Gary, Indiana on 29 August 1958 (1) and first sang in the family group the Jackson 5 (2). His 'Thriller' is the best-selling album ever (3); he popularised the moonwalk (4) and was crowned the 'King of Pop' (5). His look featured a single sequined glove (6) and his home was the Neverland ranch (7). He began at Motown (8), topped charts with 'Billie Jean' (9), worked with producer Quincy Jones (10), and released 'Bad' and 'Off the Wall' (11) before his death in 2009 (12)."
+    explanation: "It was discovered on 29 August 1831 (1), made by a largely self-taught British scientist (2) who had started out as a bookbinder's apprentice (3). He wrapped two coils of wire around an iron ring (4), connected one coil to a battery (5), and watched a needle twitch on a meter attached to the other (6). He realized a changing current in one coil could induce a current in a separate one (7), a discovery that laid the groundwork for the electric generator (8) and also underpins the transformer (9). He coined terms like 'anode' and 'cathode' (10), and a unit of electrical capacitance now bears his name (11); some call him the father of electrical engineering (12)."
+  },
+  "08-30": {
+    category: "History",
+    year: 1963,
+    summary: "the Moscow-Washington hotline went live after the Cuban Missile Crisis",
+    answers: ["Moscow-Washington Hotline", "The Hotline"],
+    tiles: [
+      "Went live on 30 August 1963", "A direct link between two Cold War capitals", "Created after a near-catastrophic missile standoff", "That standoff happened the previous October",
+      "Agreed to less than two months prior", "Not actually a phone at first", "Used teleprinters instead of voice calls", "First test message checked every keyboard character",
+      "Meant to prevent accidental nuclear war", "Used only a handful of times in real crises", "Upgraded to satellite links decades later", "Its concept inspired countless spy-movie clichés"
+    ],
+    explanation: "It went live on 30 August 1963 (1), a direct link between two Cold War capitals, Washington and Moscow (2), created after a near-catastrophic missile standoff (3) that had happened the previous October (4). It had been agreed to less than two months prior (5). It was not actually a telephone at first (6), instead using teleprinters rather than voice calls (7); the first test message checked every character on the keyboard (8). It was meant to prevent an accidental nuclear war through miscommunication (9), and was used only a handful of times in real crises (10). It was upgraded to satellite links decades later (11), and its concept has inspired countless spy-movie clichés ever since (12)."
+  },
+  "08-31": {
+    category: "Royal",
+    year: 1997,
+    summary: "Diana, Princess of Wales, died in a car crash in Paris",
+    answers: ["Princess Diana", "Diana, Princess of Wales"],
+    tiles: [
+      "Died on 31 August 1997", "Killed in a car crash in a Paris tunnel", "Her driver was later found intoxicated", "The car was fleeing photographers on motorbikes",
+      "Her companion in the car died at the scene", "She was rushed to a nearby hospital", "Pronounced dead in the early hours", "Former wife of a future British king",
+      "Known for her charity work and charisma", "Her sons walked behind her coffin", "Millions watched her funeral on television", "Her death led to new paparazzi restrictions in some countries"
+    ],
+    explanation: "She died on 31 August 1997 (1), killed in a car crash inside a Paris tunnel (2). Her driver was later found to have been intoxicated (3), and the car had been fleeing photographers on motorbikes (4). Her companion in the car died at the scene (5); she was rushed to a nearby hospital (6) and pronounced dead in the early hours of the morning (7). She was the former wife of a man in line to become Britain's king (8), known widely for her charity work and charisma (9). Her two sons walked behind her coffin at the funeral (10), which millions watched on television (11); her death led to new paparazzi restrictions in some countries afterward (12)."
+  },
+  "09-01": {
+    category: "History",
+    year: 1939,
+    summary: "Germany invaded Poland, beginning World War II in Europe",
+    answers: ["World War II", "Second World War", "WWII", "World War 2"],
+    tiles: [
+      "Began on 1 September 1939", "Opened with a pre-dawn naval bombardment", "Targeted fortifications near a Baltic port", "That port is now called Gdansk",
+      "Used a fast-moving strategy nicknamed 'lightning war'", "Combined heavy bombing with rapid tank advances", "The invaded capital fell within a month", "Two Western powers declared war two days later",
+      "Honoring a defense guarantee they'd made", "Drew the Soviet Union in from the east soon after", "Became the deadliest conflict in human history", "Didn't end for nearly six more years"
+    ],
+    explanation: "It began on 1 September 1939 (1), opening with a pre-dawn naval bombardment (2) targeting fortifications near a Baltic port (3), now called Gdansk (4). The invading force used a fast-moving strategy nicknamed 'blitzkrieg,' or lightning war (5), combining heavy bombing with rapid tank advances (6). The invaded capital, Warsaw, fell within a month (7). Two Western powers, Britain and France, declared war two days later (8), honoring a defense guarantee they had made (9); the Soviet Union joined the invasion from the east soon after (10). It became the deadliest conflict in human history (11), and it didn't end for nearly six more years (12)."
+  },
+  "09-02": {
+    category: "History",
+    year: 1945,
+    summary: "Japan formally surrendered aboard the USS Missouri, ending World War II",
+    answers: ["Japan's Surrender", "Surrender of Japan", "V-J Day"],
+    tiles: [
+      "Signed on 2 September 1945", "Took place aboard a US battleship", "Anchored in Tokyo Bay that morning", "A general opened proceedings with a brief speech",
+      "Foreign minister signed first for his country", "His country's army chief signed next", "More than 250 Allied ships stood nearby", "Ceremony lasted just 23 minutes",
+      "Brought the deadliest war in history to a close", "Followed atomic bombings weeks earlier", "The battleship's deck is now a museum exhibit", "Marked officially as Victory over Japan Day"
+    ],
+    explanation: "It was signed on 2 September 1945 (1), taking place aboard a US battleship, the USS Missouri (2), anchored in Tokyo Bay that morning (3). General Douglas MacArthur opened proceedings with a brief speech (4); Japan's foreign minister signed first for his country (5), followed by its army chief of staff (6). More than 250 Allied ships stood nearby (7), and the ceremony lasted just 23 minutes (8). It brought the deadliest war in history to a close (9), following the atomic bombings weeks earlier (10). The battleship's deck is now a museum exhibit (11), and the date is marked officially as Victory over Japan Day (12)."
+  },
+  "09-03": {
+    category: "History",
+    year: 1783,
+    summary: "the Treaty of Paris was signed, ending the American Revolutionary War",
+    answers: ["Treaty of Paris", "Treaty of Paris (1783)", "1783 Treaty of Paris"],
+    tiles: [
+      "Signed on 3 September 1783", "Formally ended a war for independence", "Signed by American and British negotiators", "One American signer later became president",
+      "Britain recognized its former colonies as free", "Ceded vast territory east of a major river", "Roughly doubled the new nation's size", "Based on terms agreed the year before",
+      "Paved the way for westward expansion", "Ratified by Congress the following January", "Congress met in Maryland at the time", "Marked Britain's first defeat by former colonies"
+    ],
+    explanation: "It was signed on 3 September 1783 (1), formally ending a war for independence (2), signed by American and British negotiators (3). One of the American signers, John Adams, later became president (4). Britain recognized its former colonies as a free and independent nation (5), ceding vast territory east of the Mississippi River (6), roughly doubling the new nation's size (7). It was based on preliminary terms agreed the year before (8), and it paved the way for westward expansion (9). It was ratified by Congress the following January (10), which was meeting in Annapolis, Maryland at the time (11); it marked Britain's first defeat by former colonies in its history (12)."
+  },
+  "09-04": {
+    category: "Science",
+    year: 1998,
+    summary: "Larry Page and Sergey Brin filed papers to incorporate Google",
+    answers: ["Google", "Google Inc.", "Google's Incorporation"],
+    tiles: [
+      "Incorporated on 4 September 1998", "Filed by two Stanford PhD students", "Started life in a rented garage", "Its original name meant something different entirely",
+      "Renamed after a massive number, misspelled", "That number has 100 zeros after a one", "Its first funding came via a $100,000 check", "Written to a company that didn't exist yet",
+      "Now processes trillions of searches a year", "Its search algorithm ranked pages by links to them", "Became one of the world's most valuable companies", "Its name later became a verb in everyday speech"
+    ],
+    explanation: "It was incorporated on 4 September 1998 (1), filed by two Stanford PhD students, Larry Page and Sergey Brin (2), the company starting life in a rented garage (3). Its original name, BackRub, meant something quite different (4); it was renamed after a massive number, misspelled (5), a number with 100 zeros after a one (6). Its first funding came via a $100,000 check (7), written to a company that didn't technically exist yet (8). It now processes trillions of searches a year (9); its algorithm ranked web pages by how many other pages linked to them (10). It became one of the world's most valuable companies (11), and its name later became a verb in everyday speech (12)."
   },
   "09-05": {
-    category: "Musician",
-    year: 1946,
-    summary: "the Queen frontman Freddie Mercury was born",
-    answers: ["Freddie Mercury", "Mercury", "Farrokh Bulsara"],
+    category: "Science",
+    year: 1977,
+    summary: "NASA's Voyager 1 probe launched, later becoming humanity's most distant object",
+    answers: ["Voyager 1"],
     tiles: [
-      "Born in Zanzibar, 1946", "Fronted a band named Queen", "'Bohemian Rhapsody'", "A four-octave voice",
-      "Stole the show at Live Aid", "Born Farrokh Bulsara", "'We Are the Champions'", "Wembley, 1986",
-      "A prominent overbite", "He chose the band's regal name", "Roamed the stage at the piano", "Died in 1991"
+      "Launched on 5 September 1977", "Lifted off two weeks after its twin", "Took a faster, more direct route", "Overtook that twin within months",
+      "Used Jupiter's gravity for a speed boost", "Repeated the trick again at Saturn", "Sent back close-up images of both giants", "Carries a golden record of Earth's sounds",
+      "Left the solar system's edge in 2012", "First human-made object in interstellar space", "Still transmitting after nearly five decades", "Now over 15 billion miles from home"
     ],
-    explanation: "Freddie Mercury was born in Zanzibar on 5 September 1946 (1) and fronted the band Queen (2). He wrote 'Bohemian Rhapsody' (3) and possessed a four-octave vocal range (4). He famously stole the show at Live Aid in 1985 (5). Born Farrokh Bulsara (6), he sang 'We Are the Champions' (7) and headlined Wembley in 1986 (8). He had a prominent overbite (9), chose the band's regal name himself (10), and prowled the stage and piano as a showman (11) until his death in 1991 (12)."
+    explanation: "It launched on 5 September 1977 (1), lifting off two weeks after its twin probe (2). It took a faster, more direct route (3), overtaking that twin within months (4). It used Jupiter's gravity for a speed boost (5), repeating the trick again at Saturn (6), sending back close-up images of both giant planets (7). It carries a golden record of sounds from Earth (8), and left the solar system's outer edge in 2012 (9), becoming the first human-made object in interstellar space (10). It is still transmitting after nearly five decades (11), now more than 15 billion miles from home (12)."
+  },
+  "09-06": {
+    category: "Sport",
+    year: 1995,
+    summary: "Cal Ripken Jr. broke Lou Gehrig's consecutive games record",
+    answers: ["Cal Ripken Jr.", "Cal Ripken"],
+    tiles: [
+      "Achieved on 6 September 1995", "Played his 2,131st straight game that night", "Broke a record standing since the 1930s", "The old record belonged to a Yankees legend",
+      "That legend was nicknamed baseball's 'Iron Horse'", "Played his entire career at shortstop, then third", "Wore his home team's uniform his whole career", "Took a victory lap around the stadium",
+      "Fans gave a standing ovation lasting over 20 minutes", "President Clinton attended the game", "Extended his streak to over 2,600 games total", "Later inducted into the Baseball Hall of Fame"
+    ],
+    explanation: "It was achieved on 6 September 1995 (1), playing his 2,131st straight game that night (2), breaking a record standing since the 1930s (3). The old record belonged to Yankees legend Lou Gehrig (4), nicknamed baseball's 'Iron Horse' (5). He played most of his career at shortstop, later moving to third base (6), wearing his hometown Baltimore Orioles' uniform his entire career (7). He took a victory lap around the stadium that night (8), as fans gave a standing ovation lasting over 20 minutes (9); President Clinton attended the game (10). He extended his streak to over 2,600 games in total before it ended (11), and was later inducted into the Baseball Hall of Fame (12)."
+  },
+  "09-07": {
+    category: "Science",
+    year: 1936,
+    summary: "the last known Tasmanian tiger died in captivity",
+    answers: ["Thylacine", "Tasmanian Tiger"],
+    tiles: [
+      "Died on 7 September 1936", "Passed away in a Hobart zoo", "A striped, dog-like marsupial", "Once native to an island south of Australia",
+      "Hunted for decades over livestock fears", "Government bounties paid for its carcasses", "Given legal protection just two months earlier", "That protection came far too late",
+      "No confirmed sighting has stood up since", "Occasional unverified reports still surface", "Scientists have discussed reviving its DNA", "The date is now a symbol for endangered species"
+    ],
+    explanation: "It died on 7 September 1936 (1), passing away in a zoo in Hobart (2). It was a striped, dog-like marsupial (3), once native to an island south of Australia, Tasmania (4). It had been hunted for decades over fears it preyed on livestock (5), with government bounties once paid for its carcasses (6). It was given legal protection just two months before its death (7), protection that came far too late (8). No confirmed sighting has stood up since (9), though occasional unverified reports still surface (10). Scientists have since discussed reviving its DNA (11), and the date of its death is now a symbol marking endangered species awareness (12)."
+  },
+  "09-08": {
+    category: "Pop Culture",
+    year: 1966,
+    summary: "Star Trek premiered on American television",
+    answers: ["Star Trek"],
+    tiles: [
+      "Premiered on 8 September 1966", "Aired first as a 'sneak preview' episode", "Broadcast on a major US network", "Set aboard a starship on a five-year mission",
+      "Its captain hailed from Iowa", "His first officer had pointed ears", "Promised to explore strange new worlds", "Featured one of TV's first interracial kisses",
+      "Struggled with low ratings, nearly cancelled twice", "Fans launched a letter-writing campaign to save it", "Spawned multiple spin-off series and films", "Its philosophy still shapes real space agencies"
+    ],
+    explanation: "It premiered on 8 September 1966 (1), airing first as a 'sneak preview' episode (2), broadcast on NBC (3). It was set aboard a starship on a five-year mission (4); its captain hailed from Iowa (5), and his first officer had pointed ears (6). It promised to explore strange new worlds (7), and later featured one of American television's first interracial kisses (8). It struggled with low ratings and was nearly cancelled twice (9), saved in part by a fan letter-writing campaign (10). It went on to spawn multiple spin-off series and films (11), and its optimistic philosophy still shapes real space agencies today (12)."
+  },
+  "09-09": {
+    category: "History",
+    year: 1850,
+    summary: "California became the 31st US state",
+    answers: ["California", "California Statehood"],
+    tiles: [
+      "Admitted on 9 September 1850", "Became the 31st state in the union", "Skipped the usual territorial stage entirely", "Its population had exploded after a gold discovery",
+      "That discovery came just two years earlier", "Entered as a free, non-slavery state", "Part of a fragile congressional compromise", "That compromise addressed a bitter slavery divide",
+      "A president signed the bill into law", "Its statehood day is still marked with a holiday", "Grew rapidly along its Pacific coastline", "Later became the most populous US state"
+    ],
+    explanation: "It was admitted on 9 September 1850 (1), becoming the 31st state in the union (2), skipping the usual territorial stage entirely (3). Its population had exploded after a gold discovery (4), one that had come just two years earlier (5). It entered the union as a free, non-slavery state (6), part of a fragile congressional compromise (7) that addressed a bitter national divide over slavery (8). President Millard Fillmore signed the bill into law (9), and its statehood day is still marked with a holiday there (10). It grew rapidly along its Pacific coastline (11), and later became the most populous US state (12)."
   },
   "09-15": {
     category: "Author",
