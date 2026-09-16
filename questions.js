@@ -1020,17 +1020,485 @@ window.QUESTIONS = {
     ],
     explanation: "It was admitted on 9 September 1850 (1), becoming the 31st state in the union (2), skipping the usual territorial stage entirely (3). Its population had exploded after a gold discovery (4), one that had come just two years earlier (5). It entered the union as a free, non-slavery state (6), part of a fragile congressional compromise (7) that addressed a bitter national divide over slavery (8). President Millard Fillmore signed the bill into law (9), and its statehood day is still marked with a holiday there (10). It grew rapidly along its Pacific coastline (11), and later became the most populous US state (12)."
   },
-  "09-15": {
-    category: "Author",
-    year: 1890,
-    summary: "the crime writer Agatha Christie was born",
-    answers: ["Agatha Christie", "Christie"],
+  "09-10": {
+    category: "Science",
+    year: 2008,
+    summary: "the Large Hadron Collider circulated its first beam of protons",
+    answers: ["Large Hadron Collider"],
     tiles: [
-      "Born in 1890", "A fastidious Belgian detective", "A spinster sleuth", "'Murder on the Orient Express'",
-      "'And Then There Were None'", "The play 'The Mousetrap'", "An 11-day disappearance", "From Torquay, Devon",
-      "Made a Dame", "Best-selling novelist ever", "Queen of the whodunit", "Poison and country houses"
+      "First beam circulated on 10 September 2008", "Protons lapped a 27-kilometre ring", "Buried beneath the French-Swiss border", "Built by the laboratory known as CERN",
+      "Often called the world's biggest machine", "Magnets chilled colder than deep space", "Smashes particles at near light speed", "Doomsayers feared it would make a black hole",
+      "It did not", "Found a long-sought particle in 2012", "That particle explains why matter has mass", "Two physicists won a Nobel for predicting it"
     ],
-    explanation: "Agatha Christie was born on 15 September 1890 (1). Her detectives include the fastidious Belgian Hercule Poirot (2) and the spinster sleuth Miss Marple (3). Her novels include 'Murder on the Orient Express' (4) and 'And Then There Were None' (5), and her play 'The Mousetrap' is the world's longest-running (6). In 1926 she vanished for 11 days (7). She came from Torquay in Devon (8), was made a Dame (9), and is the best-selling novelist of all time (10), the 'Queen of the whodunit' (11) whose plots favour poison and country houses (12)."
+    explanation: "Its first beam circulated on 10 September 2008 (1), with protons completing a lap of a 27-kilometre ring (2) buried beneath the French-Swiss border (3), built by the laboratory known as CERN (4). It is often called the world's biggest machine (5), its magnets chilled colder than deep space (6), smashing particles together at close to the speed of light (7). Doomsayers feared it would create a black hole and swallow the Earth (8); it did not (9). In 2012 it found a long-sought particle, the Higgs boson (10), which explains why matter has mass (11), and two physicists won a Nobel Prize for having predicted it decades earlier (12)."
+  },
+  "09-11": {
+    category: "Indian History",
+    year: 1893,
+    summary: "Swami Vivekananda gave his famous address in Chicago",
+    answers: ["Swami Vivekananda", "Vivekananda"],
+    tiles: [
+      "Spoke on 11 September 1893", "Addressed a parliament of religions", "Held in Chicago during a World's Fair", "An Indian monk in ochre robes",
+      "Opened with 'Sisters and brothers of America'", "That line drew a roaring ovation", "His speech lasted only a few minutes", "He had no formal invitation at first",
+      "Slept in a railway boxcar before it", "Introduced Vedanta and yoga to the West", "A disciple of the mystic Ramakrishna", "His birthday is India's National Youth Day"
+    ],
+    explanation: "He spoke on 11 September 1893 (1), addressing the World's Parliament of Religions (2), held in Chicago alongside a World's Fair (3). An Indian monk in ochre robes (4), he opened with the words 'Sisters and brothers of America' (5), a line that drew a roaring ovation from the hall (6), though his speech itself ran only a few minutes (7). He had arrived without a formal invitation (8) and, short of money, had reportedly slept in a railway boxcar beforehand (9). The address introduced Vedanta and yoga to a Western audience (10). A disciple of the mystic Ramakrishna (11), he is honoured in India each year on his birthday as National Youth Day (12)."
+  },
+  "09-12": {
+    category: "History",
+    year: 1940,
+    summary: "four teenagers discovered the Lascaux cave paintings",
+    answers: ["Lascaux", "Lascaux Cave Paintings", "Lascaux Cave"],
+    tiles: [
+      "Found on 12 September 1940", "Discovered by four teenagers", "They followed a dog down a hole", "Near Montignac in south-west France",
+      "Walls covered with prehistoric animals", "Around 600 painted figures inside", "Nearly 1,500 engravings too", "Roughly 17,000 years old",
+      "Horses, stags and huge bulls", "Opened to visitors in 1948", "Closed in 1963 as the colours faded", "A replica was built for tourists instead"
+    ],
+    explanation: "It was found on 12 September 1940 (1) by four teenagers (2) who followed a dog down a hole in the ground (3), near Montignac in south-west France (4). Inside, the walls were covered with prehistoric animals (5): around 600 painted figures (6) and nearly 1,500 engravings (7), roughly 17,000 years old (8), among them horses, stags and huge bulls (9). The cave was opened to visitors in 1948 (10) but closed again in 1963, after breath and artificial light faded the colours and encouraged algae (11). A replica was built nearby so tourists could still see it (12)."
+  },
+  "09-13": {
+    category: "Science",
+    year: 1848,
+    summary: "Phineas Gage survived an iron rod blasted through his skull",
+    answers: ["Phineas Gage"],
+    tiles: [
+      "Injured on 13 September 1848", "A railway construction foreman in Vermont", "Packing explosives into rock", "A spark set off the charge early",
+      "A metre-long iron rod shot through his head", "It entered under his left cheekbone", "Exited through the top of his skull", "He was speaking again within minutes",
+      "He lived another dozen years", "Friends said he was 'no longer himself'", "His skull sits in a Harvard museum", "A landmark case in brain science"
+    ],
+    explanation: "He was injured on 13 September 1848 (1), a railway construction foreman working in Vermont (2), packing explosives into rock (3) when a spark set off the charge early (4). A metre-long iron tamping rod shot straight through his head (5), entering under his left cheekbone (6) and exiting through the top of his skull (7). Astonishingly, he was speaking again within minutes (8) and lived another dozen years (9), though friends said his personality had altered so much that he was 'no longer himself' (10). His skull and the rod are kept in a museum at Harvard (11), and his case became a landmark in the study of the brain (12)."
+  },
+  "09-14": {
+    category: "History",
+    year: 1814,
+    summary: "Francis Scott Key wrote the poem that became America's national anthem",
+    answers: ["The Star-Spangled Banner", "Star-Spangled Banner"],
+    tiles: [
+      "Written on 14 September 1814", "Composed by an American lawyer", "He watched a night-long naval bombardment", "Of a fort guarding Baltimore harbour",
+      "He was aboard a ship, detained by the British", "At dawn a huge flag still flew", "He scribbled it on the back of a letter", "First titled 'Defence of Fort M'Henry'",
+      "Set to the tune of a drinking song", "That tune was English in origin", "Made the national anthem only in 1931", "The flag itself is now in a Smithsonian museum"
+    ],
+    explanation: "It was written on 14 September 1814 (1) by an American lawyer, Francis Scott Key (2), who had watched a night-long naval bombardment (3) of Fort McHenry, guarding Baltimore harbour (4), from aboard a ship where the British had detained him (5). At dawn he saw a huge American flag still flying over the fort (6), and scribbled the lines on the back of a letter (7). He first titled it 'Defence of Fort M'Henry' (8). It was set to the tune of a popular drinking song (9), English in origin (10), and became the United States' official national anthem only in 1931 (11). The flag that inspired it now hangs in a Smithsonian museum (12)."
+  },
+  "09-15": {
+    category: "Science",
+    year: 1835,
+    summary: "Charles Darwin reached the Galapagos Islands aboard HMS Beagle",
+    answers: ["Galapagos Islands", "The Galapagos", "Galapagos"],
+    tiles: [
+      "Reached on 15 September 1835", "Arrived aboard HMS Beagle", "A young naturalist was on board", "A volcanic archipelago on the equator",
+      "Roughly 600 miles off Ecuador", "Home to giant tortoises", "And marine iguanas found nowhere else", "He stayed about five weeks",
+      "Collected finches with differing beaks", "He only sorted them out back in London", "Helped shape his theory of natural selection", "Now a national park and World Heritage Site"
+    ],
+    explanation: "They were reached on 15 September 1835 (1), when HMS Beagle sailed into their waters (2) carrying a young naturalist, Charles Darwin (3). They are a volcanic archipelago sitting on the equator (4), roughly 600 miles off the coast of Ecuador (5), home to giant tortoises (6) and marine iguanas found nowhere else on Earth (7). Darwin stayed about five weeks (8), collecting finches whose beaks differed from island to island (9), though he only untangled their significance once back in London (10). What he saw there helped shape his theory of evolution by natural selection (11). The islands are now a national park and a UNESCO World Heritage Site (12)."
+  },
+  "09-16": {
+    category: "Science",
+    year: 1987,
+    summary: "the Montreal Protocol was signed to protect the ozone layer",
+    answers: ["Montreal Protocol", "The Montreal Protocol"],
+    tiles: [
+      "Signed on 16 September 1987", "Agreed by 46 countries at first", "Named after the Canadian city that hosted it", "Targeted chemicals thinning the ozone layer",
+      "Chiefly CFCs from fridges and aerosols", "A hole had been found over Antarctica", "Discovered by British scientists in 1985", "Every UN member eventually signed on",
+      "The only treaty with universal ratification", "The ozone layer is now slowly healing", "Full recovery expected around 2066", "Called the most successful environmental treaty ever"
+    ],
+    explanation: "It was signed on 16 September 1987 (1), agreed at first by 46 countries (2), and named after the Canadian city that hosted the talks (3). It targeted the chemicals that were thinning the ozone layer (4), chiefly the CFCs used in fridges and aerosol cans (5), after a hole in the layer was found over Antarctica (6), discovered by British scientists in 1985 (7). Every member of the United Nations eventually signed it (8), making it the only treaty in history with universal ratification (9). The ozone layer is now slowly healing (10), with full recovery expected around 2066 (11), and it is often called the most successful environmental treaty ever agreed (12)."
+  },
+  "09-17": {
+    category: "History",
+    year: 1787,
+    summary: "the United States Constitution was signed in Philadelphia",
+    answers: ["US Constitution", "United States Constitution", "The Constitution"],
+    tiles: [
+      "Signed on 17 September 1787", "Sealed inside a Philadelphia state house", "Thirty-nine delegates put their names to it", "Debated behind closed, guarded windows",
+      "Drafted over a long, sweltering summer", "Its oldest signer was 81", "He had to be carried in on a chair", "Begins with the words 'We the People'",
+      "Ten amendments followed four years later", "Those ten are known as the Bill of Rights", "The oldest written national charter still in use", "Its signing is marked each year on this date"
+    ],
+    explanation: "It was signed on 17 September 1787 (1), sealed inside the Pennsylvania State House in Philadelphia (2), where thirty-nine delegates put their names to it (3). They had debated behind closed and guarded windows (4), drafting it over a long, sweltering summer (5). Its oldest signer, Benjamin Franklin, was 81 (6) and had to be carried in on a chair (7). It begins with the words 'We the People' (8). Ten amendments followed four years later (9), known together as the Bill of Rights (10). It is the oldest written national charter still in use anywhere in the world (11), and its signing is marked in the United States each year on this date (12)."
+  },
+  "09-18": {
+    category: "History",
+    year: 1851,
+    summary: "the first issue of The New York Times was published",
+    answers: ["The New York Times", "New York Times"],
+    tiles: [
+      "First published on 18 September 1851", "Founded as a New York daily", "Cost one cent an issue", "Originally had 'Daily' in its name",
+      "Dropped that word six years later", "Its motto promises news 'fit to print'", "Nicknamed the 'Grey Lady'", "Bought by Adolph Ochs in 1896",
+      "Still controlled by his descendants", "Has won more Pulitzers than any paper", "Its crossword debuted during World War II", "Now has millions of digital subscribers"
+    ],
+    explanation: "Its first issue appeared on 18 September 1851 (1), founded as a daily paper in New York (2), selling for one cent (3). It originally carried the word 'Daily' in its title (4), dropped six years later (5). Its motto promises 'All the News That's Fit to Print' (6), and it is nicknamed the 'Grey Lady' (7). It was bought by Adolph Ochs in 1896 (8) and is still controlled by his descendants (9). It has won more Pulitzer Prizes than any other newspaper (10); its famous crossword debuted during the Second World War (11), and it now has millions of digital subscribers (12)."
+  },
+  "09-19": {
+    category: "Science",
+    year: 1991,
+    summary: "hikers found a 5,000-year-old mummy frozen in the Alps",
+    answers: ["Otzi", "Otzi the Iceman", "The Iceman"],
+    tiles: [
+      "Found on 19 September 1991", "Spotted by two German hikers", "Protruding from melting glacier ice", "High in the Alps, over 3,000 metres up",
+      "At first thought to be a modern climber", "Actually more than 5,000 years old", "Europe's oldest natural mummy", "Carried a copper axe",
+      "Had over 60 tattoos", "An arrowhead was lodged in his shoulder", "Suggesting he had been murdered", "Now kept in a refrigerated case in Italy"
+    ],
+    explanation: "He was found on 19 September 1991 (1), spotted by two German hikers (2) protruding from melting glacier ice (3), high in the Alps more than 3,000 metres up (4). He was at first assumed to be a modern climber (5), but proved to be more than 5,000 years old (6), Europe's oldest natural mummy (7). He carried a copper axe (8) and bore over 60 tattoos (9). An arrowhead was later found lodged in his shoulder (10), suggesting he had been murdered (11). He is now kept in a refrigerated case in a museum in Bolzano, Italy (12)."
+  },
+  "09-20": {
+    category: "Sport",
+    year: 1973,
+    summary: "Billie Jean King beat Bobby Riggs in the Battle of the Sexes",
+    answers: ["Billie Jean King", "Battle of the Sexes"],
+    tiles: [
+      "Played on 20 September 1973", "Held in the Houston Astrodome", "A 29-year-old woman against a 55-year-old man", "He was a former world number one",
+      "He had loudly mocked the women's game", "She was carried in on a feathered litter", "He arrived in a rickshaw pulled by models", "She won in straight sets",
+      "The score was 6-4, 6-3, 6-3", "Watched by 90 million people worldwide", "A huge boost for the young women's tour", "Later made into a 2017 film"
+    ],
+    explanation: "It was played on 20 September 1973 (1) in the Houston Astrodome (2), pitting a 29-year-old woman against a 55-year-old man (3), a former world number one (4) who had loudly mocked the women's game (5). She was carried into the arena on a feathered litter (6); he arrived in a rickshaw pulled by models (7). She won in straight sets (8), 6-4, 6-3, 6-3 (9), watched by some 90 million people worldwide (10). The win gave an enormous boost to the young women's professional tour (11), and the match was later made into a 2017 film (12)."
+  },
+  "09-21": {
+    category: "Book",
+    year: 1937,
+    summary: "The Hobbit was published for the first time",
+    answers: ["The Hobbit"],
+    tiles: [
+      "Published on 21 September 1937", "Its first line was scribbled on a blank exam page", "Written by an Oxford professor", "He illustrated it himself",
+      "Only 1,500 copies were printed", "They sold out by that December", "A burglar is hired by thirteen dwarves", "They seek gold guarded by a dragon",
+      "That dragon is named Smaug", "A riddle contest wins him a magic ring", "That ring led to a much longer sequel", "Later filmed as three movies"
+    ],
+    explanation: "It was published on 21 September 1937 (1). Its famous first line was reportedly scribbled on a blank page of an exam paper he was marking (2), written by an Oxford professor, J.R.R. Tolkien (3), who illustrated it himself (4). Only 1,500 copies were printed (5), and they sold out by that December (6). The story sends a reluctant burglar off with thirteen dwarves (7) to win back gold guarded by a dragon (8) named Smaug (9). A riddle contest along the way wins him a magic ring (10), which led to a far longer sequel, The Lord of the Rings (11). It was later filmed as three movies (12)."
+  },
+  "09-22": {
+    category: "Pop Culture",
+    year: 1994,
+    summary: "the sitcom Friends premiered on NBC",
+    answers: ["Friends"],
+    tiles: [
+      "Premiered on 22 September 1994", "Watched by around 22 million on night one", "Six twenty-somethings in New York", "Most of it set in one apartment",
+      "And a coffee house called Central Perk", "Its theme song was by The Rembrandts", "Nearly called 'Insomnia Cafe'", "Ran for ten seasons",
+      "Its stars negotiated salaries as a group", "Ending on $1 million an episode each", "A fountain features in its opening titles", "Its finale drew over 50 million viewers"
+    ],
+    explanation: "It premiered on 22 September 1994 (1), watched by around 22 million people on its first night (2). It followed six twenty-somethings in New York (3), with most of it set in one apartment (4) and a coffee house called Central Perk (5). Its theme song was recorded by The Rembrandts (6), and the show was nearly called 'Insomnia Cafe' (7). It ran for ten seasons (8); its six stars famously negotiated their salaries as a group (9), ending up on a million dollars an episode each (10). A fountain features in its opening titles (11), and its finale drew more than 50 million viewers (12)."
+  },
+  "09-23": {
+    category: "Science",
+    year: 1846,
+    summary: "Neptune was found exactly where mathematics had predicted",
+    answers: ["Neptune"],
+    tiles: [
+      "Spotted on 23 September 1846", "Found by an astronomer in Berlin", "He looked the very night he got a letter", "That letter came from a French mathematician",
+      "Its position was calculated, not stumbled upon", "Predicted from wobbles in Uranus's orbit", "Found within one degree of the prediction", "The first planet discovered by mathematics",
+      "An Englishman had made similar calculations", "The eighth and farthest planet from the Sun", "Takes 165 Earth years to orbit once", "Only one spacecraft has ever flown past it"
+    ],
+    explanation: "It was spotted on 23 September 1846 (1) by Johann Galle, an astronomer in Berlin (2), who looked the very night he received a letter (3) from the French mathematician Urbain Le Verrier (4). Its position had been calculated rather than stumbled upon (5), predicted from wobbles in the orbit of Uranus (6), and it was found within one degree of where the mathematics said it would be (7), making it the first planet discovered by calculation (8). An Englishman, John Couch Adams, had reached similar figures independently (9). It is the eighth and farthest planet from the Sun (10), taking 165 Earth years to complete one orbit (11), and only one spacecraft, Voyager 2, has ever flown past it (12)."
+  },
+  "09-24": {
+    category: "Science",
+    year: 2014,
+    summary: "India's Mangalyaan probe entered orbit around Mars",
+    answers: ["Mangalyaan", "Mars Orbiter Mission"],
+    tiles: [
+      "Arrived on 24 September 2014", "India's first interplanetary mission", "Succeeded on its very first attempt", "No other nation had managed that",
+      "Made ISRO the fourth agency to orbit the planet", "Cost around $74 million", "Less than many Hollywood films", "Launched ten months earlier, in November 2013",
+      "Looped around Earth to build up speed", "Designed to last six months", "It kept working for around eight years", "Its image appeared on a 2,000-rupee note"
+    ],
+    explanation: "It arrived on 24 September 2014 (1), India's first interplanetary mission (2), succeeding on its very first attempt (3), something no other nation had managed (4). It made ISRO the fourth space agency to put a craft in orbit around Mars (5). It cost around $74 million (6), less than many Hollywood films (7). It had launched ten months earlier, in November 2013 (8), first looping around Earth to build up speed (9). Designed to last six months (10), it kept working for roughly eight years (11). Its image later appeared on India's 2,000-rupee note (12)."
+  },
+  "09-25": {
+    category: "History",
+    year: 1981,
+    summary: "Sandra Day O'Connor became the first woman on the US Supreme Court",
+    answers: ["Sandra Day O'Connor"],
+    tiles: [
+      "Sworn in on 25 September 1981", "The first woman to hold the post", "Became the 102nd justice", "Nominated by Ronald Reagan",
+      "Confirmed by the Senate 99-0", "Grew up on an Arizona cattle ranch", "Graduated near the top of her law class", "Yet firms offered her only secretarial work",
+      "Became the court's key swing vote", "Served for 24 years", "Retired to care for her husband", "Awarded the Presidential Medal of Freedom"
+    ],
+    explanation: "She was sworn in on 25 September 1981 (1), the first woman ever to hold the post (2), becoming the 102nd justice of the Supreme Court (3). She had been nominated by President Ronald Reagan (4) and confirmed by the Senate 99 votes to nil (5). She grew up on a cattle ranch in Arizona (6) and graduated near the top of her law class at Stanford (7), yet law firms at the time offered her only secretarial work (8). On the bench she became the court's decisive swing vote (9), serving for 24 years (10) before retiring to care for her husband (11). She was later awarded the Presidential Medal of Freedom (12)."
+  },
+  "09-26": {
+    category: "History",
+    year: 1983,
+    summary: "Stanislav Petrov judged a nuclear alarm false and averted catastrophe",
+    answers: ["Stanislav Petrov"],
+    tiles: [
+      "Happened on 26 September 1983", "A Soviet officer on night duty", "Watching a satellite early-warning system", "Alarms said five US missiles were incoming",
+      "Protocol was to report it up the chain", "He judged it a malfunction instead", "Reasoned a real attack wouldn't be so small", "Waited for radar confirmation that never came",
+      "Sunlight on high clouds had fooled the satellites", "He was reprimanded rather than rewarded", "The incident stayed secret for a decade", "Later called 'the man who saved the world'"
+    ],
+    explanation: "It happened on 26 September 1983 (1), when a Soviet officer on night duty (2) was watching a satellite early-warning system (3) that suddenly reported five American missiles heading their way (4). Protocol required him to report it straight up the chain of command (5), but he judged it a malfunction instead (6), reasoning that a genuine first strike would involve far more than five missiles (7). He waited for ground radar confirmation that never came (8). The satellites, it turned out, had been fooled by sunlight glinting off high clouds (9). He was reprimanded rather than rewarded (10), and the incident stayed secret for a decade (11). He was later called 'the man who saved the world' (12)."
+  },
+  "09-27": {
+    category: "History",
+    year: 1825,
+    summary: "the world's first public steam railway opened in England",
+    answers: ["Stockton and Darlington Railway", "Stockton & Darlington Railway"],
+    tiles: [
+      "Opened on 27 September 1825", "Ran between two County Durham towns", "The world's first public steam railway", "Built mainly to haul coal",
+      "Its engine was named Locomotion No. 1", "Driven by George Stephenson himself", "Around 40,000 people turned out to watch", "It pulled some 600 passengers",
+      "Most rode in open coal wagons", "Topped about 15 miles per hour", "A man on horseback rode ahead with a flag", "Set the template for railways worldwide"
+    ],
+    explanation: "It opened on 27 September 1825 (1), running between two towns in County Durham (2), the world's first public steam railway (3), built mainly to haul coal to the coast (4). Its engine was named Locomotion No. 1 (5), driven on opening day by George Stephenson himself (6). Around 40,000 people turned out to watch (7) as it pulled some 600 passengers (8), most of them riding in open coal wagons (9), reaching about 15 miles per hour (10). A man on horseback rode ahead of it carrying a flag (11). It set the template for railways around the world (12)."
+  },
+  "09-28": {
+    category: "Science",
+    year: 1928,
+    summary: "Alexander Fleming noticed the mould that led to penicillin",
+    answers: ["Penicillin", "Alexander Fleming"],
+    tiles: [
+      "Discovered on 28 September 1928", "The result of an untidy laboratory", "He had left for a two-week holiday", "Returned to a stack of dirty petri dishes",
+      "A stray mould had blown in", "Bacteria around it had been killed", "He first called it 'mould juice'", "Those bacteria were Staphylococcus",
+      "Others turned it into a usable drug a decade later", "It saved countless lives in World War II", "Three men shared a Nobel Prize in 1945", "The world's first true antibiotic"
+    ],
+    explanation: "It was discovered on 28 September 1928 (1), the happy result of an untidy laboratory (2). He had left for a two-week holiday in Scotland (3) and returned to a stack of dirty petri dishes (4), one of which a stray mould had blown into (5); the bacteria around that mould had been killed off (6). He initially called the substance 'mould juice' (7); the bacteria were Staphylococcus (8). Others, chiefly Howard Florey and Ernst Chain, turned it into a usable drug a decade later (9), and it went on to save countless lives during the Second World War (10). All three men shared a Nobel Prize in 1945 (11) for what became the world's first true antibiotic (12)."
+  },
+  "09-29": {
+    category: "History",
+    year: 1829,
+    summary: "London's first modern police force began patrolling",
+    answers: ["Metropolitan Police", "The Metropolitan Police"],
+    tiles: [
+      "First patrols on 29 September 1829", "About 1,000 constables took to London's streets", "Created by the then home secretary", "His first name gave them one nickname",
+      "His surname gave them another", "Dressed in blue to look unlike soldiers", "Armed only with a wooden truncheon", "Carried a rattle to raise the alarm",
+      "The world's first modern professional force", "Public suspicion greeted them at first", "Its headquarters became known as Scotland Yard", "Its model was copied around the world"
+    ],
+    explanation: "Its first patrols went out on 29 September 1829 (1), as about 1,000 constables took to the streets of London (2). The force was created by the then home secretary, Sir Robert Peel (3), whose first name gave officers one nickname, 'bobbies' (4), and whose surname gave them another, 'peelers' (5). They were dressed in blue so as not to resemble soldiers (6), armed only with a wooden truncheon (7) and carrying a rattle to raise the alarm (8). It was the world's first modern professional police force (9), though public suspicion greeted it at first (10). Its headquarters became known as Scotland Yard (11), and its model was copied around the world (12)."
+  },
+  "09-30": {
+    category: "Music",
+    year: 1791,
+    summary: "Mozart's final opera premiered in Vienna",
+    answers: ["The Magic Flute", "Magic Flute", "Die Zauberflote"],
+    tiles: [
+      "Premiered on 30 September 1791", "Staged at a suburban Viennese theatre", "The composer conducted it himself", "It was his last opera",
+      "He died just over two months later", "Sung in German, not Italian", "A fairy-tale plot with a comic bird-catcher", "Its villainess sings a famously punishing aria",
+      "That aria climbs to a top F", "Full of Masonic symbolism", "Written for a popular, not courtly, audience", "Still among the most performed operas ever"
+    ],
+    explanation: "It premiered on 30 September 1791 (1), staged at a suburban theatre in Vienna (2), with the composer, Mozart, conducting himself (3). It was his last opera (4), and he died just over two months later (5). Unusually, it was sung in German rather than Italian (6), with a fairy-tale plot featuring a comic bird-catcher named Papageno (7). Its villainess, the Queen of the Night, sings a famously punishing aria (8) that climbs to a top F (9). The work is full of Masonic symbolism (10) and was written for a popular audience rather than a courtly one (11). It remains among the most performed operas in the world (12)."
+  },
+  "10-01": {
+    category: "Science",
+    year: 1908,
+    summary: "the first production Ford Model T was completed",
+    answers: ["Ford Model T", "Model T"],
+    tiles: [
+      "Completed on 1 October 1908", "Built at a Detroit plant on Piquette Avenue", "Priced at $850 at launch", "Over 15 million were eventually built",
+      "Production ended in 1927", "Nicknamed the 'Tin Lizzie'", "Later built on a moving assembly line", "That line cut build time to 93 minutes",
+      "Prices fell as output rose", "Its maker doubled workers' pay to $5 a day", "Buyers could have any colour, so long as it was black", "It put ordinary families on the road"
+    ],
+    explanation: "The first production car was completed on 1 October 1908 (1), built at the Piquette Avenue plant in Detroit (2) and priced at $850 (3). More than 15 million were eventually built (4) before production ended in 1927 (5). It was nicknamed the 'Tin Lizzie' (6). It was later assembled on a moving production line (7) that cut build time to around 93 minutes (8), and prices fell steadily as output rose (9). Henry Ford doubled his workers' pay to $5 a day (10), and famously said buyers could have any colour they liked, so long as it was black (11). More than any car before it, it put ordinary families on the road (12)."
+  },
+  "10-02": {
+    category: "Pop Culture",
+    year: 1950,
+    summary: "the first Peanuts comic strip was published",
+    answers: ["Peanuts"],
+    tiles: [
+      "First ran on 2 October 1950", "Appeared in just seven newspapers", "Drawn by Charles Schulz", "He hated the title his syndicate chose",
+      "His own title had been 'Li'l Folks'", "Starred a round-headed boy", "And his beagle", "That dog daydreams atop his kennel",
+      "A girl runs a psychiatry stand for five cents", "A football is forever pulled away", "Ran for nearly 50 years", "Schulz drew every single strip himself"
+    ],
+    explanation: "It first ran on 2 October 1950 (1), appearing in just seven newspapers (2), drawn by Charles Schulz (3), who disliked the title his syndicate had chosen (4); his own had been 'Li'l Folks' (5). It starred a round-headed boy, Charlie Brown (6), and his beagle, Snoopy (7), who daydreams atop his kennel (8). Lucy runs a psychiatry stand charging five cents (9), and forever whips away a football as Charlie Brown runs up to kick it (10). The strip ran for nearly 50 years (11), and Schulz drew every single one himself (12)."
+  },
+  "10-03": {
+    category: "History",
+    year: 1990,
+    summary: "East and West Germany became one country again",
+    answers: ["German Reunification", "Reunification of Germany", "German Unity Day"],
+    tiles: [
+      "Took effect on 3 October 1990", "Two states became one at midnight", "Came 45 years after their division", "Less than a year after a wall opened",
+      "The eastern state simply dissolved itself", "Its five regions joined the west", "A divided capital was made whole", "Helmut Kohl was chancellor at the time",
+      "The eastern currency had been swapped months earlier", "Marked with a national holiday each year", "A flag was raised outside the Reichstag", "Made it Europe's most populous democracy"
+    ],
+    explanation: "It took effect on 3 October 1990 (1), as two states became one at the stroke of midnight (2), 45 years after their division (3) and less than a year after the Berlin Wall was opened (4). The eastern state, the GDR, simply dissolved itself (5), its five regions joining the Federal Republic (6), and a divided capital was made whole again (7). Helmut Kohl was chancellor at the time (8); the eastern currency had already been swapped for the Deutsche Mark months earlier (9). The date is marked with a national holiday each year (10), and a flag was raised outside the Reichstag to mark it (11). It made the country the most populous democracy in Europe (12)."
+  },
+  "10-04": {
+    category: "Science",
+    year: 1957,
+    summary: "the Soviet Union launched the first artificial satellite",
+    answers: ["Sputnik 1", "Sputnik"],
+    tiles: [
+      "Launched on 4 October 1957", "The first artificial satellite in orbit", "About the size of a beach ball", "Weighed roughly 84 kilograms",
+      "Had four long trailing antennas", "Its name means 'fellow traveller'", "Transmitted a simple beeping signal", "Amateur radio operators could hear it",
+      "Orbited the Earth every 96 minutes", "Burned up after about three months", "Triggered alarm and a space race", "A US space agency was founded in response"
+    ],
+    explanation: "It was launched on 4 October 1957 (1), the first artificial satellite ever put into orbit (2). It was about the size of a beach ball (3), weighing roughly 84 kilograms (4), with four long trailing antennas (5). Its name means 'fellow traveller' in Russian (6). It transmitted a simple beeping signal (7) that amateur radio operators around the world could pick up (8), circling the Earth every 96 minutes (9) before burning up after about three months (10). It triggered alarm in the United States and set off the space race (11), and NASA was founded the following year in response (12)."
+  },
+  "10-05": {
+    category: "Entertainment",
+    year: 1962,
+    summary: "the first James Bond film premiered in London",
+    answers: ["Dr. No", "Doctor No"],
+    tiles: [
+      "Premiered on 5 October 1962", "Held at the London Pavilion cinema", "The first official 007 film", "Made on a budget of about $1 million",
+      "Introduced a Scottish actor as the spy", "Its author thought him wrong for the part", "Set largely in Jamaica", "A white bikini scene became iconic",
+      "First use of the famous gun-barrel opening", "Its villain has prosthetic metal hands", "Launched the longest-running film series", "The date is now marked as Bond Day"
+    ],
+    explanation: "It premiered on 5 October 1962 (1) at the London Pavilion cinema (2), the first official 007 film (3), made on a budget of around $1 million (4). It introduced a Scottish actor, Sean Connery, as the spy (5), though Ian Fleming, who wrote the novels, initially thought him wrong for the part (6). It was set largely in Jamaica (7), where Ursula Andress emerging from the sea in a white bikini became an iconic scene (8). It featured the first use of the famous gun-barrel opening (9), and its villain has prosthetic metal hands (10). It launched the longest-running film series in history (11), and the date is now marked each year as Global James Bond Day (12)."
+  },
+  "10-06": {
+    category: "Entertainment",
+    year: 1927,
+    summary: "the first feature-length talkie premiered in New York",
+    answers: ["The Jazz Singer", "Jazz Singer"],
+    tiles: [
+      "Premiered on 6 October 1927", "Shown at a Warner theatre in New York", "The first feature-length film with spoken dialogue", "Most of it still used silent title cards",
+      "Only about two minutes were spoken", "Starred Al Jolson", "His ad-libbed line promised more to come", "'You ain't heard nothin' yet'",
+      "Used a sound-on-disc system", "That system was called Vitaphone", "Its success doomed the silent era", "Its blackface scenes are now widely condemned"
+    ],
+    explanation: "It premiered on 6 October 1927 (1) at a Warner theatre in New York (2), the first feature-length film with synchronised spoken dialogue (3), though most of it still relied on silent title cards (4) and only about two minutes were actually spoken (5). It starred Al Jolson (6), whose ad-libbed line promised audiences more to come (7): 'You ain't heard nothin' yet' (8). The sound came from a sound-on-disc system (9) called Vitaphone (10). Its success effectively doomed the silent film era (11). Its blackface sequences are now widely condemned (12)."
+  },
+  "10-07": {
+    category: "Science",
+    year: 1959,
+    summary: "a Soviet probe sent back the first photographs of the Moon's far side",
+    answers: ["Luna 3"],
+    tiles: [
+      "Took its pictures on 7 October 1959", "A Soviet probe launched three days earlier", "Photographed a face never seen from Earth", "The Moon always shows us the same side",
+      "Took 29 photographs in all", "Covered about 70% of that hidden face", "Developed its own film on board", "Then scanned and radioed the images home",
+      "The pictures were grainy and faint", "They showed few of the dark 'seas'", "Soviet scientists got to name the features", "One crater was named after Jules Verne"
+    ],
+    explanation: "It took its pictures on 7 October 1959 (1), a Soviet probe launched only three days earlier (2), photographing a face of the Moon that had never been seen from Earth (3), since the Moon always keeps the same side turned towards us (4). It took 29 photographs in all (5), covering about 70% of that hidden face (6). It developed its own film on board (7), then scanned the negatives and radioed the images home (8). The pictures were grainy and faint (9), but showed far fewer of the dark lava 'seas' that mark the near side (10). Soviet scientists were given the right to name the newly seen features (11), and one crater was named after the novelist Jules Verne (12)."
+  },
+  "10-08": {
+    category: "History",
+    year: 1871,
+    summary: "a fire broke out that would destroy much of Chicago",
+    answers: ["Great Chicago Fire", "Chicago Fire"],
+    tiles: [
+      "Broke out on 8 October 1871", "Started in or near a family's barn", "Legend blamed a cow kicking a lantern", "That story was later admitted to be invented",
+      "The city was built largely of wood", "Even its sidewalks and roads were timber", "A dry summer had left everything parched", "Burned for about two days",
+      "Destroyed some 17,000 buildings", "Left around 100,000 people homeless", "A water tower survived and still stands", "The rebuilt city pioneered the skyscraper"
+    ],
+    explanation: "It broke out on 8 October 1871 (1), starting in or near the barn of Patrick and Catherine O'Leary (2). Legend long blamed their cow for kicking over a lantern (3), a story the reporter who wrote it later admitted he had invented (4). The city was built largely of wood (5) — even its sidewalks and roads were timber (6) — and a dry summer had left everything parched (7). It burned for about two days (8), destroying some 17,000 buildings (9) and leaving around 100,000 people homeless (10). A water tower survived and still stands today (11), and the city rebuilt itself so ambitiously that it pioneered the skyscraper (12)."
+  },
+  "10-09": {
+    category: "Entertainment",
+    year: 1986,
+    summary: "Andrew Lloyd Webber's Phantom of the Opera opened in London",
+    answers: ["The Phantom of the Opera", "Phantom of the Opera"],
+    tiles: [
+      "Opened on 9 October 1986", "Staged at Her Majesty's Theatre", "Composed by Andrew Lloyd Webber", "Starred Michael Crawford in the title role",
+      "And Sarah Brightman, his wife at the time", "Based on a 1910 French novel", "Set beneath a Paris opera house", "A chandelier crashes towards the audience",
+      "Its masked lead wears half a white mask", "Ran in London for 35 years", "Became Broadway's longest-running show", "Seen by well over 100 million people"
+    ],
+    explanation: "It opened on 9 October 1986 (1) at Her Majesty's Theatre in London (2), composed by Andrew Lloyd Webber (3). It starred Michael Crawford in the title role (4) alongside Sarah Brightman, Lloyd Webber's wife at the time (5). It was based on a 1910 French novel by Gaston Leroux (6), set in and beneath a Paris opera house (7), and features a chandelier that crashes towards the audience (8). Its masked lead famously wears half a white mask (9). It ran in London for 35 years (10), became the longest-running show in Broadway history (11), and has been seen by well over 100 million people worldwide (12)."
+  },
+  "10-10": {
+    category: "History",
+    year: 1911,
+    summary: "an uprising began that would end 2,000 years of Chinese imperial rule",
+    answers: ["Xinhai Revolution", "1911 Revolution", "Wuchang Uprising"],
+    tiles: [
+      "Began on 10 October 1911", "Sparked by an accidental bomb blast", "That blast exposed a secret plot", "Soldiers mutinied rather than be arrested",
+      "They seized a city on the Yangtze", "Other provinces declared independence within weeks", "Ended over 2,000 years of imperial rule", "The last emperor was still a small child",
+      "Sun Yat-sen became provisional president", "A republic was declared on 1 January 1912", "Taiwan marks the date as its national day", "Known there as 'Double Ten'"
+    ],
+    explanation: "It began on 10 October 1911 (1), sparked by an accidental bomb blast (2) that exposed a secret revolutionary plot (3); the soldiers involved mutinied rather than wait to be arrested (4), seizing the city of Wuchang on the Yangtze (5). Other provinces declared independence within weeks (6), bringing an end to more than 2,000 years of imperial rule in China (7). The last emperor, Puyi, was still a small child (8). Sun Yat-sen became provisional president (9), and a republic was declared on 1 January 1912 (10). Taiwan still marks the date as its national day (11), known there as 'Double Ten' (12)."
+  },
+  "10-11": {
+    category: "Pop Culture",
+    year: 1975,
+    summary: "Saturday Night Live aired its first episode",
+    answers: ["Saturday Night Live"],
+    tiles: [
+      "First aired on 11 October 1975", "Broadcast live from Studio 8H", "In New York's Rockefeller Center", "Originally called 'NBC's Saturday Night'",
+      "Hosted by the comic George Carlin", "Its cast were the 'Not Ready for Primetime Players'", "They included John Belushi and Gilda Radner", "Ninety minutes long, live to air",
+      "Created by Lorne Michaels", "Still runs from the same studio", "Has launched countless film careers", "The most Emmy-nominated show in history"
+    ],
+    explanation: "It first aired on 11 October 1975 (1), broadcast live from Studio 8H (2) in New York's Rockefeller Center (3). It was originally called 'NBC's Saturday Night' (4) and was hosted by the comic George Carlin (5). Its first cast were billed as the 'Not Ready for Primetime Players' (6), among them John Belushi and Gilda Radner (7). The show ran ninety minutes, live to air (8), created by Lorne Michaels (9), and it still broadcasts from that same studio today (10). It has launched countless film careers (11) and is the most Emmy-nominated show in television history (12)."
+  },
+  "10-12": {
+    category: "History",
+    year: 1810,
+    summary: "the first Oktoberfest was held for a royal wedding in Munich",
+    answers: ["Oktoberfest"],
+    tiles: [
+      "First held on 12 October 1810", "Began as a royal wedding celebration", "A Bavarian crown prince married a princess", "All of Munich was invited",
+      "It ended with a horse race", "Held on a meadow outside the city gates", "That meadow is named after the bride", "Locals call the festival 'die Wiesn'",
+      "Despite its name, now mostly held in September", "Opens when the mayor taps a barrel", "He calls out 'O'zapft is!'", "Draws around six million visitors a year"
+    ],
+    explanation: "It was first held on 12 October 1810 (1), beginning as a royal wedding celebration (2) when Bavaria's Crown Prince Ludwig married Princess Therese (3) and all of Munich was invited (4). The festivities ended with a horse race (5) on a meadow just outside the city gates (6), a meadow still named after the bride, the Theresienwiese (7); locals call the festival simply 'die Wiesn' (8). Despite its name, it is now mostly held in September (9). It opens when the mayor taps the first barrel (10) and calls out 'O'zapft is!', meaning 'It's tapped!' (11). It now draws around six million visitors a year (12)."
+  },
+  "10-13": {
+    category: "History",
+    year: 2010,
+    summary: "all 33 trapped Chilean miners were brought safely to the surface",
+    answers: ["Chilean Mine Rescue", "Chile Mine Rescue"],
+    tiles: [
+      "Completed on 13 October 2010", "Thirty-three men were brought up alive", "They had been trapped for 69 days", "Half a mile below the Atacama Desert",
+      "A copper and gold mine had collapsed", "For 17 days nobody knew they were alive", "A note taped to a drill bit proved it", "They survived on two spoonfuls of tuna a day",
+      "Hauled up one by one in a narrow capsule", "That capsule was named Phoenix", "Each trip took about 15 minutes", "Watched live by around a billion people"
+    ],
+    explanation: "It was completed on 13 October 2010 (1), when thirty-three men were brought up alive (2) after 69 days trapped underground (3), half a mile beneath Chile's Atacama Desert (4) in a copper and gold mine that had collapsed (5). For the first 17 days nobody knew whether they had survived (6), until a note taped to a returning drill bit proved they had (7). They had rationed themselves to about two spoonfuls of tuna a day (8). They were hauled up one by one through a narrow shaft in a purpose-built capsule (9) named the Phoenix (10), each trip taking about 15 minutes (11). The rescue was watched live by an estimated billion people worldwide (12)."
+  },
+  "10-14": {
+    category: "Science",
+    year: 1947,
+    summary: "Chuck Yeager became the first person to fly faster than sound",
+    answers: ["Chuck Yeager"],
+    tiles: [
+      "Achieved on 14 October 1947", "Flew a bright orange rocket plane", "That plane was the Bell X-1", "Dropped from the belly of a bomber",
+      "Over a dry lake bed in California", "He had broken two ribs days before", "Fell off a horse, told nobody", "Used a sawn-off broom handle to shut the hatch",
+      "Reached about Mach 1.06", "The sonic boom rolled across the desert", "He named the plane after his wife", "The feat stayed secret for months"
+    ],
+    explanation: "It was achieved on 14 October 1947 (1), flying a bright orange rocket plane (2), the Bell X-1 (3), dropped from the belly of a B-29 bomber (4) over a dry lake bed in California (5). He had broken two ribs days earlier (6), falling from a horse and telling nobody in case he was grounded (7), and used a sawn-off broom handle for leverage to close the hatch (8). He reached about Mach 1.06 (9), and the sonic boom rolled across the desert floor below (10). He had named the plane 'Glamorous Glennis' after his wife (11). The feat was kept secret for months (12)."
+  },
+  "10-15": {
+    category: "History",
+    year: 1582,
+    summary: "the Gregorian calendar took effect and ten days simply vanished",
+    answers: ["Gregorian Calendar", "The Gregorian Calendar"],
+    tiles: [
+      "Took effect on 15 October 1582", "The previous day had been 4 October", "Ten days were simply skipped", "Ordered by a pope to fix a drift",
+      "The old system ran 11 minutes too long a year", "That error had built up for centuries", "Easter was slipping away from spring", "Most century years stopped being leap years",
+      "Catholic countries adopted it first", "Protestant Britain held out until 1752", "By then it had to skip eleven days", "Now the civil calendar of almost every country"
+    ],
+    explanation: "It took effect on 15 October 1582 (1); the previous day had been 4 October (2), as ten days were simply skipped (3). The change was ordered by Pope Gregory XIII to fix a drift (4): the old Julian system ran about 11 minutes too long each year (5), an error that had quietly built up over centuries (6), leaving Easter slipping away from spring (7). The fix retuned the leap-year rule, so most century years stopped counting as leap years (8). Catholic countries adopted it first (9), while Protestant Britain held out until 1752 (10), by which point it had to skip eleven days (11). It is now the civil calendar of almost every country on Earth (12)."
+  },
+  "10-16": {
+    category: "Sport",
+    year: 1968,
+    summary: "two American sprinters raised gloved fists on the Olympic podium",
+    answers: ["Black Power Salute", "1968 Olympics Black Power Salute"],
+    tiles: [
+      "Happened on 16 October 1968", "On a medal podium in Mexico City", "Two American sprinters raised gloved fists", "They stood in black socks, without shoes",
+      "That detail was meant to signal poverty", "The gold medallist had just set a world record", "He ran the 200 metres in 19.83 seconds", "The Australian silver medallist wore a badge in support",
+      "The two were suspended and sent home", "They faced years of hostility afterwards", "A statue now honours them in San Jose", "One of sport's most reproduced images"
+    ],
+    explanation: "It happened on 16 October 1968 (1), on a medal podium at the Olympics in Mexico City (2), when two American sprinters raised gloved fists during their national anthem (3). They stood in black socks with their shoes removed (4), a detail meant to signal poverty (5). The gold medallist, Tommie Smith, had just set a world record (6), running the 200 metres in 19.83 seconds (7); the Australian silver medallist, Peter Norman, wore a badge on his chest in support (8). Smith and John Carlos were suspended and sent home (9), and faced years of hostility afterwards (10). A statue now honours them at San Jose State University (11), and the photograph is one of the most reproduced images in sport (12)."
+  },
+  "10-17": {
+    category: "History",
+    year: 1931,
+    summary: "Al Capone was convicted of tax evasion",
+    answers: ["Al Capone"],
+    tiles: [
+      "Convicted on 17 October 1931", "A Chicago crime boss", "Brought down not by violence charges", "But by unpaid income tax",
+      "He had boasted taxes couldn't touch illegal money", "Sentenced to 11 years", "Fined $50,000 as well", "The agents pursuing him were 'The Untouchables'",
+      "Linked to a Valentine's Day massacre", "Never convicted of those killings", "Later transferred to Alcatraz", "Released early, his mind ravaged by syphilis"
+    ],
+    explanation: "He was convicted on 17 October 1931 (1), a Chicago crime boss (2) brought down not by charges of violence (3) but by unpaid income tax (4), having boasted that the government could not collect taxes on illegal money (5). He was sentenced to 11 years (6) and fined $50,000 (7). The federal agents who pursued him were nicknamed 'The Untouchables' (8). He was widely linked to the St Valentine's Day Massacre (9) but never convicted of those killings (10). He was later transferred to Alcatraz (11) and released early, his mind ravaged by untreated syphilis (12)."
+  },
+  "10-18": {
+    category: "History",
+    year: 1867,
+    summary: "Russia formally handed Alaska over to the United States",
+    answers: ["Alaska Purchase", "Alaska"],
+    tiles: [
+      "Handed over on 18 October 1867", "Transferred from Russia to the United States", "The price was $7.2 million", "About two cents an acre",
+      "Mocked at the time as a 'folly'", "Named after the secretary of state who bought it", "A flag-raising was held at Sitka", "Gold was found there three decades later",
+      "Oil later made it far richer still", "It became a state in 1959", "The largest state by area", "The date is still a local holiday"
+    ],
+    explanation: "It was handed over on 18 October 1867 (1), transferred from Russia to the United States (2) for a price of $7.2 million (3), about two cents an acre (4). The deal was mocked at the time as a 'folly' (5), named after William Seward, the secretary of state who pushed it through (6). A flag-raising ceremony marked the transfer at Sitka (7). Gold was found there three decades later (8), and oil later made the territory far richer still (9). It became the 49th state in 1959 (10) and is the largest state by area (11). The date is still marked there as a local holiday (12)."
+  },
+  "10-19": {
+    category: "History",
+    year: 1781,
+    summary: "Cornwallis surrendered at Yorktown, effectively ending the American Revolutionary War",
+    answers: ["Siege of Yorktown", "Battle of Yorktown", "Yorktown"],
+    tiles: [
+      "Surrender came on 19 October 1781", "A British army of some 8,000 laid down arms", "Trapped on a Virginia peninsula", "Hemmed in by Washington's army",
+      "A French fleet blocked escape by sea", "The siege had lasted about three weeks", "Its British commander claimed to be ill", "He sent a deputy to surrender instead",
+      "A tune called 'The World Turned Upside Down' was said to play", "It effectively ended the fighting", "A peace treaty followed two years later", "The site is now a national park"
+    ],
+    explanation: "The surrender came on 19 October 1781 (1), when a British army of some 8,000 men laid down its arms (2), trapped on a peninsula in Virginia (3), hemmed in by George Washington's army (4) while a French fleet blocked any escape by sea (5). The siege had lasted about three weeks (6). The British commander, Lord Cornwallis, claimed to be unwell (7) and sent a deputy to hand over his sword instead (8). Tradition holds that a tune called 'The World Turned Upside Down' was played as the troops marched out (9). It effectively ended the fighting in the American Revolutionary War (10), with a peace treaty following two years later (11). The site is now a national park (12)."
   },
   "10-23": {
     category: "Athlete",
