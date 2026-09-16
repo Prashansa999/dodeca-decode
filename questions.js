@@ -1045,16 +1045,16 @@ window.QUESTIONS = {
     explanation: "He spoke on 11 September 1893 (1), addressing the World's Parliament of Religions (2), held in Chicago alongside a World's Fair (3). An Indian monk in ochre robes (4), he opened with the words 'Sisters and brothers of America' (5), a line that drew a roaring ovation from the hall (6), though his speech itself ran only a few minutes (7). He had arrived without a formal invitation (8) and, short of money, had reportedly slept in a railway boxcar beforehand (9). The address introduced Vedanta and yoga to a Western audience (10). A disciple of the mystic Ramakrishna (11), he is honoured in India each year on his birthday as National Youth Day (12)."
   },
   "09-12": {
-    category: "History",
-    year: 1940,
-    summary: "four teenagers discovered the Lascaux cave paintings",
-    answers: ["Lascaux", "Lascaux Cave Paintings", "Lascaux Cave"],
+    category: "Indian History",
+    year: 1897,
+    summary: "twenty-one Sikh soldiers made their last stand at Saragarhi",
+    answers: ["Battle of Saragarhi", "Saragarhi"],
     tiles: [
-      "Found on 12 September 1940", "Discovered by four teenagers", "They followed a dog down a hole", "Near Montignac in south-west France",
-      "Walls covered with prehistoric animals", "Around 600 painted figures inside", "Nearly 1,500 engravings too", "Roughly 17,000 years old",
-      "Horses, stags and huge bulls", "Opened to visitors in 1948", "Closed in 1963 as the colours faded", "A replica was built for tourists instead"
+      "Fought on 12 September 1897", "Twenty-one Sikh soldiers held a signalling post", "They served in the 36th Sikhs", "Attacked by thousands of Pashtun tribesmen",
+      "On the North-West Frontier, now in Pakistan", "The post linked two hill forts", "They refused an offer to surrender", "Held out for around seven hours",
+      "A signaller relayed the battle as it happened", "He asked permission to stop signalling and fight", "All twenty-one were killed", "Each was posthumously decorated for gallantry"
     ],
-    explanation: "It was found on 12 September 1940 (1) by four teenagers (2) who followed a dog down a hole in the ground (3), near Montignac in south-west France (4). Inside, the walls were covered with prehistoric animals (5): around 600 painted figures (6) and nearly 1,500 engravings (7), roughly 17,000 years old (8), among them horses, stags and huge bulls (9). The cave was opened to visitors in 1948 (10) but closed again in 1963, after breath and artificial light faded the colours and encouraged algae (11). A replica was built nearby so tourists could still see it (12)."
+    explanation: "It was fought on 12 September 1897 (1), when twenty-one Sikh soldiers held a small signalling post (2), serving in the 36th Sikhs of the British Indian Army (3). They were attacked by thousands of Afridi and Orakzai tribesmen (4) on the North-West Frontier, in what is now Pakistan (5). The post linked two hill forts, Lockhart and Gulistan (6). Offered the chance to surrender, they refused (7) and held out for around seven hours (8). A signaller, Gurmukh Singh, relayed the course of the battle by heliograph as it unfolded (9), finally asking permission to stop signalling and take up his rifle (10). All twenty-one were killed (11), and each was posthumously awarded the Indian Order of Merit, the highest gallantry award then open to Indian soldiers (12)."
   },
   "09-13": {
     category: "Science",
@@ -1069,16 +1069,16 @@ window.QUESTIONS = {
     explanation: "He was injured on 13 September 1848 (1), a railway construction foreman working in Vermont (2), packing explosives into rock (3) when a spark set off the charge early (4). A metre-long iron tamping rod shot straight through his head (5), entering under his left cheekbone (6) and exiting through the top of his skull (7). Astonishingly, he was speaking again within minutes (8) and lived another dozen years (9), though friends said his personality had altered so much that he was 'no longer himself' (10). His skull and the rod are kept in a museum at Harvard (11), and his case became a landmark in the study of the brain (12)."
   },
   "09-14": {
-    category: "History",
-    year: 1814,
-    summary: "Francis Scott Key wrote the poem that became America's national anthem",
-    answers: ["The Star-Spangled Banner", "Star-Spangled Banner"],
+    category: "Indian History",
+    year: 1949,
+    summary: "the Constituent Assembly adopted Hindi as an official language of India",
+    answers: ["Hindi Diwas", "Hindi"],
     tiles: [
-      "Written on 14 September 1814", "Composed by an American lawyer", "He watched a night-long naval bombardment", "Of a fort guarding Baltimore harbour",
-      "He was aboard a ship, detained by the British", "At dawn a huge flag still flew", "He scribbled it on the back of a letter", "First titled 'Defence of Fort M'Henry'",
-      "Set to the tune of a drinking song", "That tune was English in origin", "Made the national anthem only in 1931", "The flag itself is now in a Smithsonian museum"
+      "Decided on 14 September 1949", "Adopted by the Constituent Assembly", "Chosen as the Union's official language", "Written in the Devanagari script",
+      "Followed three days of fierce debate", "A compromise named after two assembly members", "English was to continue for fifteen years", "It is an official language, not the national one",
+      "India has no national language at all", "Later written into the Constitution", "That provision is Article 343", "The date has been marked every year since 1953"
     ],
-    explanation: "It was written on 14 September 1814 (1) by an American lawyer, Francis Scott Key (2), who had watched a night-long naval bombardment (3) of Fort McHenry, guarding Baltimore harbour (4), from aboard a ship where the British had detained him (5). At dawn he saw a huge American flag still flying over the fort (6), and scribbled the lines on the back of a letter (7). He first titled it 'Defence of Fort M'Henry' (8). It was set to the tune of a popular drinking song (9), English in origin (10), and became the United States' official national anthem only in 1931 (11). The flag that inspired it now hangs in a Smithsonian museum (12)."
+    explanation: "It was decided on 14 September 1949 (1), when the Constituent Assembly adopted it (2) as the official language of the Indian Union (3), written in the Devanagari script (4). The decision followed three days of fierce debate (5) and rested on a compromise named after two assembly members, K.M. Munshi and N. Gopalaswami Ayyangar (6), under which English would continue to be used for official purposes for fifteen years (7). Crucially, it was made an official language, not the national one (8) — India has no national language at all (9). The provision was later written into the Constitution (10) as Article 343 (11). The date has been marked each year as Hindi Diwas since 1953 (12)."
   },
   "09-15": {
     category: "Science",
@@ -1285,16 +1285,16 @@ window.QUESTIONS = {
     explanation: "The first production car was completed on 1 October 1908 (1), built at the Piquette Avenue plant in Detroit (2) and priced at $850 (3). More than 15 million were eventually built (4) before production ended in 1927 (5). It was nicknamed the 'Tin Lizzie' (6). It was later assembled on a moving production line (7) that cut build time to around 93 minutes (8), and prices fell steadily as output rose (9). Henry Ford doubled his workers' pay to $5 a day (10), and famously said buyers could have any colour they liked, so long as it was black (11). More than any car before it, it put ordinary families on the road (12)."
   },
   "10-02": {
-    category: "Pop Culture",
-    year: 1950,
-    summary: "the first Peanuts comic strip was published",
-    answers: ["Peanuts"],
+    category: "Indian History",
+    year: 1869,
+    summary: "Mahatma Gandhi was born in Porbandar",
+    answers: ["Mahatma Gandhi", "Gandhi", "Mohandas Gandhi"],
     tiles: [
-      "First ran on 2 October 1950", "Appeared in just seven newspapers", "Drawn by Charles Schulz", "He hated the title his syndicate chose",
-      "His own title had been 'Li'l Folks'", "Starred a round-headed boy", "And his beagle", "That dog daydreams atop his kennel",
-      "A girl runs a psychiatry stand for five cents", "A football is forever pulled away", "Ran for nearly 50 years", "Schulz drew every single strip himself"
+      "Born on 2 October 1869 in Porbandar", "Trained as a lawyer in London", "Thrown off a train in South Africa", "That humiliation shaped his politics",
+      "Developed a method he called satyagraha", "Led a 240-mile march to make salt", "Launched the Quit India movement in 1942", "Called 'Bapu', meaning father",
+      "Spun his own cloth on a charkha", "Nominated five times, never won the Nobel Peace Prize", "Assassinated in Delhi in January 1948", "The UN marks his birthday as a day of non-violence"
     ],
-    explanation: "It first ran on 2 October 1950 (1), appearing in just seven newspapers (2), drawn by Charles Schulz (3), who disliked the title his syndicate had chosen (4); his own had been 'Li'l Folks' (5). It starred a round-headed boy, Charlie Brown (6), and his beagle, Snoopy (7), who daydreams atop his kennel (8). Lucy runs a psychiatry stand charging five cents (9), and forever whips away a football as Charlie Brown runs up to kick it (10). The strip ran for nearly 50 years (11), and Schulz drew every single one himself (12)."
+    explanation: "He was born on 2 October 1869 in Porbandar, Gujarat (1), and trained as a lawyer in London (2). Thrown off a train in South Africa for sitting in a first-class carriage (3), the humiliation shaped the politics of the rest of his life (4). He developed a method of non-violent resistance he called satyagraha (5), led a 240-mile march to the sea to make salt in defiance of British law (6), and launched the Quit India movement in 1942 (7). Widely called 'Bapu', meaning father (8), he spun his own cloth on a charkha, or spinning wheel (9). He was nominated five times but never awarded the Nobel Peace Prize (10). He was assassinated in Delhi in January 1948 (11). The United Nations now marks his birthday as the International Day of Non-Violence (12)."
   },
   "10-03": {
     category: "History",
@@ -1357,16 +1357,16 @@ window.QUESTIONS = {
     explanation: "It took its pictures on 7 October 1959 (1), a Soviet probe launched only three days earlier (2), photographing a face of the Moon that had never been seen from Earth (3), since the Moon always keeps the same side turned towards us (4). It took 29 photographs in all (5), covering about 70% of that hidden face (6). It developed its own film on board (7), then scanned the negatives and radioed the images home (8). The pictures were grainy and faint (9), but showed far fewer of the dark lava 'seas' that mark the near side (10). Soviet scientists were given the right to name the newly seen features (11), and one crater was named after the novelist Jules Verne (12)."
   },
   "10-08": {
-    category: "History",
-    year: 1871,
-    summary: "a fire broke out that would destroy much of Chicago",
-    answers: ["Great Chicago Fire", "Chicago Fire"],
+    category: "Indian History",
+    year: 1932,
+    summary: "the Indian Air Force was formally founded",
+    answers: ["Indian Air Force"],
     tiles: [
-      "Broke out on 8 October 1871", "Started in or near a family's barn", "Legend blamed a cow kicking a lantern", "That story was later admitted to be invented",
-      "The city was built largely of wood", "Even its sidewalks and roads were timber", "A dry summer had left everything parched", "Burned for about two days",
-      "Destroyed some 17,000 buildings", "Left around 100,000 people homeless", "A water tower survived and still stands", "The rebuilt city pioneered the skyscraper"
+      "Founded on 8 October 1932", "Created by an act of the colonial legislature", "Began as an auxiliary of the Royal Air Force", "Its first flight took off in April 1933",
+      "That flight had four aircraft and six officers", "Gained the prefix 'Royal' in 1945", "Dropped it when India became a republic", "Its motto means 'touching the sky with glory'",
+      "That motto comes from the Bhagavad Gita", "Now among the largest such forces in the world", "Its aerobatic team is the Surya Kiran", "Its anniversary brings a parade and flypast"
     ],
-    explanation: "It broke out on 8 October 1871 (1), starting in or near the barn of Patrick and Catherine O'Leary (2). Legend long blamed their cow for kicking over a lantern (3), a story the reporter who wrote it later admitted he had invented (4). The city was built largely of wood (5) — even its sidewalks and roads were timber (6) — and a dry summer had left everything parched (7). It burned for about two days (8), destroying some 17,000 buildings (9) and leaving around 100,000 people homeless (10). A water tower survived and still stands today (11), and the city rebuilt itself so ambitiously that it pioneered the skyscraper (12)."
+    explanation: "It was founded on 8 October 1932 (1), created by an act of the colonial legislature (2) and beginning life as an auxiliary of Britain's Royal Air Force (3). Its first flight took to the air in April 1933 (4), with four aircraft and six officers (5). It gained the prefix 'Royal' in 1945 in recognition of its wartime service (6), and dropped it when India became a republic in 1950 (7). Its motto, Nabha Sparsham Deeptam, means 'touching the sky with glory' (8), a line drawn from the Bhagavad Gita (9). It is now among the largest air forces in the world (10); its aerobatic display team is the Surya Kiran (11), and its anniversary is marked each year with a parade and flypast (12)."
   },
   "10-09": {
     category: "Entertainment",
@@ -1405,16 +1405,16 @@ window.QUESTIONS = {
     explanation: "It first aired on 11 October 1975 (1), broadcast live from Studio 8H (2) in New York's Rockefeller Center (3). It was originally called 'NBC's Saturday Night' (4) and was hosted by the comic George Carlin (5). Its first cast were billed as the 'Not Ready for Primetime Players' (6), among them John Belushi and Gilda Radner (7). The show ran ninety minutes, live to air (8), created by Lorne Michaels (9), and it still broadcasts from that same studio today (10). It has launched countless film careers (11) and is the most Emmy-nominated show in television history (12)."
   },
   "10-12": {
-    category: "History",
-    year: 1810,
-    summary: "the first Oktoberfest was held for a royal wedding in Munich",
-    answers: ["Oktoberfest"],
+    category: "Indian History",
+    year: 2005,
+    summary: "India's Right to Information Act came into force",
+    answers: ["Right to Information Act", "RTI Act", "RTI"],
     tiles: [
-      "First held on 12 October 1810", "Began as a royal wedding celebration", "A Bavarian crown prince married a princess", "All of Munich was invited",
-      "It ended with a horse race", "Held on a meadow outside the city gates", "That meadow is named after the bride", "Locals call the festival 'die Wiesn'",
-      "Despite its name, now mostly held in September", "Opens when the mayor taps a barrel", "He calls out 'O'zapft is!'", "Draws around six million visitors a year"
+      "Came into force on 12 October 2005", "Gave citizens the power to demand answers", "Any public authority must respond", "A reply is normally due within 30 days",
+      "Costs just ten rupees to file", "Life-and-liberty cases get 48 hours", "Grew out of a grassroots movement in Rajasthan", "That movement began over village wage records",
+      "It pushed back a culture of official secrecy", "Appeals go to Information Commissions", "Millions of applications are filed each year", "Some activists who used it have been killed"
     ],
-    explanation: "It was first held on 12 October 1810 (1), beginning as a royal wedding celebration (2) when Bavaria's Crown Prince Ludwig married Princess Therese (3) and all of Munich was invited (4). The festivities ended with a horse race (5) on a meadow just outside the city gates (6), a meadow still named after the bride, the Theresienwiese (7); locals call the festival simply 'die Wiesn' (8). Despite its name, it is now mostly held in September (9). It opens when the mayor taps the first barrel (10) and calls out 'O'zapft is!', meaning 'It's tapped!' (11). It now draws around six million visitors a year (12)."
+    explanation: "It came into force on 12 October 2005 (1), giving ordinary citizens the power to demand answers from the state (2). Any public authority must respond to a request (3), normally within 30 days (4), for a fee of just ten rupees (5), or within 48 hours where a person's life and liberty are at stake (6). The law grew out of a grassroots movement in Rajasthan (7) that began with villagers demanding to see muster rolls and wage records (8), and it pushed back against the culture of official secrecy inherited from colonial rule (9). Appeals go to Central and State Information Commissions (10). Millions of applications are filed under it every year (11), though some activists who used it have been attacked and even killed (12)."
   },
   "10-13": {
     category: "History",
@@ -1429,16 +1429,16 @@ window.QUESTIONS = {
     explanation: "It was completed on 13 October 2010 (1), when thirty-three men were brought up alive (2) after 69 days trapped underground (3), half a mile beneath Chile's Atacama Desert (4) in a copper and gold mine that had collapsed (5). For the first 17 days nobody knew whether they had survived (6), until a note taped to a returning drill bit proved they had (7). They had rationed themselves to about two spoonfuls of tuna a day (8). They were hauled up one by one through a narrow shaft in a purpose-built capsule (9) named the Phoenix (10), each trip taking about 15 minutes (11). The rescue was watched live by an estimated billion people worldwide (12)."
   },
   "10-14": {
-    category: "Science",
-    year: 1947,
-    summary: "Chuck Yeager became the first person to fly faster than sound",
-    answers: ["Chuck Yeager"],
+    category: "Indian History",
+    year: 1956,
+    summary: "B.R. Ambedkar embraced Buddhism at Nagpur with hundreds of thousands of followers",
+    answers: ["B.R. Ambedkar", "Ambedkar", "Deekshabhoomi"],
     tiles: [
-      "Achieved on 14 October 1947", "Flew a bright orange rocket plane", "That plane was the Bell X-1", "Dropped from the belly of a bomber",
-      "Over a dry lake bed in California", "He had broken two ribs days before", "Fell off a horse, told nobody", "Used a sawn-off broom handle to shut the hatch",
-      "Reached about Mach 1.06", "The sonic boom rolled across the desert", "He named the plane after his wife", "The feat stayed secret for months"
+      "Took place on 14 October 1956", "Held on open ground in Nagpur", "He renounced the faith he was born into", "Embraced Buddhism instead",
+      "Hundreds of thousands followed him that day", "He administered 22 vows to them", "He had announced the plan two decades earlier", "The date echoed Emperor Ashoka's own conversion",
+      "He was the chief architect of India's Constitution", "And independent India's first law minister", "He died less than two months later", "The site is now a domed monument and pilgrimage place"
     ],
-    explanation: "It was achieved on 14 October 1947 (1), flying a bright orange rocket plane (2), the Bell X-1 (3), dropped from the belly of a B-29 bomber (4) over a dry lake bed in California (5). He had broken two ribs days earlier (6), falling from a horse and telling nobody in case he was grounded (7), and used a sawn-off broom handle for leverage to close the hatch (8). He reached about Mach 1.06 (9), and the sonic boom rolled across the desert floor below (10). He had named the plane 'Glamorous Glennis' after his wife (11). The feat was kept secret for months (12)."
+    explanation: "It took place on 14 October 1956 (1), on open ground in Nagpur (2), when he formally renounced the faith he had been born into (3) and embraced Buddhism instead (4). Hundreds of thousands of his followers converted alongside him that day (5), and he administered 22 vows to them (6). He had announced his intention to leave Hinduism two decades earlier (7), and the date was chosen to echo the traditional day of Emperor Ashoka's own conversion (8). He was the chief architect of India's Constitution (9) and independent India's first law minister (10). He died less than two months later (11). The site, Deekshabhoomi, is now a great domed monument and a place of pilgrimage (12)."
   },
   "10-15": {
     category: "History",
